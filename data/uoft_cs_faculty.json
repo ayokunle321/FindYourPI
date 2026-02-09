@@ -1,0 +1,2159 @@
+{
+  "institution": "University of Toronto",
+  "department": "Computer Science",
+  "directory_url": "https://web.cs.toronto.edu/people/faculty-directory",
+  "scraped_at": "2026-02-09T18:33:24.714990+00:00",
+  "faculty": [
+    {
+      "name": "Ishtiaque Ahmed",
+      "title": "Ishtiaque Ahmed Associate Professor",
+      "email": null,
+      "profile_url": "https://www.ishtiaque.net/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Ashton Anderson",
+      "title": "Ashton Anderson Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~ashton/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Al\u00e1n Aspuru-Guzik",
+      "title": "Al\u00e1n Aspuru-Guzik Professor",
+      "email": null,
+      "profile_url": "https://matter.toronto.edu/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Jimmy Ba",
+      "title": "Jimmy Ba Associate Professor",
+      "email": null,
+      "profile_url": "https://jimmylba.github.io/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Ravin Balakrishnan",
+      "title": "Ravin Balakrishnan Professor",
+      "email": null,
+      "profile_url": "https://www.dgp.toronto.edu/~ravin/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Varinia Bernales",
+      "title": "Varinia Bernales Assistant Professor",
+      "email": null,
+      "profile_url": "https://bernales.matter.toronto.edu/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Anthony Bonner",
+      "title": "Anthony Bonner Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~bonner/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Allan Borodin",
+      "title": "Allan Borodin University Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~bor/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Angela Brown",
+      "title": "Angela Brown Professor Associate Chair, Graduate Operations",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~demke/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Michael Brudno",
+      "title": "Michael Brudno Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~brudno/public/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Jessica Burgner-Kahrs",
+      "title": "Jessica Burgner-Kahrs Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~jbk/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Marsha Chechik",
+      "title": "Marsha Chechik Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~chechik/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Fanny Chevalier",
+      "title": "Fanny Chevalier Associate Professor",
+      "email": null,
+      "profile_url": "http://fannychevalier.net/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Christina Christara",
+      "title": "Christina Christara Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~ccc/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Niv Dayan",
+      "title": "Niv Dayan Assistant Professor",
+      "email": null,
+      "profile_url": "https://nivdayan.net",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Eyal de Lara",
+      "title": "Eyal de Lara Professor & Chair",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~delara/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Sven Dickinson",
+      "title": "Sven Dickinson Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~sven/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "David Duvenaud",
+      "title": "David Duvenaud Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~duvenaud/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Steve Easterbrook",
+      "title": "Steve Easterbrook Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~sme/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Faith Ellen",
+      "title": "Faith Ellen Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~faith/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Murat Erdogdu",
+      "title": "Murat Erdogdu Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~erdogdu/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Azadeh Farzan",
+      "title": "Azadeh Farzan Professor Vice Chair",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~azadeh/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Sanja Fidler",
+      "title": "Sanja Fidler Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.utoronto.ca/~fidler/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "David Fleet",
+      "title": "David Fleet Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~fleet/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Yashar Ganjali",
+      "title": "Yashar Ganjali Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~yganjali/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Igor Gilitschenski",
+      "title": "Igor Gilitschenski Assistant Professor",
+      "email": null,
+      "profile_url": "https://tisl.cs.toronto.edu/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Anna Goldenberg",
+      "title": "Anna Goldenberg Professor",
+      "email": null,
+      "profile_url": "https://www.sickkids.ca/en/staff/g/anna-goldenberg/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Eitan Grinspun",
+      "title": "Eitan Grinspun Professor Associate Chair, Communications, Mentoring and Inclusion",
+      "email": null,
+      "profile_url": "https://www.dgp.toronto.edu/~eitan/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Roger Grosse",
+      "title": "Roger Grosse Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~rgrosse/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Tovi Grossman",
+      "title": "Tovi Grossman Professor",
+      "email": null,
+      "profile_url": "https://www.tovigrossman.com/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Vassos Hadzilacos",
+      "title": "Vassos Hadzilacos Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~vassos/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Anwar Hithnawi",
+      "title": "Anwar Hithnawi Assistant Professor",
+      "email": null,
+      "profile_url": "https://pps-lab.com/people/anwarhithnawi/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Alec Jacobson",
+      "title": "Alec Jacobson Associate Professor Associate Chair, Academic Recruiting",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~jacobson/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Zhijing Jin",
+      "title": "Zhijing Jin Assistant Professor",
+      "email": null,
+      "profile_url": "https://zhijing-jin.com/fantasy/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Swastik Kopparty",
+      "title": "Swastik Kopparty Professor",
+      "email": null,
+      "profile_url": "https://www.math.toronto.edu/swastik/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Nick Koudas",
+      "title": "Nick Koudas Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~koudas/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Rahul G. Krishnan",
+      "title": "Rahul G. Krishnan Assistant Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~rahulgk/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Kyros Kutulakos",
+      "title": "Kyros Kutulakos Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~kyros/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "David Levin",
+      "title": "David Levin Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~diwlevin/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Aviad Levis",
+      "title": "Aviad Levis Assistant Professor",
+      "email": null,
+      "profile_url": "http://aviadlevis.info/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "David Lindell",
+      "title": "David Lindell Assistant Professor",
+      "email": null,
+      "profile_url": "https://davidlindell.com/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Fan Long",
+      "title": "Fan Long Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~fanl/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Chris Maddison",
+      "title": "Chris Maddison Assistant Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~cmaddis/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Peter Marbach",
+      "title": "Peter Marbach Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~marbach/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Alex Mariakakis",
+      "title": "Alex Mariakakis Assistant Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~mariakakis/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Sheila McIlraith",
+      "title": "Sheila McIlraith Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~sheila/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Kuldeep Meel",
+      "title": "Kuldeep Meel Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~meel/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Maryam Mehri Dehnavi",
+      "title": "Maryam Mehri Dehnavi Associate Professor Associate Chair, Research",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~mmehride/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Michael Molloy",
+      "title": "Michael Molloy Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~molloy/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Aleksandar Nikolov",
+      "title": "Aleksandar Nikolov Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~anikolov/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Carolina Nobre",
+      "title": "Carolina Nobre Assistant Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~cnobre",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Gennady Pekhimenko",
+      "title": "Gennady Pekhimenko Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~pekhimenko/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Gerald Penn",
+      "title": "Gerald Penn Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~gpenn/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Toniann Pitassi",
+      "title": "Toniann Pitassi Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~toni/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Colin Raffel",
+      "title": "Colin Raffel Associate Professor",
+      "email": null,
+      "profile_url": "https://colinraffel.com/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Sushant Sachdeva",
+      "title": "Sushant Sachdeva Associate Professor",
+      "email": null,
+      "profile_url": "https://sachdevasushant.github.io/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Gururaj Saileshwar",
+      "title": "Gururaj Saileshwar Assistant Professor",
+      "email": null,
+      "profile_url": "https://gururaj-s.github.io/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Shubhangi Saraf",
+      "title": "Shubhangi Saraf Professor",
+      "email": null,
+      "profile_url": "https://www.math.toronto.edu/ssaraf/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Bianca Schroeder",
+      "title": "Bianca Schroeder Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~bianca/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Kirill Serkh",
+      "title": "Kirill Serkh Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~kserkh/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Nisarg Shah",
+      "title": "Nisarg Shah Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~nisarg/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Florian Shkurti",
+      "title": "Florian Shkurti Assistant Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~florian/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Xujie Si",
+      "title": "Xujie Si Assistant Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~six/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Karan Singh",
+      "title": "Karan Singh Professor",
+      "email": null,
+      "profile_url": "https://www.dgp.toronto.edu/~karan/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Robert Soden",
+      "title": "Robert Soden Assistant Professor",
+      "email": null,
+      "profile_url": "http://robertsoden.io/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Akshayaram Srinivasan",
+      "title": "Akshayaram Srinivasan Assistant Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~akshayaram/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Suzanne Stevenson",
+      "title": "Suzanne Stevenson Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~suzanne/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Lisa Strug",
+      "title": "Lisa Strug Professor",
+      "email": null,
+      "profile_url": "https://www.statistics.utoronto.ca/people/directories/all-faculty/lisa-strug",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Babak Taati",
+      "title": "Babak Taati Associate Professor, (Status-Only)",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~taati/index.htm",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Roei Tell",
+      "title": "Roei Tell Assistant Professor",
+      "email": null,
+      "profile_url": "https://sites.google.com/site/roeitell/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Khai Truong",
+      "title": "Khai Truong Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~khai/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Raquel Urtasun",
+      "title": "Raquel Urtasun Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~urtasun/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Nandita Vijaykumar",
+      "title": "Nandita Vijaykumar Assistant Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~nandita/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Bo Wang",
+      "title": "Bo Wang Associate Professor",
+      "email": null,
+      "profile_url": "https://www.lmp.utoronto.ca/faculty/bo-wang",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Daniel Wigdor",
+      "title": "Daniel Wigdor Professor",
+      "email": null,
+      "profile_url": "https://www.dgp.toronto.edu/~dwigdor/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Joseph Jay Williams",
+      "title": "Joseph Jay Williams Assistant Professor",
+      "email": null,
+      "profile_url": "http://www.josephjaywilliams.com/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Ningning Xie",
+      "title": "Ningning Xie Assistant Professor",
+      "email": null,
+      "profile_url": "https://xnning.github.io",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Yang Xu",
+      "title": "Yang Xu Associate Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~yangxu/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Richard Zemel",
+      "title": "Richard Zemel Professor",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~zemel/inquiry/home.php",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Qizhen Zhang",
+      "title": "Qizhen Zhang Assistant Professor",
+      "email": null,
+      "profile_url": "https://qizhenzhang.me",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Research Stream Faculty"
+    },
+    {
+      "name": "Bahar Aameri",
+      "title": "Bahar Aameri Assistant Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~bahar/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Mario Badr",
+      "title": "Mario Badr Assistant Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~mbadr/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Gary Baumgartner",
+      "title": "Gary Baumgartner Associate Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~gfb/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Jonathan Calver",
+      "title": "Jonathan Calver Assistant Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "http://www.cs.toronto.edu/~calver/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Jennifer Campbell",
+      "title": "Jennifer Campbell Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://jencampbell.github.io/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Steven Coyne",
+      "title": "Steven Coyne Assistant Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://www.stevecoyne.ca/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Michelle Wahl Craig",
+      "title": "Michelle Wahl Craig Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://michellecraig.github.io/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Steve Engels",
+      "title": "Steve Engels Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~sengels/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Alice Gao",
+      "title": "Alice Gao Assistant Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~axgao/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Paul Gries",
+      "title": "Paul Gries Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~pgries/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Paul He",
+      "title": "Paul He Assistant Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://paulhe.com/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Diane Horton",
+      "title": "Diane Horton Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~dianeh/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "David Liu",
+      "title": "David Liu Associate Professor, Teaching Stream Associate Chair, Undergraduate Studies",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~david/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Fran\u00e7ois Pitt",
+      "title": "Fran\u00e7ois Pitt Associate Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~fpitt/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Karen Reid",
+      "title": "Karen Reid Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~reid/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Jacqueline Smith",
+      "title": "Jacqueline Smith Associate Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~jsmith/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Marina Tawfik",
+      "title": "Marina Tawfik Assistant Professor, Teaching Stream",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~marinat/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Teaching Stream Faculty"
+    },
+    {
+      "name": "Tarek Abdelrahman",
+      "title": "Tarek Abdelrahman Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.eecg.utoronto.ca/~tsa/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Ronald Baecker",
+      "title": "Ronald Baecker Professor Emeritus",
+      "email": null,
+      "profile_url": "http://ron.taglab.ca/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Jim Clarke",
+      "title": "Jim Clarke Senior Lecturer Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~clarke/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Stephen Cook",
+      "title": "Stephen Cook University Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~sacook/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Derek Corneil",
+      "title": "Derek Corneil Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/theory/Corneil-bio.htm",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Wayne Enright",
+      "title": "Wayne Enright Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~enright/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Tom Fairgrieve",
+      "title": "Tom Fairgrieve Associate Professor, Teaching Stream Emeritus",
+      "email": null,
+      "profile_url": " https://www.cs.toronto.edu/~tff/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Eugene Fiume",
+      "title": "Eugene Fiume Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.dgp.toronto.edu/~elf/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Dan Heap",
+      "title": "Dan Heap Associate Professor, Teaching Stream Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~heap/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Rick Hehner",
+      "title": "Rick Hehner Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~hehner/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Geoffrey Hinton",
+      "title": "Geoffrey Hinton University Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~hinton/",
+      "research_areas": [
+        "machine learning",
+        "deep neural networks Professor Hinton is not accepting any new graduate students."
+      ],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Graeme Hirst",
+      "title": "Graeme Hirst Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~gh/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Ken Jackson",
+      "title": "Ken Jackson Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~krj/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Allan Jepson",
+      "title": "Allan Jepson Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~jepson/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Hector Levesque",
+      "title": "Hector Levesque Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~hector/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Ren\u00e9e Miller",
+      "title": "Ren\u00e9e Miller Professor Emerita",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~miller/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "John Mylopoulos",
+      "title": "John Mylopoulos Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~jm/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Charles Rackoff",
+      "title": "Charles Rackoff Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~rackoff/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "David Wortman",
+      "title": "David Wortman Professor Emeritus",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~dw/",
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors Emeriti"
+    },
+    {
+      "name": "Blair Armstrong",
+      "title": "Blair Armstrong Assistant Professor Psychology",
+      "email": null,
+      "profile_url": "http://blairarmstrong.net/",
+      "research_areas": [
+        "computational linguistics",
+        "Natural Language Processing"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Gary Bader",
+      "title": "Gary Bader Professor Donnelly Centre for Cellular & Biomolecular Research",
+      "email": null,
+      "profile_url": "https://baderlab.org/GaryBader",
+      "research_areas": [
+        "computational biology Research Interests: machine learning",
+        "NLP of biomedical text",
+        "data integration",
+        "fusion methods for precision medicine",
+        "causal inference"
+      ],
+      "research_interests": [
+        "machine learning",
+        "NLP of biomedical text",
+        "data integration",
+        "fusion methods for precision medicine",
+        "causal inference"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Ebrahim Bagheri",
+      "title": "Ebrahim Bagheri Professor Faculty of Information",
+      "email": null,
+      "profile_url": "https://ischool.utoronto.ca/faculty-profile/bagheri-ebrahim/",
+      "research_areas": [
+        "AI"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Tim Barfoot",
+      "title": "Tim Barfoot Professor University of Toronto Institute for Aerospace Studies",
+      "email": null,
+      "profile_url": "http://asrl.utias.utoronto.ca/~tdb/",
+      "research_areas": [
+        "robotics",
+        "AI",
+        "human-computer interaction"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Chris Beck",
+      "title": "Chris Beck Professor Mechanical & Industrial Engineering",
+      "email": null,
+      "profile_url": "https://www.mie.utoronto.ca/mie/faculty/beck",
+      "research_areas": [
+        "AI - knowledge representation"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "James Bremer Jr.",
+      "title": "James Bremer Jr. Professor Mathematics",
+      "email": null,
+      "profile_url": "https://www.math.toronto.edu/bremer/",
+      "research_areas": [
+        "numerical methods",
+        "analysis",
+        "scientific computing"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Joseph Cafazzo",
+      "title": "Joseph Cafazzo Professor Dalla Lana School of Public Health",
+      "email": null,
+      "profile_url": "https://technainstitute.com/people/cafazzo-joseph/",
+      "research_areas": [
+        "software as a medical device",
+        "digital therapeutics",
+        "human computer interaction design in healthcare"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Kieran Campbell",
+      "title": "Kieran Campbell Assistant Professor Molecular Genetics/Lunenfeld-Tannebaum",
+      "email": null,
+      "profile_url": "https://www.camlab.ca",
+      "research_areas": [
+        "AI"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Eldan Cohen",
+      "title": "Eldan Cohen Assistant Professor Mechanical & Industrial Engineering",
+      "email": null,
+      "profile_url": "https://www.mie.utoronto.ca/faculty_staff/eldan-cohen/",
+      "research_areas": [
+        "AI"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Melanie Courtot",
+      "title": "Melanie Courtot Assistant Professor Medical Biophysics",
+      "email": null,
+      "profile_url": "https://medbio.utoronto.ca/faculty/courtot",
+      "research_areas": [
+        "knowledge representation"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "William Cunningham",
+      "title": "William Cunningham Professor Psychology",
+      "email": null,
+      "profile_url": "https://www.psych.utoronto.ca/people/directories/all-faculty/william-cunningham",
+      "research_areas": [
+        "AI - Cognitive Science"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Ewan Dunbar",
+      "title": "Ewan Dunbar Assistant Professor French",
+      "email": null,
+      "profile_url": "https://www.french.utoronto.ca/people/directories/all-faculty/ewan-dunbar",
+      "research_areas": [
+        "computational cognitive science"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Natalie Enright Jerger",
+      "title": "Natalie Enright Jerger Professor Electrical & Computer Engineering",
+      "email": null,
+      "profile_url": "https://www.eecg.utoronto.ca/~enright/",
+      "research_areas": [
+        "computer architecture Research Interests: interconnection networks",
+        "memory system",
+        "approximate computing",
+        "IoT"
+      ],
+      "research_interests": [
+        "interconnection networks",
+        "memory system",
+        "approximate computing",
+        "IoT"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Mark Fox",
+      "title": "Mark Fox Professor Mechanical & Industrial Engineering",
+      "email": null,
+      "profile_url": "https://www.mie.utoronto.ca/mie/faculty/fox",
+      "research_areas": [
+        "AI -knowledge representation"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Brendan Frey",
+      "title": "Brendan Frey Professor Electrical & Computer Engineering",
+      "email": null,
+      "profile_url": "https://www.ece.utoronto.ca/people/frey-b/",
+      "research_areas": [
+        "AI - machine learning",
+        "computational biology"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Tristan Glatard",
+      "title": "Tristan Glatard Professor, Status-Only Department of Psychiatry",
+      "email": null,
+      "profile_url": "https://users.encs.concordia.ca/%7Etglatard/",
+      "research_areas": [
+        "big data analytics"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Ashvin Goel",
+      "title": "Ashvin Goel Professor Electrical & Computer Engineering",
+      "email": null,
+      "profile_url": "https://www.eecg.utoronto.ca/~ashvin/",
+      "research_areas": [
+        "systems: operating systems"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Shion Guha",
+      "title": "Shion Guha Assistant Professor Faculty of Information",
+      "email": null,
+      "profile_url": "http://shionguha.ca",
+      "research_areas": [
+        "human-centered data science",
+        "AI - public policy",
+        "algorithmic bias"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Hans-Arno Jacobsen",
+      "title": "Hans-Arno Jacobsen Professor Electrical & Computer Engineering",
+      "email": null,
+      "profile_url": "http://msrg.org/profiles/arno",
+      "research_areas": [
+        "systems - mobile computing"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Mark Jeffrey",
+      "title": "Mark Jeffrey Assistant Professor Electrical & Computer Engineering",
+      "email": null,
+      "profile_url": "https://www.eecg.utoronto.ca/~mcj",
+      "research_areas": [],
+      "research_interests": [
+        "computer architecture",
+        "computer systems",
+        "parallel computing",
+        "parallel programming models",
+        "speculative execution",
+        "data-centric execution",
+        "compilers",
+        "irregular algorithms",
+        "reconfigurable hardware"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Igor Jurisica",
+      "title": "Igor Jurisica Professor, Status-Only Medical Biophysics",
+      "email": null,
+      "profile_url": "https://medbio.utoronto.ca/faculty/jurisica",
+      "research_areas": [
+        "integrative computational biology",
+        "data mining",
+        "machine learning",
+        "AI",
+        "explainable models in chronic diseases Lueder Kahrs Assistant Professor Math",
+        "Computational Sciences",
+        "UTM Research Areas: computational science"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Jonathan Kelly",
+      "title": "Jonathan Kelly Assistant Professor University of Toronto Institute for Aerospace Studies",
+      "email": null,
+      "profile_url": "http://stars.utias.utoronto.ca/~jkelly/",
+      "research_areas": [
+        "robotics"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Farzad Khalvati",
+      "title": "Farzad Khalvati Associate Professor Department of Medical Imaging",
+      "email": null,
+      "profile_url": "https://imics.ca",
+      "research_areas": [
+        "medical imaging"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Vera Khovanskaya",
+      "title": "Vera Khovanskaya Assistant Professor Faculty of Information",
+      "email": null,
+      "profile_url": " https://ischool.utoronto.ca/faculty-profile/khovanskaya-vera/",
+      "research_areas": [
+        "human-computer interaction",
+        "computer-supported cooperative work"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Philip Kim",
+      "title": "Philip Kim Associate Professor Donnelly Centre for Cellular & Biomolecular Research",
+      "email": null,
+      "profile_url": "https://www.ccbr.utoronto.ca/content/philip-m-kim",
+      "research_areas": [
+        "computational biology"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Micha\u0142 Koziarski",
+      "title": "Micha\u0142 Koziarski Assistant Professor, Status-Only Department of Chemistry Scientist, SickKids Research Institute",
+      "email": null,
+      "profile_url": " https://www.chemistry.utoronto.ca/people/directories/all-faculty/micha%C5%82-koziarski",
+      "research_areas": [
+        "machine learning"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Anastasia Kuzminykh",
+      "title": "Anastasia Kuzminykh Assistant Professor Faculty of Information",
+      "email": null,
+      "profile_url": "https://www.anastasia-kuzminykh.com/",
+      "research_areas": [
+        "human-computer interaction (HCI)"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Baochun Li",
+      "title": "Baochun Li Professor Electrical & Computer Engineering",
+      "email": null,
+      "profile_url": "https://www.ece.utoronto.ca/people/li-b/",
+      "research_areas": [
+        "networks Shuang Li Assistant Professor Electrical & Computer Engineering Research Areas: vision"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "David Lie",
+      "title": "David Lie Professor Electrical & Computer Engineering",
+      "email": null,
+      "profile_url": "https://www.ece.utoronto.ca/people/lie-d/",
+      "research_areas": [
+        "networks"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Michael Liut",
+      "title": "Michael Liut Assistant Professor, Teaching Stream Department of Mathematical and Computational Sciences, University of Toronto Mississauga",
+      "email": null,
+      "profile_url": "https://www.utm.utoronto.ca/math-cs-stats/people/michael-liut",
+      "research_areas": [
+        "adaptive systems",
+        "algorithms",
+        "computing education",
+        "education technology",
+        "generative artificial intelligence"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Kelly Lyons",
+      "title": "Kelly Lyons Professor Faculty of Information",
+      "email": null,
+      "profile_url": "https://ischool.utoronto.ca/profile/kelly-lyons/",
+      "research_areas": [
+        "databases Research Interests: social media",
+        "collaborative work",
+        "service science",
+        "data-driven knowledge mobilization"
+      ],
+      "research_interests": [
+        "social media",
+        "collaborative work",
+        "service science",
+        "data-driven knowledge mobilization"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Amin Madani",
+      "title": "Amin Madani Assistant Professor Department of Medicine, Surgery",
+      "email": null,
+      "profile_url": "https://surgery.utoronto.ca/faculty/amin-madani/",
+      "research_areas": [
+        "surgical AI"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Tegan Maharaj",
+      "title": "Tegan Maharaj Assistant Professor Faculty of Information",
+      "email": null,
+      "profile_url": "https://ischool.utoronto.ca/profile/tegan-maharaj/",
+      "research_areas": [
+        "AI",
+        "machine learning",
+        "robotics",
+        "vision"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Chris McIntosh",
+      "title": "Chris McIntosh Assistant Professor Medical Biophysics",
+      "email": null,
+      "profile_url": "https://mcintoshml.github.io/",
+      "research_areas": [
+        "computational biology",
+        "machine learning",
+        "computer vision Research Interests: Development",
+        "application of machine learning",
+        "computer vision in healthcare"
+      ],
+      "research_interests": [
+        "Development",
+        "application of machine learning",
+        "computer vision in healthcare"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Alex Mihailidis",
+      "title": "Alex Mihailidis Professor Occupational Science & Occupational Therapy",
+      "email": null,
+      "profile_url": "https://iatsl.org/people/amihailidis.htm",
+      "research_areas": [
+        "AI - knowledge representation"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Quaid Morris",
+      "title": "Quaid Morris Professor, Status-Only Department of Molecular Genetics",
+      "email": null,
+      "profile_url": "https://tdccbr.med.utoronto.ca/content/quaid-morris",
+      "research_areas": [
+        "computational biology",
+        "machine learning",
+        "computational medicine Research Interests: cancer genomics",
+        "precision medicine",
+        "gene regulation",
+        "functional genomics",
+        "electronic health records",
+        "biological image analysis"
+      ],
+      "research_interests": [
+        "cancer genomics",
+        "precision medicine",
+        "gene regulation",
+        "functional genomics",
+        "electronic health records",
+        "biological image analysis"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Alan Moses",
+      "title": "Alan Moses Professor Cell & Systems Biology",
+      "email": null,
+      "profile_url": "https://csb.utoronto.ca/alan-moses/",
+      "research_areas": [
+        "computational biology",
+        "machine learning Research Interests: data analysis",
+        "integration for molecular biology",
+        "automated microscopy image analysis",
+        "gene regulatory networks",
+        "molecular evolution Andreas Moshovos Professor Electrical & Computer Engineering Research Areas: software engineering"
+      ],
+      "research_interests": [
+        "data analysis",
+        "integration for molecular biology",
+        "automated microscopy image analysis",
+        "gene regulatory networks",
+        "molecular evolution Andreas Moshovos Professor Electrical & Computer Engineering Research Areas: software engineering"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Cosmin Munteanu",
+      "title": "Cosmin Munteanu Assistant Professor Institute for Communication, Culture, Information and Technology, University of Toronto Mississauga",
+      "email": null,
+      "profile_url": "https://ischool.utoronto.ca/profile/cosmin-munteanu/",
+      "research_areas": [
+        "human-computer interaction",
+        "health",
+        "assistive technology Research Interests: speech",
+        "language interaction",
+        "mobile interaction for older adults",
+        "participatory design methods",
+        "intelligent user interfaces",
+        "multimodal interaction"
+      ],
+      "research_interests": [
+        "speech",
+        "language interaction",
+        "mobile interaction for older adults",
+        "participatory design methods",
+        "intelligent user interfaces",
+        "multimodal interaction"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Nicolas Papernot",
+      "title": "Nicolas Papernot Assistant Professor Electrical & Computer Engineering",
+      "email": null,
+      "profile_url": "https://www.papernot.fr/",
+      "research_areas": [
+        "AI - machine learning"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Vardan Papyan",
+      "title": "Vardan Papyan Assistant Professor Department of Mathematics",
+      "email": null,
+      "profile_url": "https://sites.google.com/view/vardan-papyan/home",
+      "research_areas": [
+        "deep learning",
+        "machine learning",
+        "data science",
+        "signal processing"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Andrew Petersen",
+      "title": "Andrew Petersen Professor, Teaching Stream Mathematical and Computational Sciences, University of Toronto Mississauga",
+      "email": null,
+      "profile_url": "https://www.utm.utoronto.ca/math-cs-stats/people/andrew-petersen",
+      "research_areas": [
+        "computing education Research Interests: programming exercises",
+        "CS1 assessment",
+        "student perspectives on",
+        "experiences in computing",
+        "applications of LLMs to education"
+      ],
+      "research_interests": [
+        "programming exercises",
+        "CS1 assessment",
+        "student perspectives on",
+        "experiences in computing",
+        "applications of LLMs to education"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Hanno Rein",
+      "title": "Hanno Rein Associate Professor Physical and Environmental Sciences",
+      "email": null,
+      "profile_url": "https://hanno-rein.de/",
+      "research_areas": [
+        "numerical methods",
+        "analysis",
+        "scientific computing"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Nicholas Rhinehart",
+      "title": "Nicholas Rhinehart Assistant Professor Institute of Aerospace Studies",
+      "email": null,
+      "profile_url": "https://leaf.utias.utoronto.ca/author/nicholas-rhinehart/",
+      "research_areas": [
+        "robotics"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Hannes R\u04e7st",
+      "title": "Hannes R\u04e7st Assistant Professor Donnelly Centre for Cellular & Biomolecular Research",
+      "email": null,
+      "profile_url": "https://www.moleculargenetics.utoronto.ca/faculty/2017/7/19/hannes-rost",
+      "research_areas": [
+        "computational biology Research Interests: precision",
+        "personalized medicine",
+        "biostatistics",
+        "functional genomics",
+        "computational proteomics",
+        "metabolomics",
+        "systems biology",
+        "algorithms for mass spectrometry"
+      ],
+      "research_interests": [
+        "precision",
+        "personalized medicine",
+        "biostatistics",
+        "functional genomics",
+        "computational proteomics",
+        "metabolomics",
+        "systems biology",
+        "algorithms for mass spectrometry"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Daniel Roy",
+      "title": "Daniel Roy Professor Department of Computer and Mathematical Science, UTSC",
+      "email": null,
+      "profile_url": "https://www.utsc.utoronto.ca/cms/daniel-roy",
+      "research_areas": [
+        "machine learning",
+        "machine learning theory",
+        "theoretical computer science Research Interests: foundations of machine learning",
+        "statistics",
+        "statistical learning theory",
+        "deep learning",
+        "online learning",
+        "non-convex optimization",
+        "PAC-Bayes",
+        "information theory",
+        "monte carlo",
+        "game theory"
+      ],
+      "research_interests": [
+        "foundations of machine learning",
+        "statistics",
+        "statistical learning theory",
+        "deep learning",
+        "online learning",
+        "non-convex optimization",
+        "PAC-Bayes",
+        "information theory",
+        "monte carlo",
+        "game theory"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Scott Sanner",
+      "title": "Scott Sanner Associate Professor Mechanical & Industrial Engineering",
+      "email": null,
+      "profile_url": "https://www.mie.utoronto.ca/mie/faculty/sanner",
+      "research_areas": [
+        "machine learning",
+        "knowledge representation",
+        "reasoning",
+        "computational social science Research Interests: applied machine learning",
+        "(conversational) recommender systems",
+        "social media analysis",
+        "probabilistic modeling",
+        "inference",
+        "sequential decision optimization",
+        "smart cities applications"
+      ],
+      "research_interests": [
+        "applied machine learning",
+        "(conversational) recommender systems",
+        "social media analysis",
+        "probabilistic modeling",
+        "inference",
+        "sequential decision optimization",
+        "smart cities applications"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Devin Singh",
+      "title": "Devin Singh Assistant Professor Department of Paediatrics; The Hospital for Sick Children",
+      "email": null,
+      "profile_url": "https://paeds.utoronto.ca/faculty/devin-singh",
+      "research_areas": [
+        "AI",
+        "machine learning",
+        "robotics",
+        "vision"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Michael Stumm",
+      "title": "Michael Stumm Professor Electrical & Computer Engineering",
+      "email": null,
+      "profile_url": "https://www.ece.utoronto.ca/people/stumm-m/",
+      "research_areas": [
+        "systems: operating systems"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Qiang Sun",
+      "title": "Qiang Sun Associate Professor Department of Statistical Sciences",
+      "email": null,
+      "profile_url": "https://www.statistics.utoronto.ca/people/directories/all-faculty/qiang-sun",
+      "research_areas": [
+        "generative AI",
+        "trustworthy AI",
+        "next-generation statistics"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Yu Sun",
+      "title": "Yu Sun Professor Mechanical & Industrial Engineering",
+      "email": null,
+      "profile_url": "https://www.mie.utoronto.ca/mie/faculty/sun",
+      "research_areas": [
+        "robotics",
+        "AI"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Tony Tang",
+      "title": "Tony Tang Associate Professor Faculty of Information",
+      "email": null,
+      "profile_url": "https://ischool.utoronto.ca/profile/tony-tang/",
+      "research_areas": [
+        "human-computer interaction"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Andreas Veneris",
+      "title": "Andreas Veneris Professor Electrical & Computer Engineering",
+      "email": null,
+      "profile_url": "https://www.ece.utoronto.ca/people/veneris-a/",
+      "research_areas": [
+        "software engineering"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Michael Wainberg",
+      "title": "Michael Wainberg Assistant Professor Psychiatry",
+      "email": null,
+      "profile_url": "https://wainberglab.org/",
+      "research_areas": [
+        "computational biology",
+        "machine learning",
+        "computational medicine Research Interests: human genetics",
+        "single-cell transcriptomics",
+        "brain diseases",
+        "network biology",
+        "gene-editing screens",
+        "therapeutic target discovery"
+      ],
+      "research_interests": [
+        "human genetics",
+        "single-cell transcriptomics",
+        "brain diseases",
+        "network biology",
+        "gene-editing screens",
+        "therapeutic target discovery"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Eric Yu",
+      "title": "Eric Yu Professor Emeritus Faculty of Information",
+      "email": null,
+      "profile_url": "https://ischool.utoronto.ca/profile/eric-yu/",
+      "research_areas": [
+        "software engineering Research Interests: requirements engineering",
+        "social modeling",
+        "enterprise computing",
+        "enterprise AI",
+        "enterprise architecture",
+        "knowledge management",
+        "information systems engineering"
+      ],
+      "research_interests": [
+        "requirements engineering",
+        "social modeling",
+        "enterprise computing",
+        "enterprise AI",
+        "enterprise architecture",
+        "knowledge management",
+        "information systems engineering"
+      ],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Zhaolei Zhang",
+      "title": "Zhaolei Zhang Professor Donnelly Centre for Cellular & Biomolecular Research",
+      "email": null,
+      "profile_url": "https://tdccbr.med.utoronto.ca/content/zhaolei-zhang",
+      "research_areas": [
+        "computational biology"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Shurui Zhou",
+      "title": "Shurui Zhou Assistant Professor Electrical & Computer Engineering",
+      "email": null,
+      "profile_url": "https://www.eecg.utoronto.ca/~shuruiz/",
+      "research_areas": [
+        "software engineering"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Daniel Zingaro",
+      "title": "Daniel Zingaro Associate Professor, Teaching Stream Mathematical and Computational Sciences, University of Toronto Mississauga",
+      "email": null,
+      "profile_url": "https://www.utm.utoronto.ca/math-cs-stats/people/daniel-zingaro",
+      "research_areas": [
+        "computing education",
+        "educational technology",
+        "assistive technology"
+      ],
+      "research_interests": [],
+      "section": "Cross-Appointed Faculty"
+    },
+    {
+      "name": "Oana Balmau",
+      "title": "Oana Balmau Assistant Professor, Status-Only McGill University",
+      "email": null,
+      "profile_url": "https://sites.google.com/view/oanabalmau",
+      "research_areas": [
+        "networks",
+        "operating systems"
+      ],
+      "research_interests": [],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Marcus Brubaker",
+      "title": "Marcus Brubaker Assistant Professor, Status-Only York University",
+      "email": null,
+      "profile_url": "https://mbrubake.github.io/",
+      "research_areas": [
+        "AI"
+      ],
+      "research_interests": [],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Konstantinos Derpanis",
+      "title": "Konstantinos Derpanis Associate Professor, Status-Only York University",
+      "email": null,
+      "profile_url": "https://csprofkgd.github.io/",
+      "research_areas": [
+        "computer vision"
+      ],
+      "research_interests": [],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Amir-massoud Farahmand",
+      "title": "Amir-massoud Farahmand Associate Professor, Status-Only Polytechnique Montr\u00e9al",
+      "email": null,
+      "profile_url": "https://academic.sologen.net/",
+      "research_areas": [
+        "AI: machine learning Research Interests: reinforcement learning",
+        "statistical learning theory"
+      ],
+      "research_interests": [
+        "reinforcement learning",
+        "statistical learning theory"
+      ],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Lea Frermann",
+      "title": "Lea Frermann Assistant Professor, Status-Only University of Melbourne",
+      "email": null,
+      "profile_url": "https://www.frermann.de/",
+      "research_areas": [
+        "AI - computational linguistics"
+      ],
+      "research_interests": [],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Animesh Garg",
+      "title": "Animesh Garg Assistant Professor, Status-Only Georgia Institute of Technology",
+      "email": null,
+      "profile_url": "https://animesh.garg.tech/",
+      "research_areas": [
+        "foundation models",
+        "reinforcement learning",
+        "robotics",
+        "3D vision"
+      ],
+      "research_interests": [],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Marzyeh Ghassemi",
+      "title": "Marzyeh Ghassemi Assistant Professor, Status-Only Massachusetts Institute of Technology",
+      "email": null,
+      "profile_url": "http://www.marzyehghassemi.com/",
+      "research_areas": [
+        "machine learning",
+        "machine learning for health",
+        "computational medicine Research Interests: developing",
+        "applying machine learning models in health areas including representation learning",
+        "reinforcement learning",
+        "inverse reinforcement learning",
+        "prediction",
+        "risk stratification",
+        "model interpretability"
+      ],
+      "research_interests": [
+        "developing",
+        "applying machine learning models in health areas including representation learning",
+        "reinforcement learning",
+        "inverse reinforcement learning",
+        "prediction",
+        "risk stratification",
+        "model interpretability"
+      ],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Huaxiong Huang",
+      "title": "Huaxiong Huang Professor, Status-Only York University",
+      "email": null,
+      "profile_url": "http://www.math.yorku.ca/~hhuang/",
+      "research_areas": [
+        "mathematics"
+      ],
+      "research_interests": [],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Charles Kemp",
+      "title": "Charles Kemp Professor, Status-Only University of Melbourne",
+      "email": null,
+      "profile_url": "http://www.charleskemp.com/",
+      "research_areas": [
+        "computational models of language"
+      ],
+      "research_interests": [],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Ben Rossman",
+      "title": "Ben Rossman Associate Professor, Status-Only Duke University",
+      "email": null,
+      "profile_url": "https://users.cs.duke.edu/~br148/",
+      "research_areas": [
+        "theory",
+        "computational complexity"
+      ],
+      "research_interests": [],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Frank Rudzicz",
+      "title": "Frank Rudzicz Associate Professor, Status-Only Dalhousie University",
+      "email": null,
+      "profile_url": "https://www.cs.toronto.edu/~frank/",
+      "research_areas": [
+        "AI: computational linguistics Research Interests: natural language processing for health applications",
+        "machine learning for health applications",
+        "dialogue",
+        "speech recognition",
+        "brain-computer interfaces",
+        "ethics of AI",
+        "surgical safety"
+      ],
+      "research_interests": [
+        "natural language processing for health applications",
+        "machine learning for health applications",
+        "dialogue",
+        "speech recognition",
+        "brain-computer interfaces",
+        "ethics of AI",
+        "surgical safety"
+      ],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Andrea Tagliasacchi",
+      "title": "Andrea Tagliasacchi Assistant Professor, Status-Only Simon Fraser University",
+      "email": null,
+      "profile_url": "https://research.google/people/106392/",
+      "research_areas": [
+        "AI - machine learning"
+      ],
+      "research_interests": [],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Rick Valenzano",
+      "title": "Rick Valenzano Assistant Professor, Status Only Toronto Metropolitan University",
+      "email": null,
+      "profile_url": "https://sites.google.com/a/ualberta.ca/rickvalenzano/",
+      "research_areas": [
+        "AI"
+      ],
+      "research_interests": [],
+      "section": "Status-Only Faculty"
+    },
+    {
+      "name": "Bill Buxton",
+      "title": "Bill Buxton Adjunct Professor Microsoft Research",
+      "email": null,
+      "profile_url": "https://www.billbuxton.com/",
+      "research_areas": [
+        "human-computer interaction Paul Dietz Adjunct Professor Distinguished Engineer in Residence Research Areas: human-computer interaction Garth Gibson Adjunct Consultant Research Areas: machine learning",
+        "statistics Mario Grech Adjunct Professor Director",
+        "co-founder",
+        "Department of Computer Science Innovation Lab (DCSIL) Research Areas: entrepreneurship",
+        "commercialization of applied research"
+      ],
+      "research_interests": [],
+      "section": "Adjunct Faculty"
+    },
+    {
+      "name": "Helen Kontozopoulos",
+      "title": "Helen Kontozopoulos Adjunct Professor ODAIA.ai",
+      "email": null,
+      "profile_url": "https://www.helenissocial.ca/",
+      "research_areas": [
+        "entrepreneurship"
+      ],
+      "research_interests": [],
+      "section": "Adjunct Faculty"
+    },
+    {
+      "name": "Alex Kreinin",
+      "title": "Alex Kreinin Adjunct Professor Risk Analytics, IBM Canada",
+      "email": null,
+      "profile_url": "https://scholar.google.com/citations?user=v9RrV4gAAAAJ&hl=en",
+      "research_areas": [
+        "numerical analysis"
+      ],
+      "research_interests": [],
+      "section": "Adjunct Faculty"
+    },
+    {
+      "name": "Karthik Kuber",
+      "title": "Karthik Kuber Adjunct Professor Yelp",
+      "email": null,
+      "profile_url": "https://karthikkuber.com/",
+      "research_areas": [
+        "data science",
+        "machine learning"
+      ],
+      "research_interests": [],
+      "section": "Adjunct Faculty"
+    },
+    {
+      "name": "Vadym Kliuchnikov",
+      "title": "Vadym Kliuchnikov Adjunct Professor Microsoft Quantum",
+      "email": null,
+      "profile_url": "https://www.microsoft.com/en-us/research/people/vadym/",
+      "research_areas": [
+        "computational theory"
+      ],
+      "research_interests": [],
+      "section": "Adjunct Faculty"
+    },
+    {
+      "name": "Laura Leal-Taix\u00e9",
+      "title": "Laura Leal-Taix\u00e9 Adjunct Professor NVIDIA Italy",
+      "email": null,
+      "profile_url": "https://research.nvidia.com/labs/dvl/author/laura-leal-taixe/",
+      "research_areas": [
+        "vision Mike McCarthy Adjunct Professor Distinguished Executive in Residence"
+      ],
+      "research_interests": [],
+      "section": "Adjunct Faculty"
+    },
+    {
+      "name": "Matt Medland",
+      "title": "Matt Medland Adjunct Professor BlueCat",
+      "email": null,
+      "profile_url": "https://bluecatnetworks.com/about/",
+      "research_areas": [
+        "software engineering",
+        "networks",
+        "distributed systems"
+      ],
+      "research_interests": [],
+      "section": "Adjunct Faculty"
+    }
+  ]
+}
