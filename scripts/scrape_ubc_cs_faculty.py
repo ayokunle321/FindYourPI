@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
 """Scrape UBC CS faculty directory into the FindYourPI JSON schema.
 
+The directory page is a clean HTML table with columns:
+  [Photo] | [Name + links] | [Contact Info] | [Research Areas] | [Research Groups]
+
+Research areas are already structured as <a> tags in the Research Areas column —
+no regex, no profile page fetching needed for most faculty.
+
 Usage:
   python3 scripts/scrape_ubc_cs_faculty.py
   python3 scripts/scrape_ubc_cs_faculty.py --input-html data/ubc_faculty_page.html
+  python3 scripts/scrape_ubc_cs_faculty.py --skip-profile-enrich
 
 Outputs:
   data/ubc_cs_faculty.json
@@ -14,13 +21,18 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from dataclasses import asdict, dataclass
+from dataclasses import asdict
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
 
-import requests
 from bs4 import BeautifulSoup, Tag
+
+from scraper_utils import (
+    FacultyEntry,
+    clean_text,
+    enrich_from_profile,
+    load_directory_html,
+)
 
 DIRECTORY_URL = "https://www.cs.ubc.ca/people/faculty"
 BASE_URL = "https://www.cs.ubc.ca"
@@ -28,203 +40,144 @@ OUTPUT_PATH = Path("data/ubc_cs_faculty.json")
 
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 
-
-@dataclass
-class FacultyEntry:
-    name: str
-    title: str | None
-    email: str | None
-    profile_url: str | None
-    research_areas: list[str]
-    research_interests: list[str]
-    section: str | None
+# Research area links all point to /cs-research/research-area/...
+RESEARCH_AREA_HREF_RE = re.compile(r"/cs-research/research-area/")
 
 
-def _clean_text(value: str) -> str:
-    return re.sub(r"\s+", " ", value or "").strip()
+def _parse_name_cell(cell: Tag) -> tuple[str | None, str | None, str | None]:
+    """Return (name, title, profile_url) from the name cell.
 
+    The cell contains:
+      - An <a> linking to /people/<slug> — that's the profile
+      - Possibly additional <a> tags for Personal Page / Google Scholar
+      - Plain text for the job title
+    """
+    profile_anchor = cell.find("a", href=re.compile(r"^/people/"))
+    if not profile_anchor:
+        return None, None, None
 
-def _split_research(field_value: str) -> list[str]:
-    if not field_value:
-        return []
-    cleaned = _clean_text(field_value)
-    parts = re.split(r",|;|/|\band\b|\|", cleaned, flags=re.IGNORECASE)
-    seen: set[str] = set()
-    output: list[str] = []
-    for part in parts:
-        p = part.strip()
-        key = p.lower()
-        if p and key not in seen:
-            seen.add(key)
-            output.append(p)
-    return output
+    name = clean_text(profile_anchor.get_text(" ", strip=True))
+    profile_url = BASE_URL + profile_anchor["href"]
 
-
-def _looks_like_name(value: str) -> bool:
-    text = _clean_text(value)
-    parts = text.split()
-    if len(parts) < 2 or len(parts) > 5:
-        return False
-    return all(part[0].isalpha() for part in parts if part)
-
-
-def _fetch_html(url: str, timeout: int = 30) -> str:
-    resp = requests.get(url, timeout=timeout)
-    resp.raise_for_status()
-    return resp.text
-
-
-def _load_directory_html(input_html: str | None) -> str:
-    if input_html:
-        html_path = Path(input_html)
-        if not html_path.exists():
-            raise FileNotFoundError(
-                f"Input HTML not found: {html_path}. "
-                "Pass a valid file path, or omit --input-html for live scraping."
-            )
-        return html_path.read_text(encoding="utf-8")
-    return _fetch_html(DIRECTORY_URL)
-
-
-def _extract_faculty_candidates(soup: BeautifulSoup) -> dict[str, FacultyEntry]:
-    candidates: dict[str, FacultyEntry] = {}
-    for anchor in soup.find_all("a", href=True):
-        name = _clean_text(anchor.get_text(" ", strip=True))
-        href = anchor["href"].strip()
-        if not _looks_like_name(name):
-            continue
-        if not href or href.startswith("#"):
-            continue
-        profile_url = urljoin(BASE_URL, href)
-        key = name.lower()
-        if key in candidates:
-            continue
-        candidates[key] = FacultyEntry(
-            name=name,
-            title=None,
-            email=None,
-            profile_url=profile_url,
-            research_areas=[],
-            research_interests=[],
-            section="Faculty",
+    # Title is whatever text remains after removing all anchor text.
+    full_text = clean_text(cell.get_text(" ", strip=True))
+    for anchor in cell.find_all("a"):
+        full_text = full_text.replace(
+            clean_text(anchor.get_text(" ", strip=True)), ""
         )
-    return candidates
+    title = clean_text(full_text) or None
+
+    return name, title, profile_url
 
 
-def _extract_labeled_fields(text_blob: str) -> tuple[str | None, list[str], list[str]]:
-    normalized = _clean_text(text_blob)
+def _parse_research_cell(cell: Tag) -> list[str]:
+    """Extract research area tags from the research areas column.
 
-    title = None
-    title_match = re.search(
-        r"(?:Position|Title|Rank)\s*:?\s*(.+?)(?=(?:Email|Research|Interests?)\s*:|$)",
-        normalized,
-        flags=re.IGNORECASE,
-    )
-    if title_match:
-        title = _clean_text(title_match.group(1))
-
-    research_areas: list[str] = []
-    research_interests: list[str] = []
-
-    areas_match = re.search(
-        r"Research Areas?\s*:?\s*(.+?)(?=(?:Research Interests?|Email|$))",
-        normalized,
-        flags=re.IGNORECASE,
-    )
-    if areas_match:
-        research_areas = _split_research(areas_match.group(1))
-
-    interests_match = re.search(
-        r"Research Interests?\s*:?\s*(.+?)(?=(?:Research Areas?|Email|$))",
-        normalized,
-        flags=re.IGNORECASE,
-    )
-    if interests_match:
-        research_interests = _split_research(interests_match.group(1))
-
-    return title, research_areas, research_interests
+    Each area is an <a> tag pointing to /cs-research/research-area/<slug>.
+    We just read the link text — no regex needed.
+    """
+    areas: list[str] = []
+    for anchor in cell.find_all("a", href=RESEARCH_AREA_HREF_RE):
+        label = clean_text(anchor.get_text(" ", strip=True))
+        if label:
+            areas.append(label)
+    return areas
 
 
-def _enrich_from_profile(entry: FacultyEntry, timeout: int = 20) -> FacultyEntry:
-    if not entry.profile_url:
-        return entry
+def _parse_contact_cell(cell: Tag) -> str | None:
+    email_match = EMAIL_RE.search(cell.get_text())
+    return email_match.group(0) if email_match else None
 
-    try:
-        html = _fetch_html(entry.profile_url, timeout=timeout)
-    except Exception:
-        return entry
 
-    soup = BeautifulSoup(html, "html.parser")
-    page_text = _clean_text(soup.get_text(" ", strip=True))
+def _parse_table(table: Tag, section: str | None) -> list[FacultyEntry]:
+    entries: list[FacultyEntry] = []
 
-    if not entry.email:
-        email_match = EMAIL_RE.search(page_text)
-        if email_match:
-            entry.email = email_match.group(0)
+    for row in table.find_all("tr"):
+        cells = row.find_all(["td", "th"])
+        # Skip header rows and rows with too few cells.
+        if not cells or cells[0].name == "th" or len(cells) < 3:
+            continue
 
-    title, areas, interests = _extract_labeled_fields(page_text)
-    if title and not entry.title:
-        entry.title = title
-    if areas:
-        entry.research_areas = areas
-    if interests:
-        entry.research_interests = interests
+        # Column layout: [photo/initials] [name+links] [contact] [research areas] [research groups]
+        # We match by content rather than index since some rows vary.
+        name_cell = None
+        contact_cell = None
+        research_cell = None
 
-    # Fallback: collect topic chips near research-related headings.
-    if not entry.research_areas and not entry.research_interests:
-        headings = soup.find_all(["h2", "h3", "h4", "strong", "b"])
-        for h in headings:
-            heading_text = _clean_text(h.get_text(" ", strip=True)).lower()
-            if "research" not in heading_text and "interest" not in heading_text:
-                continue
-            parent = h.parent if isinstance(h.parent, Tag) else None
-            context_text = _clean_text(parent.get_text(" ", strip=True)) if parent else ""
-            _, fallback_areas, fallback_interests = _extract_labeled_fields(context_text)
-            if fallback_areas:
-                entry.research_areas = fallback_areas
-            if fallback_interests:
-                entry.research_interests = fallback_interests
-            if entry.research_areas or entry.research_interests:
-                break
+        for cell in cells:
+            cell_text = cell.get_text()
+            if cell.find("a", href=re.compile(r"^/people/")):
+                name_cell = cell
+            elif EMAIL_RE.search(cell_text) and not contact_cell:
+                contact_cell = cell
+            elif cell.find("a", href=RESEARCH_AREA_HREF_RE) and not research_cell:
+                research_cell = cell
 
-    return entry
+        if not name_cell:
+            continue
+
+        name, title, profile_url = _parse_name_cell(name_cell)
+        if not name:
+            continue
+
+        email = _parse_contact_cell(contact_cell) if contact_cell else None
+        research_areas = _parse_research_cell(research_cell) if research_cell else []
+
+        entries.append(
+            FacultyEntry(
+                name=name,
+                title=title,
+                email=email,
+                profile_url=profile_url,
+                research_areas=research_areas,
+                research_interests=[],
+                section=section,
+            )
+        )
+
+    return entries
+
+
+def _iter_sections(soup: BeautifulSoup):
+    """Yield (section_title, table) for each H3 section heading."""
+    for heading in soup.find_all("h3"):
+        section_title = clean_text(heading.get_text(" ", strip=True))
+        table = heading.find_next("table")
+        if table:
+            yield section_title, table
 
 
 def scrape(input_html: str | None = None, enrich_profiles: bool = True) -> dict:
-    directory_html = _load_directory_html(input_html)
-    soup = BeautifulSoup(directory_html, "html.parser")
+    soup = BeautifulSoup(
+        load_directory_html(input_html, DIRECTORY_URL), "html.parser"
+    )
 
-    candidates = _extract_faculty_candidates(soup)
-    entries = list(candidates.values())
+    faculty_entries: list[FacultyEntry] = []
+    for section_title, table in _iter_sections(soup):
+        faculty_entries.extend(_parse_table(table, section_title))
 
     if enrich_profiles:
-        for idx, entry in enumerate(entries, start=1):
-            entries[idx - 1] = _enrich_from_profile(entry)
+        total = len(faculty_entries)
+        for idx, entry in enumerate(faculty_entries, start=1):
+            # Only hit profile pages for the rare cases with no research areas.
+            if not entry.research_areas:
+                faculty_entries[idx - 1] = enrich_from_profile(entry)
             if idx % 25 == 0:
-                print(f"Enriched {idx}/{len(entries)} profiles...")
+                print(f"Processed {idx}/{total} entries...")
 
-    payload = {
+    return {
         "institution": "University of British Columbia",
         "department": "Computer Science",
         "directory_url": DIRECTORY_URL,
         "scraped_at": datetime.now(timezone.utc).isoformat(),
-        "faculty": [asdict(entry) for entry in entries],
+        "faculty": [asdict(entry) for entry in faculty_entries],
     }
-    return payload
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--input-html",
-        default=None,
-        help="Optional local directory HTML path (useful when network is blocked).",
-    )
-    parser.add_argument(
-        "--skip-profile-enrich",
-        action="store_true",
-        help="Skip per-profile fetches and output names/links only.",
-    )
+    parser.add_argument("--input-html", default=None)
+    parser.add_argument("--skip-profile-enrich", action="store_true")
     args = parser.parse_args()
 
     payload = scrape(

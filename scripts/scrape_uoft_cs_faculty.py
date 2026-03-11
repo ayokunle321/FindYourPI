@@ -1,8 +1,16 @@
 #!/usr/bin/env python3
-"""Scrape UofT CS faculty directory into a minimal JSON schema.
+"""Scrape UofT CS faculty directory into the FindYourPI JSON schema.
+
+The directory page uses a clean HTML table with 3 columns:
+  [Name & Position] | [Contact] | [Research]
+
+We parse that table directly instead of flattening tokens, which gives us
+clean research areas and interests without any sentence bleed.
 
 Usage:
   python3 scripts/scrape_uoft_cs_faculty.py
+  python3 scripts/scrape_uoft_cs_faculty.py --input-html data/uoft_faculty_page.html
+  python3 scripts/scrape_uoft_cs_faculty.py --skip-profile-enrich
 
 Outputs:
   data/uoft_cs_faculty.json
@@ -13,231 +21,175 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from dataclasses import asdict, dataclass
+from dataclasses import asdict
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Iterable, Iterator
 
-import requests
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, Tag
+
+from scraper_utils import (
+    FacultyEntry,
+    clean_text,
+    enrich_from_profile,
+    load_directory_html,
+    split_research,
+)
 
 DIRECTORY_URL = "https://web.cs.toronto.edu/people/faculty-directory"
 OUTPUT_PATH = Path("data/uoft_cs_faculty.json")
 
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
-NEXT_PERSON_RE = re.compile(
-    r"\b[A-Z][A-Za-z'’.\-]+(?:\s+[A-Z][A-Za-z'’.\-]+){1,3}\s+"
-    r"(?:Adjunct|Assistant|Associate|Consultant|Distinguished|Professor|Lecturer|"
-    r"Engineer|Scientist|Director)\b"
-)
 
 
-@dataclass
-class FacultyEntry:
-    name: str
-    title: str | None
-    email: str | None
-    profile_url: str | None
-    research_areas: list[str]
-    research_interests: list[str]
-    section: str | None
+def _parse_name_cell(cell: Tag) -> tuple[str | None, str | None, str | None]:
+    """Return (name, title, profile_url) from the name+position table cell."""
+    anchor = cell.find("a")
+    name = clean_text(anchor.get_text(" ", strip=True)) if anchor else None
+    profile_url = anchor["href"] if anchor and anchor.get("href") else None
+
+    cell_text = clean_text(cell.get_text(" ", strip=True))
+    if name:
+        title_blob = cell_text.replace(name, "", 1).strip()
+    else:
+        title_blob = cell_text
+
+    # Take only the first meaningful chunk — strip admin role annotations.
+    title = re.split(r"\s{2,}|\n", title_blob)[0].strip() if title_blob else None
+    title = title or None
+
+    return name, title, profile_url
 
 
-def _clean_text(value: str) -> str:
-    return re.sub(r"\s+", " ", value).strip()
+def _parse_research_cell(cell: Tag) -> tuple[list[str], list[str]]:
+    """Return (research_areas, research_interests) from the research table cell.
 
+    The cell looks like:
+      <strong>Research Areas:</strong> topic, topic
+      <strong>Research Interests:</strong> interest; interest
 
-def _split_research(field_value: str) -> list[str]:
-    if not field_value:
-        return []
-    cleaned = _clean_text(field_value)
-    parts = re.split(r",|;|/|\band\b", cleaned, flags=re.IGNORECASE)
-    return [p.strip() for p in parts if p.strip()]
-
-
-def _iter_section_blocks(container: Tag) -> Iterator[tuple[str | None, Tag]]:
-    """Yield (section_title, block_root) pairs under the main content.
-
-    The page uses H2 headings like "Research Stream Faculty". We collect the
-    content between each H2 into a wrapper div for parsing.
+    We locate the bold labels and grab the text that immediately follows each.
     """
-
-    headings = container.find_all(["h2", "h3"])
-    if not headings:
-        yield None, container
-        return
-
-    for heading in headings:
-        section_title = _clean_text(heading.get_text(" ", strip=True))
-        block = Tag(name="div")
-        for sibling in heading.next_siblings:
-            if isinstance(sibling, Tag) and sibling.name in {"h2", "h3"}:
-                break
-            if isinstance(sibling, (Tag, NavigableString)):
-                block.append(sibling)
-        yield section_title, block
-
-
-def _flatten_tokens(block: Tag) -> list[tuple[str, str | None]]:
-    """Flatten a block into ordered tokens.
-
-    Each token is (kind, value). kind is "link" or "text".
-    """
-
-    tokens: list[tuple[str, str | None]] = []
-    for element in block.descendants:
-        if isinstance(element, Tag) and element.name == "a":
-            text = _clean_text(element.get_text(" ", strip=True))
-            href = element.get("href")
-            if text:
-                tokens.append(("link", f"{text}|||{href}"))
-        elif isinstance(element, NavigableString):
-            text = _clean_text(str(element))
-            if text:
-                tokens.append(("text", text))
-    return tokens
-
-
-def _looks_like_name(value: str) -> bool:
-    if len(value.split()) < 2:
-        return False
-    return all(part[0].isalpha() for part in value.split())
-
-
-def _parse_entry_details(text_blob: str) -> tuple[str | None, str | None, list[str], list[str]]:
-    """Parse title, email, research areas, interests from a text blob."""
-
-    email_match = EMAIL_RE.search(text_blob)
-    email = email_match.group(0) if email_match else None
-
     research_areas: list[str] = []
     research_interests: list[str] = []
 
-    areas_match = re.search(
-        r"Research Areas?:\s*(.+?)(?=Research Interests?:|$)",
-        text_blob,
-        flags=re.IGNORECASE,
-    )
-    if areas_match:
-        areas_text = areas_match.group(1)
-        next_person = NEXT_PERSON_RE.search(areas_text)
-        if next_person:
-            areas_text = areas_text[: next_person.start()]
-        research_areas = _split_research(areas_text)
+    for bold in cell.find_all(["strong", "b"]):
+        label = clean_text(bold.get_text()).lower()
 
-    interests_match = re.search(
-        r"Research Interests?:\s*(.+)",
-        text_blob,
-        flags=re.IGNORECASE,
-    )
-    if interests_match:
-        interests_text = interests_match.group(1)
-        next_person = NEXT_PERSON_RE.search(interests_text)
-        if next_person:
-            interests_text = interests_text[: next_person.start()]
-        research_interests = _split_research(interests_text)
+        # Collect text siblings until the next bold tag.
+        following_parts: list[str] = []
+        for sibling in bold.next_siblings:
+            if isinstance(sibling, Tag) and sibling.name in {"strong", "b"}:
+                break
+            sibling_text = clean_text(
+                sibling.get_text(" ", strip=True)
+                if isinstance(sibling, Tag)
+                else str(sibling)
+            )
+            if sibling_text:
+                following_parts.append(sibling_text)
 
-    cleaned = text_blob
-    if email:
-        cleaned = cleaned.replace(email, " ")
-    cleaned = re.sub(r"Research Areas?:.*", " ", cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r"Research Interests?:.*", " ", cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r"Room:.*", " ", cleaned, flags=re.IGNORECASE)
-    cleaned = _clean_text(cleaned)
+        following = clean_text(" ".join(following_parts))
+        # Strip trailing "not accepting new students" notes.
+        following = re.sub(
+            r"\*?Professor\s+\w+\s+is not accepting.*",
+            "",
+            following,
+            flags=re.IGNORECASE,
+        ).strip()
 
-    title = cleaned or None
-    return title, email, research_areas, research_interests
+        if "research areas" in label:
+            research_areas = split_research(following)
+        elif "research interests" in label:
+            research_interests = split_research(following)
+
+    return research_areas, research_interests
 
 
-def _extract_entries(block: Tag, section: str | None) -> Iterable[FacultyEntry]:
-    tokens = _flatten_tokens(block)
+def _parse_contact_cell(cell: Tag) -> str | None:
+    email_match = EMAIL_RE.search(cell.get_text())
+    return email_match.group(0) if email_match else None
+
+
+def _parse_table(table: Tag, section: str | None) -> list[FacultyEntry]:
     entries: list[FacultyEntry] = []
 
-    index = 0
-    while index < len(tokens):
-        kind, value = tokens[index]
-        if kind == "link" and value:
-            name, href = value.split("|||", 1)
-            if _looks_like_name(name):
-                # Accumulate text until next link token.
-                detail_parts: list[str] = []
-                index += 1
-                while index < len(tokens) and tokens[index][0] != "link":
-                    detail_parts.append(tokens[index][1] or "")
-                    index += 1
-                detail_text = _clean_text(" ".join(detail_parts))
-                title, email, research_areas, research_interests = _parse_entry_details(
-                    detail_text
-                )
-                entries.append(
-                    FacultyEntry(
-                        name=name,
-                        title=title,
-                        email=email,
-                        profile_url=href,
-                        research_areas=research_areas,
-                        research_interests=research_interests,
-                        section=section,
-                    )
-                )
-                continue
-        index += 1
+    for row in table.find_all("tr"):
+        cells = row.find_all(["td", "th"])
+        if not cells or cells[0].name == "th":
+            continue
+        if len(cells) < 2:
+            continue
+
+        name, title, profile_url = _parse_name_cell(cells[0])
+        if not name:
+            continue
+
+        research_areas: list[str] = []
+        research_interests: list[str] = []
+        email: str | None = None
+
+        for cell in cells[1:]:
+            cell_text = cell.get_text()
+            if "Research" in cell_text and not research_areas and not research_interests:
+                research_areas, research_interests = _parse_research_cell(cell)
+            if EMAIL_RE.search(cell_text) and not email:
+                email = _parse_contact_cell(cell)
+
+        entries.append(
+            FacultyEntry(
+                name=name,
+                title=title,
+                email=email,
+                profile_url=profile_url,
+                research_areas=research_areas,
+                research_interests=research_interests,
+                section=section,
+            )
+        )
+
     return entries
 
 
-def _load_directory_html(input_html: str | None) -> str:
-    if input_html:
-        html_path = Path(input_html)
-        if not html_path.exists():
-            raise FileNotFoundError(
-                f"Input HTML not found: {html_path}. "
-                "Pass a valid file path, or omit --input-html for live scraping."
-            )
-        return html_path.read_text(encoding="utf-8")
-    response = requests.get(DIRECTORY_URL, timeout=30)
-    response.raise_for_status()
-    return response.text
+def _iter_sections(soup: BeautifulSoup):
+    """Yield (section_title, table) pairs by walking H2 headings."""
+    for heading in soup.find_all("h2"):
+        section_title = clean_text(heading.get_text(" ", strip=True))
+        table = heading.find_next("table")
+        if table:
+            yield section_title, table
 
 
 def scrape(input_html: str | None = None, enrich_profiles: bool = True) -> dict:
-    # UofT parser currently extracts details directly from the directory page.
-    # Keep the `enrich_profiles` arg for CLI parity across school scrapers.
-    _ = enrich_profiles
-
-    soup = BeautifulSoup(_load_directory_html(input_html), "html.parser")
-    main = soup.find("main") or soup.find("article") or soup.body
-    if main is None:
-        raise RuntimeError("Unable to locate main content on the page.")
+    soup = BeautifulSoup(
+        load_directory_html(input_html, DIRECTORY_URL), "html.parser"
+    )
 
     faculty_entries: list[FacultyEntry] = []
-    for section_title, block in _iter_section_blocks(main):
-        faculty_entries.extend(_extract_entries(block, section_title))
+    for section_title, table in _iter_sections(soup):
+        faculty_entries.extend(_parse_table(table, section_title))
 
-    payload = {
+    if enrich_profiles:
+        total = len(faculty_entries)
+        for idx, entry in enumerate(faculty_entries, start=1):
+            # Only fetch profile pages for profs still missing research data.
+            if not entry.research_areas and not entry.research_interests:
+                faculty_entries[idx - 1] = enrich_from_profile(entry)
+            if idx % 25 == 0:
+                print(f"Processed {idx}/{total} entries...")
+
+    return {
         "institution": "University of Toronto",
         "department": "Computer Science",
         "directory_url": DIRECTORY_URL,
         "scraped_at": datetime.now(timezone.utc).isoformat(),
         "faculty": [asdict(entry) for entry in faculty_entries],
     }
-    return payload
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--input-html",
-        default=None,
-        help="Optional local directory HTML path (useful when network is blocked).",
-    )
-    parser.add_argument(
-        "--skip-profile-enrich",
-        action="store_true",
-        help=(
-            "Accepted for CLI consistency across school scrapers; "
-            "UofT extraction is directory-only."
-        ),
-    )
+    parser.add_argument("--input-html", default=None)
+    parser.add_argument("--skip-profile-enrich", action="store_true")
     args = parser.parse_args()
 
     payload = scrape(

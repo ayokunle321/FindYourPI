@@ -10,12 +10,13 @@ export type FacultyMember = {
   research_areas: string[];
   research_interests: string[];
   section: string | null;
+  institution: string | null;
 };
 
 const MAX_RESULTS = 12;
 const MAX_RESEARCH_TAGS = 5;
 const PERSON_BLOB_RE =
-  /\b[A-Z][A-Za-z'’. -]+(?:\s+[A-Z][A-Za-z'’. -]+){1,3}\s+(?:Adjunct|Assistant|Associate|Consultant|Distinguished|Professor|Lecturer|Engineer|Scientist|Director|Faculty)\b.*/;
+  /\b[A-Z][A-Za-z''. -]+(?:\s+[A-Z][A-Za-z''. -]+){1,3}\s+(?:Adjunct|Assistant|Associate|Consultant|Distinguished|Professor|Lecturer|Engineer|Scientist|Director|Faculty)\b.*/;
 const INVALID_TOPIC_RE =
   /\b(?:Department of|Innovation Lab|co-founder|Distinguished Executive in Residence)\b/i;
 
@@ -25,9 +26,7 @@ function normalize(value: string) {
 
 function cleanResearchTag(value: string) {
   let cleaned = value.replace(/\s+/g, " ").trim();
-  if (!cleaned) {
-    return "";
-  }
+  if (!cleaned) return "";
 
   cleaned = cleaned.replace(PERSON_BLOB_RE, "").trim();
   cleaned = cleaned
@@ -35,10 +34,7 @@ function cleanResearchTag(value: string) {
     .replace(/^Research Interests?:\s*/i, "")
     .trim();
 
-  if (!cleaned || INVALID_TOPIC_RE.test(cleaned)) {
-    return "";
-  }
-
+  if (!cleaned || INVALID_TOPIC_RE.test(cleaned)) return "";
   return cleaned;
 }
 
@@ -48,9 +44,7 @@ function getResearchTags(member: FacultyMember) {
 
   ordered.forEach((value) => {
     const cleanedSource = value.replace(/\s+/g, " ").trim();
-    if (!cleanedSource || INVALID_TOPIC_RE.test(cleanedSource)) {
-      return;
-    }
+    if (!cleanedSource || INVALID_TOPIC_RE.test(cleanedSource)) return;
 
     const withoutPeople = cleanedSource.replace(PERSON_BLOB_RE, "").trim();
     const segments = withoutPeople
@@ -58,31 +52,21 @@ function getResearchTags(member: FacultyMember) {
       .map((segment) => cleanResearchTag(segment));
 
     segments.forEach((segment) => {
-      if (segment) {
-        unique.add(segment);
-      }
+      if (segment) unique.add(segment);
     });
   });
 
   return Array.from(unique).slice(0, MAX_RESEARCH_TAGS);
 }
 
-export default function FacultySearch({
-  faculty,
-  institution,
-}: {
-  faculty: FacultyMember[];
-  institution: string | null;
-}) {
+export default function FacultySearch({ faculty }: { faculty: FacultyMember[] }) {
   const [query, setQuery] = useState("");
-  const [section, setSection] = useState("all");
+  const [institutionFilter, setInstitutionFilter] = useState("all");
 
-  const sections = useMemo(() => {
+  const institutions = useMemo(() => {
     const unique = new Set<string>();
-    faculty.forEach((member) => {
-      if (member.section) {
-        unique.add(member.section);
-      }
+    faculty.forEach((m) => {
+      if (m.institution) unique.add(m.institution);
     });
     return ["all", ...Array.from(unique).sort()];
   }, [faculty]);
@@ -90,24 +74,20 @@ export default function FacultySearch({
   const filtered = useMemo(() => {
     const q = normalize(query.trim());
     return faculty.filter((member) => {
-      if (section !== "all" && member.section !== section) {
-        return false;
-      }
-      if (!q) {
-        return true;
-      }
+      if (institutionFilter !== "all" && member.institution !== institutionFilter) return false;
+      if (!q) return true;
       const haystack = normalize(
         [
           member.name,
           member.title ?? "",
-          member.section ?? "",
+          member.institution ?? "",
           member.research_areas.join(" "),
           member.research_interests.join(" "),
         ].join(" ")
       );
       return haystack.includes(q);
     });
-  }, [faculty, query, section]);
+  }, [faculty, query, institutionFilter]);
 
   const visible = filtered.slice(0, MAX_RESULTS);
 
@@ -119,7 +99,7 @@ export default function FacultySearch({
             Live preview
           </p>
           <h2 className="text-2xl font-semibold text-slate-900">
-            Search real UofT faculty data.
+            Search faculty across Canadian universities.
           </h2>
         </div>
         <div className="text-xs font-semibold text-slate-500">
@@ -132,21 +112,21 @@ export default function FacultySearch({
           <span className="sr-only">Search faculty</span>
           <input
             value={query}
-            onChange={(event) => setQuery(event.target.value)}
+            onChange={(e) => setQuery(e.target.value)}
             placeholder='Try "compilers", "HCI", or a name'
             className="w-full rounded-full border border-slate-200 bg-white px-5 py-3 text-sm text-slate-700 shadow-sm outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-200"
           />
         </label>
         <label>
-          <span className="sr-only">Filter by section</span>
+          <span className="sr-only">Filter by institution</span>
           <select
-            value={section}
-            onChange={(event) => setSection(event.target.value)}
+            value={institutionFilter}
+            onChange={(e) => setInstitutionFilter(e.target.value)}
             className="w-full rounded-full border border-slate-200 bg-white px-4 py-3 text-sm text-slate-700 shadow-sm outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-200"
           >
-            {sections.map((value) => (
-              <option key={value} value={value}>
-                {value === "all" ? "All sections" : value}
+            {institutions.map((v) => (
+              <option key={v} value={v}>
+                {v === "all" ? "All universities" : v}
               </option>
             ))}
           </select>
@@ -159,7 +139,7 @@ export default function FacultySearch({
 
           return (
             <div
-              key={member.name}
+              key={`${member.institution}-${member.name}`}
               className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"
             >
               <div className="flex items-start justify-between gap-4">
@@ -174,9 +154,9 @@ export default function FacultySearch({
                     <p className="mt-1 text-sm text-slate-600">{member.title}</p>
                   ) : null}
                 </div>
-                {institution ? (
-                  <span className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-500">
-                    {institution}
+                {member.institution ? (
+                  <span className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-500 whitespace-nowrap">
+                    {member.institution}
                   </span>
                 ) : null}
               </div>

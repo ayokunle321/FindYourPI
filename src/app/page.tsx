@@ -2,112 +2,160 @@ import path from "path";
 import { readFile } from "fs/promises";
 import FacultySearch, { FacultyMember } from "@/components/FacultySearch";
 
-const steps = [
-  {
-    title: "Search by keyword",
-    description:
-      "Find professors by research area, method, or topic in seconds.",
-  },
-  {
-    title: "Filter by institution",
-    description:
-      "Compare supervisors across universities without the busywork.",
-  },
-  {
-    title: "Save and reach out",
-    description:
-      "Shortlist the best fits and move faster on real outreach.",
-  },
-];
-
-const benefits = [
-  "Stop digging through scattered faculty pages.",
-  "Save hours per application cycle.",
-  "Make stronger, better-aligned outreach.",
-  "Build a list you can reuse and refine.",
-];
-
 type FacultyPayload = {
   institution?: string;
   faculty: FacultyMember[];
 };
 
-async function getFacultyData(): Promise<{
-  faculty: FacultyMember[];
-  institution: string | null;
-}> {
-  const filePath = path.join(process.cwd(), "data", "uoft_cs_faculty.json");
-  const raw = await readFile(filePath, "utf-8");
-  const parsed = JSON.parse(raw) as FacultyPayload;
-  return {
-    faculty: parsed.faculty ?? [],
-    institution: parsed.institution ?? null,
-  };
+const DATA_FILES = [
+  "uoft_cs_faculty.json",
+  "ubc_cs_faculty.json",
+  "mcgill_cs_faculty.json",
+];
+
+async function getFacultyData(): Promise<FacultyMember[]> {
+  const results = await Promise.allSettled(
+    DATA_FILES.map(async (filename) => {
+      const filePath = path.join(process.cwd(), "data", filename);
+      const raw = await readFile(filePath, "utf-8");
+      const parsed = JSON.parse(raw) as FacultyPayload;
+      const institution = parsed.institution ?? null;
+      return (parsed.faculty ?? []).map((member) => ({
+        ...member,
+        institution: member.institution ?? institution,
+      }));
+    })
+  );
+  return results.flatMap((result) =>
+    result.status === "fulfilled" ? result.value : []
+  );
 }
 
 export default async function Home() {
-  const { faculty, institution } = await getFacultyData();
+  const faculty = await getFacultyData();
+  const totalProfs = faculty.length;
+  const totalInstitutions = new Set(
+    faculty.map((f) => f.institution).filter(Boolean)
+  ).size;
 
   return (
-    <main className="min-h-screen bg-white text-slate-900 [background-image:radial-gradient(1200px_circle_at_top,_rgba(15,23,42,0.08),_transparent_60%),radial-gradient(900px_circle_at_bottom,_rgba(15,23,42,0.05),_transparent_55%)]">
-      <div className="mx-auto flex min-h-screen max-w-5xl flex-col px-6 pb-20 pt-24 text-center">
-        <section className="flex flex-1 flex-col items-center justify-center">
-          <div className="space-y-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500">
-              Graduate research discovery
-            </p>
-            <h1 className="text-4xl font-semibold tracking-tight text-balance text-slate-900 sm:text-6xl">
-              FindYourPI
-            </h1>
-            <p className="mx-auto max-w-2xl text-base leading-relaxed text-balance text-slate-600 sm:text-lg">
-              A clean, centralized directory to help prospective graduate students
-              find research supervisors by keyword, focus area, and institution.
-            </p>
-          </div>
-        </section>
+    <main className="min-h-screen bg-[#F5F4F0] text-[#0D0D0D]">
 
-        <section className="mt-20 grid gap-10 text-left sm:grid-cols-3">
-          {steps.map((step) => (
-            <div key={step.title} className="space-y-3">
-              <h2 className="text-lg font-semibold text-slate-900">
-                {step.title}
-              </h2>
-              <p className="text-sm leading-relaxed text-slate-600">
-                {step.description}
-              </p>
+      {/* Nav */}
+      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-5 bg-[#F5F4F0]/80 backdrop-blur-md border-b border-black/5">
+        <span className="text-sm font-semibold tracking-tight">FindYourPI</span>
+        <span className="text-xs text-[#0D0D0D]/40 font-medium tracking-widest uppercase">
+          Graduate Research Discovery
+        </span>
+      </nav>
+
+      {/* Hero — full viewport, type-first */}
+      <section className="min-h-screen flex flex-col justify-end px-8 pb-20 pt-32 max-w-7xl mx-auto">
+        <div className="space-y-8">
+          <p className="text-xs font-semibold tracking-[0.3em] text-[#0D0D0D]/35 uppercase">
+            {totalProfs.toLocaleString()} professors &middot; {totalInstitutions} universities
+          </p>
+
+          <h1 className="text-[clamp(3.5rem,11vw,10rem)] font-semibold leading-[0.92] tracking-[-0.04em]">
+            Find your<br />
+            <span className="text-[#0D0D0D]/18">next</span> PI.
+          </h1>
+
+          <p className="max-w-md text-lg leading-relaxed text-[#0D0D0D]/50 font-normal">
+            Stop crawling through a dozen faculty pages.
+            Search every professor, every research area, every university — in one place.
+          </p>
+
+          <a
+            href="#search"
+            className="inline-flex items-center gap-3 bg-[#0D0D0D] text-[#F5F4F0] px-7 py-3.5 rounded-full text-sm font-semibold hover:bg-[#0D0D0D]/80 transition-colors duration-200"
+          >
+            Start searching
+            <span className="opacity-60">↓</span>
+          </a>
+        </div>
+
+        {/* Stat strip anchored to bottom of hero */}
+        <div className="mt-24 pt-8 border-t border-black/10 grid grid-cols-3 gap-8 max-w-sm">
+          {[
+            { value: totalProfs.toLocaleString(), label: "Faculty profiles" },
+            { value: String(totalInstitutions), label: "Universities" },
+            { value: "Free", label: "Always" },
+          ].map((stat) => (
+            <div key={stat.label}>
+              <p className="text-2xl font-semibold tracking-tight">{stat.value}</p>
+              <p className="text-xs text-[#0D0D0D]/40 mt-1">{stat.label}</p>
             </div>
           ))}
-        </section>
+        </div>
+      </section>
 
-        <section className="mt-16 rounded-3xl border border-slate-200 bg-slate-50 px-6 py-10 text-left">
-          <div className="grid gap-8 md:grid-cols-[1.2fr_1fr] md:items-center">
-            <div className="space-y-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500">
-                Why it matters
-              </p>
-              <h2 className="text-2xl font-semibold text-slate-900">
-                Turn searching into signal, not noise.
-              </h2>
-              <p className="text-sm leading-relaxed text-slate-600">
-                FindYourPI reduces the time you spend hunting across university
-                sites so you can focus on fit, outreach, and real conversations.
-              </p>
-            </div>
-            <ul className="grid gap-3 text-sm text-slate-700">
-              {benefits.map((benefit) => (
-                <li key={benefit} className="flex items-start gap-2">
-                  <span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-900" />
-                  <span>{benefit}</span>
-                </li>
-              ))}
-            </ul>
+      {/* How it works */}
+      <section className="px-8 py-24 max-w-7xl mx-auto border-t border-black/10">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-16 items-start">
+          <div>
+            <p className="text-xs font-semibold tracking-[0.3em] text-[#0D0D0D]/35 uppercase mb-4">
+              How it works
+            </p>
+            <h2 className="text-3xl font-semibold tracking-tight leading-tight">
+              Three steps.<br />One less headache.
+            </h2>
           </div>
-        </section>
 
-        <section className="mt-16 rounded-3xl border border-slate-200 bg-white/80 px-6 py-10 text-left shadow-sm backdrop-blur">
-          <FacultySearch faculty={faculty} institution={institution} />
-        </section>
-      </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
+            {[
+              {
+                num: "01",
+                title: "Search by keyword",
+                body: "Type a research area, method, or topic. Results update instantly.",
+              },
+              {
+                num: "02",
+                title: "Filter by university",
+                body: "Narrow by institution. Compare supervisors side by side.",
+              },
+              {
+                num: "03",
+                title: "Reach out",
+                body: "Click through to their profile. Their email is right there.",
+              },
+            ].map((step) => (
+              <div key={step.num} className="space-y-3">
+                <p className="text-xs font-mono text-[#0D0D0D]/20 font-semibold tracking-widest">
+                  {step.num}
+                </p>
+                <h3 className="text-sm font-semibold">{step.title}</h3>
+                <p className="text-sm text-[#0D0D0D]/45 leading-relaxed">{step.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Search */}
+      <section
+        id="search"
+        className="px-8 py-24 max-w-7xl mx-auto border-t border-black/10"
+      >
+        <div className="mb-12">
+          <p className="text-xs font-semibold tracking-[0.3em] text-[#0D0D0D]/35 uppercase mb-3">
+            Directory
+          </p>
+          <h2 className="text-3xl font-semibold tracking-tight">
+            Search faculty
+          </h2>
+        </div>
+        <FacultySearch faculty={faculty} />
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-black/10 px-8 py-10 max-w-7xl mx-auto flex items-center justify-between">
+        <span className="text-sm font-semibold">FindYourPI</span>
+        <span className="text-xs text-[#0D0D0D]/35">
+          Built for grad school applicants everywhere.
+        </span>
+      </footer>
+
     </main>
   );
 }

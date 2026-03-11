@@ -1,0 +1,863 @@
+{
+  "institution": "McGill University",
+  "department": "Computer Science",
+  "directory_url": "https://www.cs.mcgill.ca/people/faculty/",
+  "scraped_at": "2026-03-11T16:42:04.653408+00:00",
+  "faculty": [
+    {
+      "name": "Mathieu Blanchette",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Director of the School"
+    },
+    {
+      "name": "David Adelani",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Oana Balmau",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Xiao-Wen Chang",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Jackie Chi Kit Cheung",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Luc Devroye",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Christophe Dubach",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Gregory Dudek",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Golnoosh Farnadi",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Jin Guo",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Hamed Hatami",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Bettina Kemme",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Paul Kry",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Michael Langer",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Yue Li",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Hsiu-Chin Lin",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Xue Liu",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Muthucumaru Maheswaran",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "David Meger",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Borke Obada",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Elizabeth Patitsas",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Brigitte Pientka",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Joelle Pineau",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Doina Precup",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Reihaneh Rabbany",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Siamak Ravanbakhsh",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Siva Reddy",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Blake Richards",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Robert Robere",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Martin Robillard",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "David Rolnick",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Derek Ruths",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Kaleem Siddiqi",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Clark Verbrugge",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Adrian Vetta",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Jerome Waldispuhl",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Professors"
+    },
+    {
+      "name": "Giulia Alberini",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Faculty Lecturers"
+    },
+    {
+      "name": "David Becerra",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Faculty Lecturers"
+    },
+    {
+      "name": "Mathieu B\u00e9rub\u00e9-Valli\u00e8res",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Faculty Lecturers"
+    },
+    {
+      "name": "Mona ElSaadawy",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Faculty Lecturers"
+    },
+    {
+      "name": "Jacob Errington",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Faculty Lecturers"
+    },
+    {
+      "name": "Pascale Gourdeau",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Faculty Lecturers"
+    },
+    {
+      "name": "Max Kopinsky",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Faculty Lecturers"
+    },
+    {
+      "name": "Faten M'hiri",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Faculty Lecturers"
+    },
+    {
+      "name": "Joseph Vybihal",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Faculty Lecturers"
+    },
+    {
+      "name": "Louigi Addario-Berry",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Sylvain Baillet",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Pouya Bashivan",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Danilo Bzdok",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Louis Collins",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Jun Ding",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Benjamin Fung",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Simon Gravel",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Derek Nowrouzezahrai",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Timothy O\u2019Donnell",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Dirk Schlimm",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Thomas Shultz",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Morgan Sonderegger",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Yi Yang",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Members"
+    },
+    {
+      "name": "Sheldon Andrews",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Dzmitry Bahdanau",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Marc G. Bellemare",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Xi Chen",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Claude Crepeau",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Fernando Diaz",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Gintare Karolina Dziugaite",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Danny Grant",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Samira Ebrahimi Kahou",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Tei-Wei Kuo",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Annie Louis",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Ioannis Rekleitis",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Adriana Romero Soriano",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Xujie Si",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Attila Szantner",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Danny Tarlow",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "Adam Trischler",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Adjunct Professors"
+    },
+    {
+      "name": "David Avis",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Emeritus Professors"
+    },
+    {
+      "name": "Renato De Mori",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Emeritus Professors"
+    },
+    {
+      "name": "Tim Merrett",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Emeritus Professors"
+    },
+    {
+      "name": "Monty Newborn",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Emeritus Professors"
+    },
+    {
+      "name": "Chris Paige",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Emeritus Professors"
+    },
+    {
+      "name": "Prakash Panangaden",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Emeritus Professors"
+    },
+    {
+      "name": "Gerald Ratzer",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Emeritus Professors"
+    },
+    {
+      "name": "Denis Therien",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Emeritus Professors"
+    },
+    {
+      "name": "Nathan Friedman",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Professors Post-Retirement"
+    },
+    {
+      "name": "Carl Tropper",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Associate Professors Post-Retirement"
+    },
+    {
+      "name": "Yang Cai",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Former Professors"
+    },
+    {
+      "name": "Michael Hallett",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Former Professors"
+    },
+    {
+      "name": "Patrick Hayden",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Former Professors"
+    },
+    {
+      "name": "Wenbo He",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Former Professors"
+    },
+    {
+      "name": "Bruce Reed",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Former Professors"
+    },
+    {
+      "name": "Hans Vangheluwe",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Former Professors"
+    },
+    {
+      "name": "Sue Whitesides",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "Former Professors"
+    },
+    {
+      "name": "Laurie Hendren",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "In Memoriam"
+    },
+    {
+      "name": "Godfried Toussaint",
+      "title": null,
+      "email": null,
+      "profile_url": null,
+      "research_areas": [],
+      "research_interests": [],
+      "section": "In Memoriam"
+    }
+  ]
+}

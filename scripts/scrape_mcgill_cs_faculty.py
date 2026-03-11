@@ -1,10 +1,20 @@
 #!/usr/bin/env python3
 """Scrape McGill CS faculty directory into the FindYourPI JSON schema.
 
+The directory page is a list of accordion cards. Each card's heading (<h4>)
+contains:
+  Line 1: Professor name
+  Lines 2+: Research area topics (one per line)
+
+The contact details (email, office, website) live inside the collapsed body of
+each card. Section headings are <h2> tags (Professors, Faculty Lecturers, etc.)
+
+Everything we need is on the directory page — no profile fetching required.
+
 Usage:
   python3 scripts/scrape_mcgill_cs_faculty.py
-  python3 scripts/scrape_mcgill_cs_faculty.py --directory-url <url>
   python3 scripts/scrape_mcgill_cs_faculty.py --input-html data/mcgill_faculty_page.html
+  python3 scripts/scrape_mcgill_cs_faculty.py --skip-profile-enrich
 
 Outputs:
   data/mcgill_cs_faculty.json
@@ -15,181 +25,144 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from dataclasses import asdict, dataclass
+from dataclasses import asdict
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 
-import requests
 from bs4 import BeautifulSoup, Tag
 
+from scraper_utils import (
+    FacultyEntry,
+    clean_text,
+    enrich_from_profile,
+    load_directory_html,
+)
+
 DEFAULT_DIRECTORY_URL = "https://www.cs.mcgill.ca/people/faculty/"
-DEFAULT_BASE_URL = "https://www.cs.mcgill.ca"
+BASE_URL = "https://www.cs.mcgill.ca"
 OUTPUT_PATH = Path("data/mcgill_cs_faculty.json")
 
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 
-
-@dataclass
-class FacultyEntry:
-    name: str
-    title: str | None
-    email: str | None
-    profile_url: str | None
-    research_areas: list[str]
-    research_interests: list[str]
-    section: str | None
+# Noise lines that appear in card headings but are not research topics.
+# Typically department affiliations like "(Mathematics and Statistics)".
+AFFILIATION_RE = re.compile(r"^\(.*\)$")
 
 
-def _clean_text(value: str) -> str:
-    return re.sub(r"\s+", " ", value or "").strip()
+def _parse_card(card: Tag, section: str | None) -> FacultyEntry | None:
+    """Parse a single accordion faculty card into a FacultyEntry.
 
+    Card structure:
+      <a href="#collapse-N">
+        <h4>
+          Name
+          Research Area 1
+          Research Area 2
+          ...
+          <img .../>
+        </h4>
+      </a>
+      <div id="collapse-N">
+        <a href="website">Website</a>
+        Office: ...
+        Email: user@cs.mcgill.ca
+      </div>
+    """
+    heading = card.find("h4")
+    if not heading:
+        return None
 
-def _split_research(field_value: str) -> list[str]:
-    if not field_value:
-        return []
-    cleaned = _clean_text(field_value)
-    parts = re.split(r",|;|/|\band\b|\|", cleaned, flags=re.IGNORECASE)
-    seen: set[str] = set()
-    output: list[str] = []
-    for part in parts:
-        p = part.strip()
-        key = p.lower()
-        if p and key not in seen:
-            seen.add(key)
-            output.append(p)
-    return output
+    # Get all direct text lines from the heading, ignoring the <img> tag.
+    raw_lines = [
+        clean_text(line)
+        for line in heading.get_text("\n", strip=True).split("\n")
+        if clean_text(line)
+    ]
 
+    if not raw_lines:
+        return None
 
-def _looks_like_name(value: str) -> bool:
-    text = _clean_text(value)
-    parts = text.split()
-    if len(parts) < 2 or len(parts) > 5:
-        return False
-    return all(part[0].isalpha() for part in parts if part)
+    name = raw_lines[0]
 
+    # Lines 2+ are research areas, but skip affiliation notes like "(Psychology)".
+    research_areas = [
+        line for line in raw_lines[1:]
+        if line and not AFFILIATION_RE.match(line)
+    ]
 
-def _fetch_html(url: str, timeout: int = 30) -> str:
-    resp = requests.get(url, timeout=timeout)
-    resp.raise_for_status()
-    return resp.text
+    # Find the card body for contact info — it's the sibling div with matching id.
+    anchor = card.find("a", href=re.compile(r"^#collapse-"))
+    body_id = anchor["href"].lstrip("#") if anchor else None
+    body = card.find_next("div", id=body_id) if body_id else None
 
+    email: str | None = None
+    profile_url: str | None = None
+    title: str | None = None
 
-def _load_directory_html(input_html: str | None, directory_url: str) -> str:
-    if input_html:
-        html_path = Path(input_html)
-        if not html_path.exists():
-            raise FileNotFoundError(
-                f"Input HTML not found: {html_path}. "
-                "Pass a valid file path, or omit --input-html for live scraping."
-            )
-        return html_path.read_text(encoding="utf-8")
-    return _fetch_html(directory_url)
-
-
-def _extract_faculty_candidates(soup: BeautifulSoup, base_url: str) -> dict[str, FacultyEntry]:
-    candidates: dict[str, FacultyEntry] = {}
-    for anchor in soup.find_all("a", href=True):
-        name = _clean_text(anchor.get_text(" ", strip=True))
-        href = anchor["href"].strip()
-        if not _looks_like_name(name):
-            continue
-        if not href or href.startswith("#"):
-            continue
-
-        profile_url = urljoin(base_url, href)
-        key = name.lower()
-        if key in candidates:
-            continue
-
-        candidates[key] = FacultyEntry(
-            name=name,
-            title=None,
-            email=None,
-            profile_url=profile_url,
-            research_areas=[],
-            research_interests=[],
-            section="Faculty",
-        )
-    return candidates
-
-
-def _extract_labeled_fields(text_blob: str) -> tuple[str | None, list[str], list[str]]:
-    normalized = _clean_text(text_blob)
-
-    title = None
-    title_match = re.search(
-        r"(?:Position|Title|Rank)\s*:?\s*(.+?)(?=(?:Email|Research|Interests?)\s*:|$)",
-        normalized,
-        flags=re.IGNORECASE,
-    )
-    if title_match:
-        title = _clean_text(title_match.group(1))
-
-    research_areas: list[str] = []
-    research_interests: list[str] = []
-
-    areas_match = re.search(
-        r"Research Areas?\s*:?\s*(.+?)(?=(?:Research Interests?|Email|$))",
-        normalized,
-        flags=re.IGNORECASE,
-    )
-    if areas_match:
-        research_areas = _split_research(areas_match.group(1))
-
-    interests_match = re.search(
-        r"Research Interests?\s*:?\s*(.+?)(?=(?:Research Areas?|Email|$))",
-        normalized,
-        flags=re.IGNORECASE,
-    )
-    if interests_match:
-        research_interests = _split_research(interests_match.group(1))
-
-    return title, research_areas, research_interests
-
-
-def _enrich_from_profile(entry: FacultyEntry, timeout: int = 20) -> FacultyEntry:
-    if not entry.profile_url:
-        return entry
-
-    try:
-        html = _fetch_html(entry.profile_url, timeout=timeout)
-    except Exception:
-        return entry
-
-    soup = BeautifulSoup(html, "html.parser")
-    page_text = _clean_text(soup.get_text(" ", strip=True))
-
-    if not entry.email:
-        email_match = EMAIL_RE.search(page_text)
+    if body:
+        body_text = body.get_text()
+        email_match = EMAIL_RE.search(body_text)
         if email_match:
-            entry.email = email_match.group(0)
+            email = email_match.group(0)
 
-    title, areas, interests = _extract_labeled_fields(page_text)
-    if title and not entry.title:
-        entry.title = title
-    if areas:
-        entry.research_areas = areas
-    if interests:
-        entry.research_interests = interests
+        # Website link
+        website_anchor = body.find("a", string=re.compile(r"Website", re.IGNORECASE))
+        if website_anchor and website_anchor.get("href"):
+            href = website_anchor["href"].strip()
+            profile_url = href if href.startswith("http") else urljoin(BASE_URL, href)
 
-    if not entry.research_areas and not entry.research_interests:
-        headings = soup.find_all(["h2", "h3", "h4", "strong", "b"])
-        for h in headings:
-            heading_text = _clean_text(h.get_text(" ", strip=True)).lower()
-            if "research" not in heading_text and "interest" not in heading_text:
-                continue
-            parent = h.parent if isinstance(h.parent, Tag) else None
-            context_text = _clean_text(parent.get_text(" ", strip=True)) if parent else ""
-            _, fallback_areas, fallback_interests = _extract_labeled_fields(context_text)
-            if fallback_areas:
-                entry.research_areas = fallback_areas
-            if fallback_interests:
-                entry.research_interests = fallback_interests
-            if entry.research_areas or entry.research_interests:
+        # Title: look for lines containing rank keywords
+        for line in body_text.split("\n"):
+            line = clean_text(line)
+            if re.search(
+                r"\b(Professor|Lecturer|Director|Adjunct|Associate|Assistant)\b",
+                line,
+                re.IGNORECASE,
+            ):
+                title = line
                 break
 
-    return entry
+    return FacultyEntry(
+        name=name,
+        title=title,
+        email=email,
+        profile_url=profile_url,
+        research_areas=research_areas,
+        research_interests=[],
+        section=section,
+    )
+
+
+def _iter_sections(soup: BeautifulSoup):
+    """Yield (section_title, [card_elements]) by walking H2 headings."""
+    for heading in soup.find_all("h2"):
+        section_title = clean_text(heading.get_text(" ", strip=True))
+
+        # Skip non-faculty headings.
+        if not any(
+            kw in section_title.lower()
+            for kw in ("professor", "lecturer", "member", "emeritus", "memoriam", "director", "former")
+        ):
+            continue
+
+        # Collect all accordion card anchors until the next h2.
+        cards: list[Tag] = []
+        for sibling in heading.next_siblings:
+            if isinstance(sibling, Tag):
+                if sibling.name == "h2":
+                    break
+                # Each card is an <a> wrapping an <h4> with a collapse href.
+                if sibling.name == "a" and sibling.find("h4"):
+                    cards.append(sibling)
+                # Or they might be wrapped in a div
+                cards.extend(
+                    a for a in sibling.find_all("a", recursive=True)
+                    if a.find("h4") and a.get("href", "").startswith("#collapse-")
+                )
+
+        if cards:
+            yield section_title, cards
 
 
 def scrape(
@@ -197,44 +170,50 @@ def scrape(
     input_html: str | None = None,
     enrich_profiles: bool = True,
 ) -> dict:
-    directory_html = _load_directory_html(input_html=input_html, directory_url=directory_url)
-    soup = BeautifulSoup(directory_html, "html.parser")
+    soup = BeautifulSoup(
+        load_directory_html(input_html, directory_url), "html.parser"
+    )
 
-    entries = list(_extract_faculty_candidates(soup, DEFAULT_BASE_URL).values())
+    faculty_entries: list[FacultyEntry] = []
+    for section_title, cards in _iter_sections(soup):
+        for card in cards:
+            entry = _parse_card(card, section_title)
+            if entry and entry.name:
+                faculty_entries.append(entry)
+
+    # Deduplicate by name (card iteration can sometimes double-count).
+    seen: set[str] = set()
+    unique_entries: list[FacultyEntry] = []
+    for entry in faculty_entries:
+        key = entry.name.lower()
+        if key not in seen:
+            seen.add(key)
+            unique_entries.append(entry)
+    faculty_entries = unique_entries
 
     if enrich_profiles:
-        for idx, entry in enumerate(entries, start=1):
-            entries[idx - 1] = _enrich_from_profile(entry)
+        total = len(faculty_entries)
+        for idx, entry in enumerate(faculty_entries, start=1):
+            # Only fetch profiles for the rare entries still missing research data.
+            if not entry.research_areas and not entry.research_interests:
+                faculty_entries[idx - 1] = enrich_from_profile(entry)
             if idx % 25 == 0:
-                print(f"Enriched {idx}/{len(entries)} profiles...")
+                print(f"Processed {idx}/{total} entries...")
 
-    payload = {
+    return {
         "institution": "McGill University",
         "department": "Computer Science",
         "directory_url": directory_url,
         "scraped_at": datetime.now(timezone.utc).isoformat(),
-        "faculty": [asdict(entry) for entry in entries],
+        "faculty": [asdict(entry) for entry in faculty_entries],
     }
-    return payload
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--directory-url",
-        default=DEFAULT_DIRECTORY_URL,
-        help="McGill faculty directory URL to scrape.",
-    )
-    parser.add_argument(
-        "--input-html",
-        default=None,
-        help="Optional local directory HTML path (useful when network is blocked).",
-    )
-    parser.add_argument(
-        "--skip-profile-enrich",
-        action="store_true",
-        help="Skip per-profile fetches and output names/links only.",
-    )
+    parser.add_argument("--directory-url", default=DEFAULT_DIRECTORY_URL)
+    parser.add_argument("--input-html", default=None)
+    parser.add_argument("--skip-profile-enrich", action="store_true")
     args = parser.parse_args()
 
     payload = scrape(
