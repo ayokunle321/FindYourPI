@@ -28,18 +28,25 @@ const benefits = [
 ];
 
 type FacultyPayload = {
+  institution?: string;
   faculty: FacultyMember[];
 };
 
-async function getFacultyData(): Promise<FacultyMember[]> {
+async function getFacultyData(): Promise<{
+  faculty: FacultyMember[];
+  institution: string | null;
+}> {
   const filePath = path.join(process.cwd(), "data", "uoft_cs_faculty.json");
   const raw = await readFile(filePath, "utf-8");
   const parsed = JSON.parse(raw) as FacultyPayload;
-  return parsed.faculty ?? [];
+  return {
+    faculty: parsed.faculty ?? [],
+    institution: parsed.institution ?? null,
+  };
 }
 
 export default async function Home() {
-  const faculty = await getFacultyData();
+  const { faculty, institution } = await getFacultyData();
 
   return (
     <main className="min-h-screen bg-white text-slate-900 [background-image:radial-gradient(1200px_circle_at_top,_rgba(15,23,42,0.08),_transparent_60%),radial-gradient(900px_circle_at_bottom,_rgba(15,23,42,0.05),_transparent_55%)]">
@@ -62,12 +69,6 @@ export default async function Home() {
         <section className="mt-20 grid gap-10 text-left sm:grid-cols-3">
           {steps.map((step) => (
             <div key={step.title} className="space-y-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-sm font-semibold text-slate-700">
-                {step.title
-                  .split(" ")
-                  .map((word) => word[0])
-                  .join("")}
-              </div>
               <h2 className="text-lg font-semibold text-slate-900">
                 {step.title}
               </h2>
@@ -104,7 +105,7 @@ export default async function Home() {
         </section>
 
         <section className="mt-16 rounded-3xl border border-slate-200 bg-white/80 px-6 py-10 text-left shadow-sm backdrop-blur">
-          <FacultySearch faculty={faculty} />
+          <FacultySearch faculty={faculty} institution={institution} />
         </section>
       </div>
     </main>

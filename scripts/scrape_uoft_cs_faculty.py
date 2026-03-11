@@ -10,6 +10,7 @@ Outputs:
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
 from dataclasses import asdict, dataclass
@@ -24,6 +25,11 @@ DIRECTORY_URL = "https://web.cs.toronto.edu/people/faculty-directory"
 OUTPUT_PATH = Path("data/uoft_cs_faculty.json")
 
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
+NEXT_PERSON_RE = re.compile(
+    r"\b[A-Z][A-Za-z'’.\-]+(?:\s+[A-Z][A-Za-z'’.\-]+){1,3}\s+"
+    r"(?:Adjunct|Assistant|Associate|Consultant|Distinguished|Professor|Lecturer|"
+    r"Engineer|Scientist|Director)\b"
+)
 
 
 @dataclass
@@ -107,15 +113,29 @@ def _parse_entry_details(text_blob: str) -> tuple[str | None, str | None, list[s
     research_areas: list[str] = []
     research_interests: list[str] = []
 
-    areas_match = re.search(r"Research Areas?:\s*(.+)", text_blob, flags=re.IGNORECASE)
+    areas_match = re.search(
+        r"Research Areas?:\s*(.+?)(?=Research Interests?:|$)",
+        text_blob,
+        flags=re.IGNORECASE,
+    )
     if areas_match:
-        research_areas = _split_research(areas_match.group(1))
+        areas_text = areas_match.group(1)
+        next_person = NEXT_PERSON_RE.search(areas_text)
+        if next_person:
+            areas_text = areas_text[: next_person.start()]
+        research_areas = _split_research(areas_text)
 
     interests_match = re.search(
-        r"Research Interests?:\s*(.+)", text_blob, flags=re.IGNORECASE
+        r"Research Interests?:\s*(.+)",
+        text_blob,
+        flags=re.IGNORECASE,
     )
     if interests_match:
-        research_interests = _split_research(interests_match.group(1))
+        interests_text = interests_match.group(1)
+        next_person = NEXT_PERSON_RE.search(interests_text)
+        if next_person:
+            interests_text = interests_text[: next_person.start()]
+        research_interests = _split_research(interests_text)
 
     cleaned = text_blob
     if email:
@@ -165,11 +185,26 @@ def _extract_entries(block: Tag, section: str | None) -> Iterable[FacultyEntry]:
     return entries
 
 
-def scrape() -> dict:
+def _load_directory_html(input_html: str | None) -> str:
+    if input_html:
+        html_path = Path(input_html)
+        if not html_path.exists():
+            raise FileNotFoundError(
+                f"Input HTML not found: {html_path}. "
+                "Pass a valid file path, or omit --input-html for live scraping."
+            )
+        return html_path.read_text(encoding="utf-8")
     response = requests.get(DIRECTORY_URL, timeout=30)
     response.raise_for_status()
+    return response.text
 
-    soup = BeautifulSoup(response.text, "html.parser")
+
+def scrape(input_html: str | None = None, enrich_profiles: bool = True) -> dict:
+    # UofT parser currently extracts details directly from the directory page.
+    # Keep the `enrich_profiles` arg for CLI parity across school scrapers.
+    _ = enrich_profiles
+
+    soup = BeautifulSoup(_load_directory_html(input_html), "html.parser")
     main = soup.find("main") or soup.find("article") or soup.body
     if main is None:
         raise RuntimeError("Unable to locate main content on the page.")
@@ -189,7 +224,26 @@ def scrape() -> dict:
 
 
 def main() -> None:
-    payload = scrape()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--input-html",
+        default=None,
+        help="Optional local directory HTML path (useful when network is blocked).",
+    )
+    parser.add_argument(
+        "--skip-profile-enrich",
+        action="store_true",
+        help=(
+            "Accepted for CLI consistency across school scrapers; "
+            "UofT extraction is directory-only."
+        ),
+    )
+    args = parser.parse_args()
+
+    payload = scrape(
+        input_html=args.input_html,
+        enrich_profiles=not args.skip_profile_enrich,
+    )
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")
     print(f"Wrote {OUTPUT_PATH} with {len(payload['faculty'])} entries")

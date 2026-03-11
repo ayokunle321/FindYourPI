@@ -2,7 +2,7 @@
   "institution": "University of Toronto",
   "department": "Computer Science",
   "directory_url": "https://web.cs.toronto.edu/people/faculty-directory",
-  "scraped_at": "2026-02-09T18:33:24.714990+00:00",
+  "scraped_at": "2026-03-04T23:53:10.754319+00:00",
   "faculty": [
     {
       "name": "Ishtiaque Ahmed",
@@ -78,7 +78,7 @@
     },
     {
       "name": "Angela Brown",
-      "title": "Angela Brown Professor Associate Chair, Graduate Operations",
+      "title": "Angela Brown Professor Associate Chair, Graduate Studies",
       "email": null,
       "profile_url": "https://www.cs.toronto.edu/~demke/",
       "research_areas": [],
@@ -1069,11 +1069,7 @@
       "email": null,
       "profile_url": "https://baderlab.org/GaryBader",
       "research_areas": [
-        "computational biology Research Interests: machine learning",
-        "NLP of biomedical text",
-        "data integration",
-        "fusion methods for precision medicine",
-        "causal inference"
+        "computational biology"
       ],
       "research_interests": [
         "machine learning",
@@ -1206,10 +1202,7 @@
       "email": null,
       "profile_url": "https://www.eecg.utoronto.ca/~enright/",
       "research_areas": [
-        "computer architecture Research Interests: interconnection networks",
-        "memory system",
-        "approximate computing",
-        "IoT"
+        "computer architecture"
       ],
       "research_interests": [
         "interconnection networks",
@@ -1317,9 +1310,7 @@
         "data mining",
         "machine learning",
         "AI",
-        "explainable models in chronic diseases Lueder Kahrs Assistant Professor Math",
-        "Computational Sciences",
-        "UTM Research Areas: computational science"
+        "explainable models in chronic diseases"
       ],
       "research_interests": [],
       "section": "Cross-Appointed Faculty"
@@ -1397,7 +1388,7 @@
       "email": null,
       "profile_url": "https://www.ece.utoronto.ca/people/li-b/",
       "research_areas": [
-        "networks Shuang Li Assistant Professor Electrical & Computer Engineering Research Areas: vision"
+        "networks"
       ],
       "research_interests": [],
       "section": "Cross-Appointed Faculty"
@@ -1434,10 +1425,7 @@
       "email": null,
       "profile_url": "https://ischool.utoronto.ca/profile/kelly-lyons/",
       "research_areas": [
-        "databases Research Interests: social media",
-        "collaborative work",
-        "service science",
-        "data-driven knowledge mobilization"
+        "databases"
       ],
       "research_interests": [
         "social media",
@@ -1480,9 +1468,7 @@
       "research_areas": [
         "computational biology",
         "machine learning",
-        "computer vision Research Interests: Development",
-        "application of machine learning",
-        "computer vision in healthcare"
+        "computer vision"
       ],
       "research_interests": [
         "Development",
@@ -1510,12 +1496,7 @@
       "research_areas": [
         "computational biology",
         "machine learning",
-        "computational medicine Research Interests: cancer genomics",
-        "precision medicine",
-        "gene regulation",
-        "functional genomics",
-        "electronic health records",
-        "biological image analysis"
+        "computational medicine"
       ],
       "research_interests": [
         "cancer genomics",
@@ -1534,18 +1515,14 @@
       "profile_url": "https://csb.utoronto.ca/alan-moses/",
       "research_areas": [
         "computational biology",
-        "machine learning Research Interests: data analysis",
-        "integration for molecular biology",
-        "automated microscopy image analysis",
-        "gene regulatory networks",
-        "molecular evolution Andreas Moshovos Professor Electrical & Computer Engineering Research Areas: software engineering"
+        "machine learning"
       ],
       "research_interests": [
         "data analysis",
         "integration for molecular biology",
         "automated microscopy image analysis",
         "gene regulatory networks",
-        "molecular evolution Andreas Moshovos Professor Electrical & Computer Engineering Research Areas: software engineering"
+        "molecular evolution"
       ],
       "section": "Cross-Appointed Faculty"
     },
@@ -1557,12 +1534,7 @@
       "research_areas": [
         "human-computer interaction",
         "health",
-        "assistive technology Research Interests: speech",
-        "language interaction",
-        "mobile interaction for older adults",
-        "participatory design methods",
-        "intelligent user interfaces",
-        "multimodal interaction"
+        "assistive technology"
       ],
       "research_interests": [
         "speech",
@@ -1605,11 +1577,7 @@
       "email": null,
       "profile_url": "https://www.utm.utoronto.ca/math-cs-stats/people/andrew-petersen",
       "research_areas": [
-        "computing education Research Interests: programming exercises",
-        "CS1 assessment",
-        "student perspectives on",
-        "experiences in computing",
-        "applications of LLMs to education"
+        "computing education"
       ],
       "research_interests": [
         "programming exercises",
@@ -1650,14 +1618,7 @@
       "email": null,
       "profile_url": "https://www.moleculargenetics.utoronto.ca/faculty/2017/7/19/hannes-rost",
       "research_areas": [
-        "computational biology Research Interests: precision",
-        "personalized medicine",
-        "biostatistics",
-        "functional genomics",
-        "computational proteomics",
-        "metabolomics",
-        "systems biology",
-        "algorithms for mass spectrometry"
+        "computational biology"
       ],
       "research_interests": [
         "precision",
@@ -1679,16 +1640,7 @@
       "research_areas": [
         "machine learning",
         "machine learning theory",
-        "theoretical computer science Research Interests: foundations of machine learning",
-        "statistics",
-        "statistical learning theory",
-        "deep learning",
-        "online learning",
-        "non-convex optimization",
-        "PAC-Bayes",
-        "information theory",
-        "monte carlo",
-        "game theory"
+        "theoretical computer science"
       ],
       "research_interests": [
         "foundations of machine learning",
@@ -1713,13 +1665,7 @@
         "machine learning",
         "knowledge representation",
         "reasoning",
-        "computational social science Research Interests: applied machine learning",
-        "(conversational) recommender systems",
-        "social media analysis",
-        "probabilistic modeling",
-        "inference",
-        "sequential decision optimization",
-        "smart cities applications"
+        "computational social science"
       ],
       "research_interests": [
         "applied machine learning",
@@ -1812,12 +1758,7 @@
       "research_areas": [
         "computational biology",
         "machine learning",
-        "computational medicine Research Interests: human genetics",
-        "single-cell transcriptomics",
-        "brain diseases",
-        "network biology",
-        "gene-editing screens",
-        "therapeutic target discovery"
+        "computational medicine"
       ],
       "research_interests": [
         "human genetics",
@@ -1835,13 +1776,7 @@
       "email": null,
       "profile_url": "https://ischool.utoronto.ca/profile/eric-yu/",
       "research_areas": [
-        "software engineering Research Interests: requirements engineering",
-        "social modeling",
-        "enterprise computing",
-        "enterprise AI",
-        "enterprise architecture",
-        "knowledge management",
-        "information systems engineering"
+        "software engineering"
       ],
       "research_interests": [
         "requirements engineering",
@@ -1929,8 +1864,7 @@
       "email": null,
       "profile_url": "https://academic.sologen.net/",
       "research_areas": [
-        "AI: machine learning Research Interests: reinforcement learning",
-        "statistical learning theory"
+        "AI: machine learning"
       ],
       "research_interests": [
         "reinforcement learning",
@@ -1971,13 +1905,7 @@
       "research_areas": [
         "machine learning",
         "machine learning for health",
-        "computational medicine Research Interests: developing",
-        "applying machine learning models in health areas including representation learning",
-        "reinforcement learning",
-        "inverse reinforcement learning",
-        "prediction",
-        "risk stratification",
-        "model interpretability"
+        "computational medicine"
       ],
       "research_interests": [
         "developing",
@@ -2030,13 +1958,7 @@
       "email": null,
       "profile_url": "https://www.cs.toronto.edu/~frank/",
       "research_areas": [
-        "AI: computational linguistics Research Interests: natural language processing for health applications",
-        "machine learning for health applications",
-        "dialogue",
-        "speech recognition",
-        "brain-computer interfaces",
-        "ethics of AI",
-        "surgical safety"
+        "AI: computational linguistics"
       ],
       "research_interests": [
         "natural language processing for health applications",
@@ -2077,11 +1999,7 @@
       "email": null,
       "profile_url": "https://www.billbuxton.com/",
       "research_areas": [
-        "human-computer interaction Paul Dietz Adjunct Professor Distinguished Engineer in Residence Research Areas: human-computer interaction Garth Gibson Adjunct Consultant Research Areas: machine learning",
-        "statistics Mario Grech Adjunct Professor Director",
-        "co-founder",
-        "Department of Computer Science Innovation Lab (DCSIL) Research Areas: entrepreneurship",
-        "commercialization of applied research"
+        "human-computer interaction"
       ],
       "research_interests": [],
       "section": "Adjunct Faculty"
@@ -2137,7 +2055,7 @@
       "email": null,
       "profile_url": "https://research.nvidia.com/labs/dvl/author/laura-leal-taixe/",
       "research_areas": [
-        "vision Mike McCarthy Adjunct Professor Distinguished Executive in Residence"
+        "vision"
       ],
       "research_interests": [],
       "section": "Adjunct Faculty"

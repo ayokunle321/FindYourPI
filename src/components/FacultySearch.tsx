@@ -13,15 +13,66 @@ export type FacultyMember = {
 };
 
 const MAX_RESULTS = 12;
+const MAX_RESEARCH_TAGS = 5;
+const PERSON_BLOB_RE =
+  /\b[A-Z][A-Za-z'’. -]+(?:\s+[A-Z][A-Za-z'’. -]+){1,3}\s+(?:Adjunct|Assistant|Associate|Consultant|Distinguished|Professor|Lecturer|Engineer|Scientist|Director|Faculty)\b.*/;
+const INVALID_TOPIC_RE =
+  /\b(?:Department of|Innovation Lab|co-founder|Distinguished Executive in Residence)\b/i;
 
 function normalize(value: string) {
   return value.toLowerCase();
 }
 
+function cleanResearchTag(value: string) {
+  let cleaned = value.replace(/\s+/g, " ").trim();
+  if (!cleaned) {
+    return "";
+  }
+
+  cleaned = cleaned.replace(PERSON_BLOB_RE, "").trim();
+  cleaned = cleaned
+    .replace(/^Research Areas?:\s*/i, "")
+    .replace(/^Research Interests?:\s*/i, "")
+    .trim();
+
+  if (!cleaned || INVALID_TOPIC_RE.test(cleaned)) {
+    return "";
+  }
+
+  return cleaned;
+}
+
+function getResearchTags(member: FacultyMember) {
+  const unique = new Set<string>();
+  const ordered = [...member.research_areas, ...member.research_interests];
+
+  ordered.forEach((value) => {
+    const cleanedSource = value.replace(/\s+/g, " ").trim();
+    if (!cleanedSource || INVALID_TOPIC_RE.test(cleanedSource)) {
+      return;
+    }
+
+    const withoutPeople = cleanedSource.replace(PERSON_BLOB_RE, "").trim();
+    const segments = withoutPeople
+      .split(/Research Areas?:|Research Interests?:/i)
+      .map((segment) => cleanResearchTag(segment));
+
+    segments.forEach((segment) => {
+      if (segment) {
+        unique.add(segment);
+      }
+    });
+  });
+
+  return Array.from(unique).slice(0, MAX_RESEARCH_TAGS);
+}
+
 export default function FacultySearch({
   faculty,
+  institution,
 }: {
   faculty: FacultyMember[];
+  institution: string | null;
 }) {
   const [query, setQuery] = useState("");
   const [section, setSection] = useState("all");
@@ -103,61 +154,65 @@ export default function FacultySearch({
       </div>
 
       <div className="grid gap-4 md:grid-cols-2">
-        {visible.map((member) => (
-          <div
-            key={member.name}
-            className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"
-          >
-            <div className="flex items-start justify-between gap-4">
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-400">
-                  Faculty
-                </p>
-                <h3 className="mt-2 text-lg font-semibold text-slate-900">
-                  {member.name}
-                </h3>
-                {member.title ? (
-                  <p className="mt-1 text-sm text-slate-600">{member.title}</p>
+        {visible.map((member) => {
+          const researchTags = getResearchTags(member);
+
+          return (
+            <div
+              key={member.name}
+              className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"
+            >
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-400">
+                    Faculty
+                  </p>
+                  <h3 className="mt-2 text-lg font-semibold text-slate-900">
+                    {member.name}
+                  </h3>
+                  {member.title ? (
+                    <p className="mt-1 text-sm text-slate-600">{member.title}</p>
+                  ) : null}
+                </div>
+                {institution ? (
+                  <span className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-500">
+                    {institution}
+                  </span>
                 ) : null}
               </div>
-              {member.section ? (
-                <span className="rounded-full border border-slate-200 px-3 py-1 text-xs font-semibold text-slate-500">
-                  {member.section}
-                </span>
-              ) : null}
-            </div>
 
-            <div className="mt-4 flex flex-wrap gap-2">
-              {member.research_areas.slice(0, 4).map((area) => (
-                <span
-                  key={area}
-                  className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700"
-                >
-                  {area}
-                </span>
-              ))}
-              {member.research_areas.length === 0 ? (
-                <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-500">
-                  Research areas pending
-                </span>
-              ) : null}
-            </div>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {researchTags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700"
+                  >
+                    {tag}
+                  </span>
+                ))}
+                {researchTags.length === 0 ? (
+                  <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-500">
+                    Research areas pending
+                  </span>
+                ) : null}
+              </div>
 
-            <div className="mt-4 flex items-center justify-between text-xs text-slate-500">
-              {member.email ? <span>{member.email}</span> : <span />}
-              {member.profile_url ? (
-                <a
-                  href={member.profile_url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-semibold text-slate-700 transition hover:text-slate-900"
-                >
-                  Profile →
-                </a>
-              ) : null}
+              <div className="mt-4 flex items-center justify-between text-xs text-slate-500">
+                {member.email ? <span>{member.email}</span> : <span />}
+                {member.profile_url ? (
+                  <a
+                    href={member.profile_url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="font-semibold text-slate-700 transition hover:text-slate-900"
+                  >
+                    Profile →
+                  </a>
+                ) : null}
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
