@@ -11,7 +11,8 @@ const DATA_FILES = [
   "uoft_cs_faculty.json",
   "ubc_cs_faculty.json",
   "mcgill_cs_faculty.json",
-  "york_eecs_faculty.json"
+  "york_eecs_faculty.json",
+  "western_cs_faculty.json"
 ];
 
 async function getFacultyData(): Promise<FacultyMember[]> {

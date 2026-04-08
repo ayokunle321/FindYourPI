@@ -2,219 +2,350 @@
   "institution": "Western University",
   "department": "Computer Science",
   "directory_url": "https://www.csd.uwo.ca/people/faculty/index.html",
-  "scraped_at": "2026-03-11T17:29:52.882330+00:00",
+  "scraped_at": "2026-03-13T17:17:04.676543+00:00",
   "faculty": [
     {
       "name": "Mark Daley",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Professor",
+      "email": "daley@csd.uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/daley.html",
+      "research_areas": [
+        "Natural Computing",
+        "Computational And Mathematical Modelling Of Biological Systems",
+        "Theoretical Computer Science",
+        "High Performance Computing For Biology And Mathematics",
+        "Molecular Evolution",
+        "Algorithmics Of Music and the Visual Arts"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "JÃ¶rn Diedrichsen",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Professor",
+      "email": "jdiedric@uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/diedrichsen.html",
+      "research_areas": [
+        "Biomedical Imaging Analysis",
+        "Brain Function",
+        "Motor Control",
+        "Machine Learning"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Michael Domaratzki",
-      "title": null,
+      "title": "Chair, Associate Professor",
       "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/domaratzki.html",
+      "research_areas": [
+        "Bioinformatics",
+        "computational genetics and theoretical computer science."
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Mahmoud El-Sakka",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Associate Professor",
+      "email": "elsakka@csd.uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/el-sakka.html",
+      "research_areas": [
+        "Image Compression And Encoding",
+        "Image Enhancement",
+        "Image Analysis/inspection",
+        "Image Security",
+        "Clustering and Pattern Recognition"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Marwa  Elsayed",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Assistant Professor",
+      "email": "marwa.elsayed@uwo.ca",
+      "profile_url": "https://www.linkedin.com/in/marwa-elsayed/",
+      "research_areas": [
+        "Cybersecurity",
+        "Secure Software Engineering",
+        "Security Analytics"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Zubair Fadlullah",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Graduate Chair, Associate Professor",
+      "email": "zfadlull@uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/~zfadlull/",
+      "research_areas": [
+        "Next-Generation Networks (NGNs)",
+        "Resource Allocation in 5G and 6G Networks",
+        "Smart Cyber-Physical Systems (CPS) and Networks",
+        "Intelligent Internet of Things (IIoT)",
+        "Terrestrial-Aerial-Satellite Integrated Networks",
+        "Smart Grids",
+        "Vehicular Networks (V2X)",
+        "Advanced Signal Processing for Networks",
+        "Smart Society Applications (e.g.",
+        "Smart Grid",
+        "Smart Healthcare",
+        "Digital Twins)",
+        "Privacy-Preserving and Secure Communication Techniques",
+        "Collaborative and Federated Learning."
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Fang (Fiona) Fang",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Assistant Professor",
+      "email": "fang.fang@uwo.ca",
+      "profile_url": "https://www.eng.uwo.ca/electrical/faculty/fang_f/index.html",
+      "research_areas": [
+        "Machine Learning for Intelligent Wireless Communications",
+        "Internet of Things/Everything (IoT/IoE)",
+        "Multi-Access Edge Computing (MEC) Networks",
+        "Reconfigurable Intelligent Surface (RIS) aided Wireless Communications",
+        "Edge AI for 6G",
+        "and Blockchain"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Anwar Haque",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Associate Professor",
+      "email": "ahaque32@uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/haque.html",
+      "research_areas": [
+        "Wireless/wireline networks resources and performance management/optimization",
+        "network costing",
+        "cyber security",
+        "smart/intelligent systems and their applications"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Alice Huang",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Assistant Professor",
+      "email": "chuan364@uwo.ca",
+      "profile_url": "https://alicecwhuang.github.io/",
+      "research_areas": [
+        "Ethics and Technology",
+        "Dynamics of social networks."
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Lucian Ilie",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Professor",
+      "email": "ilie@csd.uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/ilie.html",
+      "research_areas": [
+        "Bioinformatics",
+        "Machine Learning"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Duff Jones",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Assistant Professor",
+      "email": "djone5@uwo.ca",
+      "profile_url": "https://www.duffjones.ca",
+      "research_areas": [
+        "Computing Machinery",
+        "Game Development",
+        "Metaverse and Named Data Networking. (Not currently accepting Graduate students)"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Mike Katchabaw",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Associate Professor",
+      "email": "katchab@csd.uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/katchabaw.html",
+      "research_areas": [
+        "Video Game Design And Technologies",
+        "Virtual Worlds",
+        "Participatory Simulations",
+        "Massively Scaled Applications",
+        "Storytelling And Narrative Design For Games",
+        "Artificial Intelligence And Character Behaviour In Games",
+        "Music In Games And New Media Systems"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Agustinus Kristiadi",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Assistant Professor",
+      "email": "akristi@uwo.ca",
+      "profile_url": "https://agustinus.kristia.de",
+      "research_areas": [
+        "Deep Learning",
+        "Uncertainty Quantification",
+        "Decision-Making Under Uncertainty",
+        "AI4Science"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Charles Ling",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Professor",
+      "email": "cling@csd.uwo.ca",
+      "profile_url": "http://www.csd.uwo.ca/faculty/ling",
+      "research_areas": [
+        "Data Mining and its Applications",
+        "Machine Learning",
+        "Cognitive Modeling"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Daniel Lizotte",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Associate Professor",
+      "email": "dlizotte@uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/lizotte.html",
+      "research_areas": [
+        "Health Informatics",
+        "Machine Learning",
+        "and Computational Statistics"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Hanan Lutfiyya",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Professor",
+      "email": "hanan@csd.uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/lutfiyya.html",
+      "research_areas": [
+        "Software Engineering",
+        "Distributed Systems",
+        "Fault Tolerance"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Nazim\t Madhavji",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Professor",
+      "email": "nmadhavj@uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/madhavji.html",
+      "research_areas": [
+        "Big Data Software Engineering",
+        "Cloud Software Engineering",
+        "Requirements Engineering",
+        "Software Architectures",
+        "Software Quality",
+        "Software defects",
+        "System compliance",
+        "Software Evolution and Feedback",
+        "Software Processes",
+        "Empirical Studies."
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Mostafa Milani",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Assistant Professor",
+      "email": "mostafa.milani@uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/milani.html",
+      "research_areas": [
+        "Database systems and data management",
+        "with a particular focus on data quality",
+        "data cleaning and access to data."
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Yalda Mohsenzadeh",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Assistant Professor",
+      "email": "ymohsenz@uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/mohsenzadeh.html",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Cognitive Computational Neuroscience",
+        "Brain Data Analysis Methods"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Marc Moreno Maza",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Professor",
+      "email": "moreno@csd.uwo.ca",
+      "profile_url": "http://www.csd.uwo.ca/faculty/moreno/",
+      "research_areas": [
+        "Computer Algebra",
+        "Non-linear system solving",
+        "Parallel processing",
+        "High Performance Computing",
+        "Algebraic Geometry",
+        "Programming Languages."
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Apurva Narayan",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Associate Professor",
+      "email": "apurva.narayan@uwo.ca",
+      "profile_url": "https://www.anarayan.com",
+      "research_areas": [
+        "Data Analytics",
+        "Applied AI",
+        "Machine Learning",
+        "Software Engineering",
+        "Safety & Security of Cyber-Physical Systems",
+        "Dependable AI Systems",
+        "AI in Health Care",
+        "Decision Making under Uncertainty",
+        "and Quantum Machine Learning"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Umair Rehman",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Assistant Professor",
+      "email": "urehman6@uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/rehman.html",
+      "research_areas": [
+        "Human-Centered Computing",
+        "Video Games",
+        "Human-AI Interaction",
+        "Sociotechnical Systems"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Laura Reid",
-      "title": null,
-      "email": null,
-      "profile_url": null,
+      "title": "Lecturer",
+      "email": "lreid@csd.uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/reid.html",
       "research_areas": [],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Angela Roberts",
-      "title": null,
-      "email": null,
+      "title": "Associate Professor",
+      "email": "angela.roberts@uwo.ca",
       "profile_url": null,
       "research_areas": [],
       "research_interests": [],
@@ -222,64 +353,101 @@
     },
     {
       "name": "Bryan Sarlo",
-      "title": null,
-      "email": null,
-      "profile_url": null,
+      "title": "Undergraduate Chair, Lecturer",
+      "email": "bsarlo@uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/sarlo.html",
       "research_areas": [],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Daniel Servos",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Assistant Professor",
+      "email": "dservos5@uwo.ca",
+      "profile_url": "http://danielservos.ca",
+      "research_areas": [
+        "CS education research",
+        "Introductory programming pedagogy",
+        "Flipped & hybrid learning",
+        "Accessible in-class response tools",
+        "Equity-focused CS learning"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Kamran Sedig",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Professor",
+      "email": "sedig@uwo.ca",
+      "profile_url": "http://www.csd.uwo.ca/faculty/sedig",
+      "research_areas": [
+        "Visual Analytics",
+        "Human-Centered Computing",
+        "Human-Data Interaction",
+        "Information Tools for Complex Cognitive Tasks",
+        "Human-Computer Interaction in Visualization",
+        "Joint Cognitive Systems",
+        "Data Visualization",
+        "High-Interaction Information Interfaces",
+        "Medical and Health Informatics",
+        "and Data-Intensive Activity and Task Design."
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Roberto Solis-Oba",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Professor",
+      "email": "solis@csd.uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/solis-oba.html",
+      "research_areas": [
+        "Combinatorial Optimization",
+        "Data Structures",
+        "Approximation",
+        "Parallel and Distributed Algorithms"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Boyu Wang",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Associate Professor",
+      "email": "bwang@csd.uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/wang.html",
+      "research_areas": [
+        "Machine learning",
+        "neuroscience",
+        "and biomedical engineering"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Grace Yi",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Professor",
+      "email": "gyi5@uwo.ca",
+      "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/yi.html",
+      "research_areas": [
+        "Developing methodology to address various challenges concerning Data Science",
+        "public health",
+        "cancer research",
+        "epidemiological studies",
+        "environmental studies",
+        "and social science."
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     },
     {
       "name": "Kaizhong Zhang",
-      "title": null,
-      "email": null,
-      "profile_url": null,
-      "research_areas": [],
+      "title": "Professor",
+      "email": "kzhang@csd.uwo.ca",
+      "profile_url": "http://www.csd.uwo.ca/faculty/kzhang/",
+      "research_areas": [
+        "Bioinformatics",
+        "Pattern Matching and Discovery",
+        "Algorithms and Data Structures"
+      ],
       "research_interests": [],
       "section": "Full-Time Faculty"
     }
