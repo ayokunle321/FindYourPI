@@ -340,7 +340,14 @@
       "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/reid.html",
       "research_areas": [],
       "research_interests": [],
-      "section": "Full-Time Faculty"
+      "section": "Full-Time Faculty",
+      "research_tags": [
+        "database security",
+        "role-based access control",
+        "relational databases",
+        "computer science education",
+        "blended learning"
+      ]
     },
     {
       "name": "Angela Roberts",
@@ -358,7 +365,14 @@
       "profile_url": "https://www.csd.uwo.ca/people/faculty/bios/sarlo.html",
       "research_areas": [],
       "research_interests": [],
-      "section": "Full-Time Faculty"
+      "section": "Full-Time Faculty",
+      "research_tags": [
+        "video game development",
+        "artificial intelligence",
+        "simulation",
+        "multimedia",
+        "computer science"
+      ]
     },
     {
       "name": "Daniel Servos",

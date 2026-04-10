@@ -24,7 +24,7 @@
         "Artificial Intelligence & Machine Learning",
         "Visual Computing",
         "Robotics",
-        "Human\u2010AI Interaction"
+        "Human‐AI Interaction"
       ],
       "research_interests": [],
       "section": "Mobile Menu"
@@ -112,7 +112,7 @@
       "research_areas": [
         "Artificial Intelligence & Machine Learning",
         "Human-Computer Interaction",
-        "Human\u2010AI Interaction",
+        "Human‐AI Interaction",
         "Natural Language Processing",
         "Visualization"
       ],
@@ -163,7 +163,7 @@
       "research_areas": [
         "Artificial Intelligence & Machine Learning",
         "Human-Computer Interaction",
-        "Human\u2010AI Interaction"
+        "Human‐AI Interaction"
       ],
       "research_interests": [],
       "section": "Mobile Menu"
@@ -264,13 +264,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Mobile Menu"
+      "section": "Mobile Menu",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational methods"
+      ]
     },
     {
       "name": "Mark Greenstreet",
@@ -417,7 +424,7 @@
       "section": "Mobile Menu"
     },
     {
-      "name": "Mathias L\u00e9cuyer",
+      "name": "Mathias Lécuyer",
       "title": null,
       "email": "Professormathias.lecuyer@ubc.caICICS",
       "profile_url": "https://www.cs.ubc.ca/people/mathias-lecuyer",
@@ -476,7 +483,7 @@
       "profile_url": "https://www.cs.ubc.ca/people/joanna-mcgrenere",
       "research_areas": [
         "Human-Computer Interaction",
-        "Human\u2010AI Interaction"
+        "Human‐AI Interaction"
       ],
       "research_interests": [],
       "section": "Mobile Menu"
@@ -549,7 +556,7 @@
         "Computer Science Education",
         "Data Management & Mining",
         "Human-Computer Interaction",
-        "Human\u2010AI Interaction"
+        "Human‐AI Interaction"
       ],
       "research_interests": [],
       "section": "Mobile Menu"
@@ -656,13 +663,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Mobile Menu"
+      "section": "Mobile Menu",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data science",
+        "computational models"
+      ]
     },
     {
       "name": "Andrew Roth",
@@ -919,7 +933,7 @@
       "profile_url": "https://www.cs.ubc.ca/people/dongwook-yoon",
       "research_areas": [
         "Human-Computer Interaction",
-        "Human\u2010AI Interaction",
+        "Human‐AI Interaction",
         "Virtual & Augmented Reality"
       ],
       "research_interests": [],
@@ -1004,13 +1018,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Uri Ascher",
@@ -1070,13 +1091,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computational mathematics",
+        "numerical analysis",
+        "computational science",
+        "scientific computing",
+        "computational methods"
+      ]
     },
     {
       "name": "Kellogg Booth",
@@ -1125,13 +1153,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "William Evans",
@@ -1224,13 +1259,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data science",
+        "computational models"
+      ]
     },
     {
       "name": "Ed Knorr",
@@ -1288,14 +1330,14 @@
         "Portland",
         "Oregon",
         "March 11-14",
-        "2020. Edwin M. Knorr. \u201cReforming a Database Course to Address Cognitive Load Using Worked Examples\"",
+        "2020. Edwin M. Knorr. “Reforming a Database Course to Address Cognitive Load Using Worked Examples\"",
         "Proceedings of the 24th Western Canadian Conference on Computing Education",
         "Calgary",
         "AB",
         "May 3-4",
         "2019. Edwin M. Knorr",
         "Giulio Valentino Dalla Riva",
-        "Orlin Vakarelov. \u201cAnatomy of a Data Science Course in Privacy",
+        "Orlin Vakarelov. “Anatomy of a Data Science Course in Privacy",
         "Ethics",
         "Security\"",
         "Proceedings of the 23rd Western Canadian Conference on Computing Education",
@@ -1303,25 +1345,25 @@
         "BC",
         "May 4-5",
         "2018. Edwin M. Knorr",
-        "Christopher Thompson. \u201cIn-Lab Programming Tests in a Data Structures Course in C for Non-Specialists\u201d",
+        "Christopher Thompson. “In-Lab Programming Tests in a Data Structures Course in C for Non-Specialists”",
         "Proceedings of ACM SIGCSE '17",
         "Seattle",
         "Washington",
         "March 8-11",
         "2017. Edwin M. Knorr",
-        "Christopher Thompson. \u201cEngagement",
-        "Sustainability in a Data Structures Course in C for Non-Specialists\u201d",
+        "Christopher Thompson. “Engagement",
+        "Sustainability in a Data Structures Course in C for Non-Specialists”",
         "Proceedings of the 21st Western Canadian Conference on Computing Education",
         "Kamloops",
         "May 6-7",
         "2016. Donald Acton",
-        "Edwin M. Knorr. \u201cDifferent Audiences but Similar Engagement Goals: In-Progress Work on Two Course Transformations\u201d",
+        "Edwin M. Knorr. “Different Audiences but Similar Engagement Goals: In-Progress Work on Two Course Transformations”",
         "Proceedings of the 18th Western Canadian Conference on Computing Education",
         "North Vancouver",
         "May 3",
         "2013. Benjamin Yu",
-        "Edwin M. Knorr. \u201cSteps towards a Scientific Approach to a Database Course Transformation: Data Collection",
-        "Analysis\u201d",
+        "Edwin M. Knorr. “Steps towards a Scientific Approach to a Database Course Transformation: Data Collection",
+        "Analysis”",
         "Proceedings of the 15th Western Canadian Conference on Computing Education",
         "Kelowna",
         "May 7-8",
@@ -1403,13 +1445,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer science",
+        "software engineering",
+        "artificial intelligence",
+        "data analysis",
+        "computational methods"
+      ]
     },
     {
       "name": "Jim Little",
@@ -1489,13 +1538,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "David Lowe",
@@ -1543,13 +1599,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "artificial intelligence",
+        "robotics",
+        "image processing"
+      ]
     },
     {
       "name": "Alan Mackworth",
@@ -1620,13 +1683,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "robotics research",
+        "intelligent systems"
+      ]
     },
     {
       "name": "David Poole",
@@ -1701,7 +1771,7 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
@@ -1743,12 +1813,19 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Ronald Rensink",
@@ -1806,13 +1883,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "human perception",
+        "visual cognition",
+        "cognitive science"
+      ]
     },
     {
       "name": "George Tsiknis",
@@ -1860,13 +1944,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Michiel van de Panne",
@@ -1904,13 +1995,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "algorithm design"
+      ]
     },
     {
       "name": "Son Vuong",
@@ -1935,13 +2033,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Alan Wagner",
@@ -1985,13 +2090,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Bob Woodham",
@@ -2052,13 +2164,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Nicholas Bradley",
@@ -2087,13 +2206,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty Emeriti"
+      "section": "Faculty Emeriti",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Jordon Johnson",
@@ -2119,13 +2245,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty Emeriti"
+      "section": "Faculty Emeriti",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Vsevolod (Seva) Lynov",
@@ -2159,13 +2292,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty Emeriti"
+      "section": "Faculty Emeriti",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational methods"
+      ]
     },
     {
       "name": "Firas Moosvi",
@@ -2245,7 +2385,7 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
@@ -2304,12 +2444,19 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
-      "section": "Faculty Emeriti"
+      "section": "Faculty Emeriti",
+      "research_tags": [
+        "artificial intelligence",
+        "machine learning",
+        "computer vision",
+        "data science",
+        "computational models"
+      ]
     },
     {
       "name": "Mehrdad Oveisi",
@@ -2337,13 +2484,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty Emeriti"
+      "section": "Faculty Emeriti",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data science",
+        "computational methods"
+      ]
     },
     {
       "name": "Geoffrey Tien",
@@ -2394,13 +2548,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Faculty Emeriti"
+      "section": "Faculty Emeriti",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Jessica Wong",
@@ -2439,13 +2600,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Ibtissem Bouacheria",
@@ -2470,13 +2638,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational methods"
+      ]
     },
     {
       "name": "Paul Bucci",
@@ -2502,13 +2677,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Jianhao Cao",
@@ -2533,13 +2715,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data science",
+        "computational methods"
+      ]
     },
     {
       "name": "Seyyed Hosseini",
@@ -2564,13 +2753,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Katharine Kerr",
@@ -2595,13 +2791,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data science",
+        "computational models"
+      ]
     },
     {
       "name": "Chris Kerslake",
@@ -2626,13 +2829,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Adrian Lindsay",
@@ -2657,13 +2867,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "artificial intelligence",
+        "machine learning",
+        "computer vision",
+        "data science",
+        "computational models"
+      ]
     },
     {
       "name": "Gautam Luhana",
@@ -2690,13 +2907,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data science",
+        "computational models"
+      ]
     },
     {
       "name": "Tony Mason",
@@ -2721,13 +2945,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Maryam Raiyat Aliabadi",
@@ -2752,13 +2983,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational methods"
+      ]
     },
     {
       "name": "Parsa Rajabi",
@@ -2768,7 +3006,7 @@
       "research_areas": [
         "Computer Science Education",
         "Human-Computer Interaction",
-        "Human\u2010AI Interaction",
+        "Human‐AI Interaction",
         "Software Engineering"
       ],
       "research_interests": [],
@@ -2797,13 +3035,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Xingguang Yan",
@@ -2828,13 +3073,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Lecturer"
+      "section": "Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Reto Achermann",
@@ -2872,13 +3124,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "computer graphics",
+        "animation techniques",
+        "physics simulation",
+        "computer vision",
+        "virtual environments"
+      ]
     },
     {
       "name": "Matthew Brown",
@@ -2903,16 +3162,23 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
-      "name": "S\u00e9bastien Fabbro",
+      "name": "Sébastien Fabbro",
       "title": null,
       "email": "Professorsebfabbro@gmail.com",
       "profile_url": "https://www.cs.ubc.ca/people/sebastien-fabbro",
@@ -2930,17 +3196,24 @@
         "the Department Hire Our Students or Alumni Alumni Connections Alumni Benefits Alumni",
         "Industry Lecture Series Alumni Profiles Stay Connected Get Involved Tri-Mentoring Program Mentoring Resources Tech Career Fair GIRLsmarts4tech Jobs & Careers Department Jobs Faculty & Sessional Staff Students Industry Jobs Non Co-op Job Postings Employers: How to Post a Job on this Site Alumni Job Postings Career Resources Finding Career Opportunities Finding Summer Jobs",
         "Internships Building CS Skills",
-        "Experience Helpful Job Postings Sites Making the Most of Online Job Postings Preparing for the Technical Career Fair: Tips Useful Company Listings for Identifying Possible Employers Career Planning Occupational Information How to Find Salary Information Events & Workshops Engage Sponsor Us Donate Breadcrumb Home People S\u00e9bastien Fabbro Adjunct Professor Email sebfabbro@gmail.com Submenu Leadership Former Leadership Faculty Staff In Memoriam Computer Science ICICS",
+        "Experience Helpful Job Postings Sites Making the Most of Online Job Postings Preparing for the Technical Career Fair: Tips Useful Company Listings for Identifying Possible Employers Career Planning Occupational Information How to Find Salary Information Events & Workshops Engage Sponsor Us Donate Breadcrumb Home People Sébastien Fabbro Adjunct Professor Email sebfabbro@gmail.com Submenu Leadership Former Leadership Faculty Staff In Memoriam Computer Science ICICS",
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Thomas Fritz",
@@ -2965,13 +3238,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "computer science",
+        "software engineering",
+        "human computer interaction",
+        "user experience design",
+        "computer systems"
+      ]
     },
     {
       "name": "Hu Fu",
@@ -3003,13 +3283,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Michael Gelbart",
@@ -3041,13 +3328,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "computational algebra",
+        "discrete mathematics",
+        "algebraic geometry",
+        "computational complexity",
+        "number theory"
+      ]
     },
     {
       "name": "Wolfgang Heidrich",
@@ -3126,18 +3420,25 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Holger H. Hoos",
-      "title": "Hutter, Domagoj Babic, Holger H. Hoos and Alan Hu - Proceedings of the 7th International Conference on Formal Methods in Computer-Aided Design (FMCAD-07), pp. 27-34, 2007. SATzilla: Portfolio-based Algorithm Selection for SAT. Lin Xu, Frank Hutter, Holger H. Hoos, Kevin Leyton-Brown - Journal of Artificial Intelligence Research, Volume 32, pp. 565\u2013606, 2008. Computational approaches for RNA energy parameter estimation. Mirela Andronescu, Anne Condon, Holger Hoos, David Mathews and Kevin Murphy - RNA 16(12): 2304-2318, 2010. Representing Score-Level Music Using the GUIDO Music-Notation Format. Holger H. Hoos, Keith A. Hamel, Kai Renz, and Jurgen Kilian - Computing in Musicology, Vol 12, MIT Press, 2001. Solving Combinatorial Auctions using Stochastic Local Search. Holger H. Hoos and Craig Boutilier - Proceedings of AAAI-2000, pp. 22-29, MIT Press, 2000. Interests Hard combinatorial problems occur in many areas of computer science and its applications, such as Artificial Intelligence, Bioinformatics, and Electronic Commerce. Although theoretical complexity results suggest that most of these problems are exponentially hard in the worst-case, this does not always mean that they cannot be solved reasonably effectively in practice. One of my primary research interests is to study hard combinatorial problems, and to explore algorithmic ways of solving them as efficiently as possible in practical applications. In this context, I am particularly interested in stochastic search algorithms that combine goal-directed, greedy search with randomised decisions. This group of algorithms includes general algorithmic techniques such as simulated annealing, evolutionary algorithms, ant-colony optimisation, or stochastic hill-climbing, as well as problem-specific algorithms. I have been working on various types of stochastic local search algorithms, investigated and modelled their behaviour, and developed new, improved algorithms for various applications, such as the satisfiability in propositional logic (SAT), the travelling salesperson problem (TSP), or winner-determination in combinatorial auctions. Currently, I am particularly interested in studying and developing stochastic search techniques for problems in bioinformatics, biocomputing, artificial intelligence, and electronic commerce. Although stochastic search algorithms are typically rather easy to implement, their behaviour is quite complex and presently not well understood. Much like other, more complex systems or algorithms, they are difficult to analyse theoretically. Therefore, empirical methodology is crucial for analysing and improving these algorithms. Compared to the methods used in other sciences, such as physics or biology, the empirical methodology for studying algorithms or systems in computer science is quite underdeveloped. I am working on improved methods for the empirical analysis of algorithms and use these methods for studying stochastic search algorithms. Such advanced empirical methods allow me to investigate and to model aspects of these algorithms' behaviour that are often not accessible to theoretical analysis. The potential of this approach is illustrated by recent breakthroughs in the development and application of algorithms for hard combinatorial problems that have been substantially facilitated by advanced empirical methodology. Computer Music is an exciting interdisciplinary field that combines artistic and scientific approaches and considerations; it has also strong links to fundamental issues in artificial intelligence and human-computer interaction. My work in Computer Music is focussed on software environments for the computer-assisted generation, manipulation, and analysis of score-level musical material as well as on the symbolic representations that provide the basis for such systems. Awards Prominent Paper Award GECCO 2020 Best Paper Award PNSS Best Paper Award Association for the Advancement of Artificial Intelligence Fellow SATzilla Challenge Distinguished Scholar in Residence, Peter Wall Institute for Advanced Studies IJCAI-JAIR Best Paper Prize 2010 IJCAII-JAIR Best Paper Award NSERC Discovery Accelerator Supplement IJCAI-JAIR Best Paper Prize 2009 International SAT Competition 2009 2008 CS Department Teaching Award International SAT Competition 2007 Canadian AI-2006 Best Paper Award 2005 CS Department Teaching Award Courses 2015 Winter CPSC_V 445 - Term 2 - Algorithms in Bioinformatics CPSC_V 536H - Term 2 - Topics in Algorithms and Complexity Submenu Leadership Former Leadership Faculty Staff In Memoriam Computer Science ICICS/CS Building 201-2366 Main Mall Vancouver , BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional, ancestral, and unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures | Terms of Use | UBC Copyright | Accessibility",
-      "email": "Professorhoos@cs.ubc.ca",
+      "title": "Professor",
+      "email": "hoos@cs.ubc.ca",
       "profile_url": "https://www.cs.ubc.ca/people/holger-h-hoos",
       "research_areas": [
         "Research Groups Research Centres Recent Research News Recent Research Awards Research Facilities Research Videos Spin-off Companies News & Events News Awards Events Industry & Alumni Industry Partnership Alumni Connections Tri-Mentoring Program Tech Career Fair GIRLsmarts4tech Jobs & Careers Department Jobs Industry Jobs Career Resources Engage Sponsor Us Donate Mobile Menu About Contact Us Floor Maps Overview By the Numbers Emergencies & Safety Health & Wellness Academic Integrity Diversity",
@@ -3179,7 +3480,7 @@
         "Frank Hutter",
         "Kevin Leyton-Brown - Journal of Artificial Intelligence Research",
         "Volume 32",
-        "pp. 565\u2013606",
+        "pp. 565–606",
         "2008. Computational approaches for RNA energy parameter estimation. Mirela Andronescu",
         "Anne Condon",
         "Holger Hoos",
@@ -3241,7 +3542,7 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
@@ -3289,12 +3590,19 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "stochastic local search",
+        "combinatorial optimization",
+        "artificial intelligence",
+        "bioinformatics algorithms",
+        "computer music theory"
+      ]
     },
     {
       "name": "Issam Hadj Laradji",
@@ -3319,13 +3627,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Andreas Lehrmann",
@@ -3353,13 +3668,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Derek Hsueh-Ti Liu",
@@ -3384,13 +3706,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "artificial intelligence",
+        "machine learning",
+        "computer vision",
+        "data science",
+        "human computer interaction"
+      ]
     },
     {
       "name": "Kevin Murphy",
@@ -3415,13 +3744,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "artificial intelligence",
+        "machine learning",
+        "computer science",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Gabriel Murray",
@@ -3447,13 +3783,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Helge Rhodin",
@@ -3478,13 +3821,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "deep learning",
+        "natural language processing"
+      ]
     },
     {
       "name": "Ben Shneiderman",
@@ -3509,13 +3859,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "human-computer interaction",
+        "information visualization",
+        "computer science",
+        "user experience",
+        "interaction design"
+      ]
     },
     {
       "name": "Tibor van Rooij",
@@ -3540,13 +3897,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Nicholas Vining",
@@ -3571,13 +3935,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Andrew Warfield",
@@ -3603,13 +3974,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Sessional Lecturer"
+      "section": "Sessional Lecturer",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational methods"
+      ]
     },
     {
       "name": "Muhammad Abdul-Mageed",
@@ -3634,13 +4012,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "natural language processing",
+        "computational linguistics",
+        "arabic language processing",
+        "text analysis techniques",
+        "machine learning methods"
+      ]
     },
     {
       "name": "Ahmet Alacaoglu",
@@ -3665,13 +4050,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Trevor Campbell",
@@ -3696,13 +4088,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data science",
+        "computational models"
+      ]
     },
     {
       "name": "Khanh Dao Duc",
@@ -3727,13 +4126,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data science",
+        "computational models"
+      ]
     },
     {
       "name": "Alexandra Fedorova",
@@ -3758,16 +4164,23 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational methods"
+      ]
     },
     {
-      "name": "J\u00f6rg Gsponer",
+      "name": "Jörg Gsponer",
       "title": null,
       "email": "Biologygsponer@msl.ubc.ca",
       "profile_url": "https://www.cs.ubc.ca/people/jorg-gsponer",
@@ -3785,17 +4198,24 @@
         "the Department Hire Our Students or Alumni Alumni Connections Alumni Benefits Alumni",
         "Industry Lecture Series Alumni Profiles Stay Connected Get Involved Tri-Mentoring Program Mentoring Resources Tech Career Fair GIRLsmarts4tech Jobs & Careers Department Jobs Faculty & Sessional Staff Students Industry Jobs Non Co-op Job Postings Employers: How to Post a Job on this Site Alumni Job Postings Career Resources Finding Career Opportunities Finding Summer Jobs",
         "Internships Building CS Skills",
-        "Experience Helpful Job Postings Sites Making the Most of Online Job Postings Preparing for the Technical Career Fair: Tips Useful Company Listings for Identifying Possible Employers Career Planning Occupational Information How to Find Salary Information Events & Workshops Engage Sponsor Us Donate Breadcrumb Home People J\u00f6rg Gsponer Associate Member - Biochemistry & Molecular Biology Email gsponer@msl.ubc.ca Submenu Leadership Former Leadership Faculty Staff In Memoriam Computer Science ICICS",
+        "Experience Helpful Job Postings Sites Making the Most of Online Job Postings Preparing for the Technical Career Fair: Tips Useful Company Listings for Identifying Possible Employers Career Planning Occupational Information How to Find Salary Information Events & Workshops Engage Sponsor Us Donate Breadcrumb Home People Jörg Gsponer Associate Member - Biochemistry & Molecular Biology Email gsponer@msl.ubc.ca Submenu Leadership Former Leadership Faculty Staff In Memoriam Computer Science ICICS",
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "computational physics",
+        "machine learning",
+        "computational methods",
+        "computational modeling",
+        "computational science"
+      ]
     },
     {
       "name": "Roman Krems",
@@ -3820,13 +4240,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "quantum computing",
+        "computational chemistry",
+        "materials science",
+        "theoretical physics",
+        "condensed matter"
+      ]
     },
     {
       "name": "Xiaoxiao Li",
@@ -3851,13 +4278,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Jiajin Li",
@@ -3882,13 +4316,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "artificial intelligence",
+        "machine learning",
+        "computer vision",
+        "data science",
+        "computational models"
+      ]
     },
     {
       "name": "Renjie Liao",
@@ -3913,13 +4354,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "artificial intelligence",
+        "machine learning",
+        "computer vision",
+        "data science",
+        "computational methods"
+      ]
     },
     {
       "name": "Joseph Paat",
@@ -3944,13 +4392,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "computational biology",
+        "bioinformatics analysis",
+        "genomics research",
+        "computational genomics",
+        "systems biology"
+      ]
     },
     {
       "name": "Isabel Papadimitriou",
@@ -3975,13 +4430,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Jesse Perla",
@@ -4006,13 +4468,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "artificial intelligence",
+        "machine learning",
+        "computer science",
+        "data science",
+        "computational methods"
+      ]
     },
     {
       "name": "Geoff Pleiss",
@@ -4047,13 +4516,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "machine learning",
+        "computer vision",
+        "deep learning",
+        "artificial intelligence",
+        "data science"
+      ]
     },
     {
       "name": "Julia Rubin",
@@ -4081,13 +4557,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Mohammad Shahrad",
@@ -4112,13 +4595,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Saifuddin Syed",
@@ -4143,13 +4633,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "artificial intelligence",
+        "machine learning",
+        "computer vision",
+        "data science",
+        "natural language processing"
+      ]
     },
     {
       "name": "Anthony Wachs",
@@ -4177,13 +4674,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "computational models"
+      ]
     },
     {
       "name": "Jian Zhu",
@@ -4208,13 +4712,20 @@
         "CS Building 201-2366 Main Mall Vancouver",
         "BC Canada V6T 1Z4 604 822 3061 Map & Directions Contact Us Department Directory We acknowledge that the UBC Vancouver campus is situated on the traditional",
         "ancestral",
-        "unceded territory of the x\u02b7m\u0259\u03b8k\u02b7\u0259y\u0313\u0259m (Musqueam). Login The University of British Columbia Emergency Procedures",
+        "unceded territory of the xʷməθkʷəy̓əm (Musqueam). Login The University of British Columbia Emergency Procedures",
         "Terms of Use",
         "UBC Copyright",
         "Accessibility"
       ],
       "research_interests": [],
-      "section": "Adjunct & Affiliate Professor"
+      "section": "Adjunct & Affiliate Professor",
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data science",
+        "computational methods"
+      ]
     }
   ]
 }

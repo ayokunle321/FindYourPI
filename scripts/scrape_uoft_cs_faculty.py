@@ -30,7 +30,8 @@ from bs4 import BeautifulSoup, Tag
 from scraper_utils import (
     FacultyEntry,
     clean_text,
-    enrich_from_profile,
+    enrich_with_llm,
+    get_groq_client,
     load_directory_html,
     split_research,
 )
@@ -159,7 +160,7 @@ def _iter_sections(soup: BeautifulSoup):
             yield section_title, table
 
 
-def scrape(input_html: str | None = None, enrich_profiles: bool = True) -> dict:
+def scrape(input_html: str | None = None, llm_enrich: bool = True) -> dict:
     soup = BeautifulSoup(
         load_directory_html(input_html, DIRECTORY_URL), "html.parser"
     )
@@ -168,14 +169,14 @@ def scrape(input_html: str | None = None, enrich_profiles: bool = True) -> dict:
     for section_title, table in _iter_sections(soup):
         faculty_entries.extend(_parse_table(table, section_title))
 
-    if enrich_profiles:
+    if llm_enrich:
+        client = get_groq_client()
         total = len(faculty_entries)
         for idx, entry in enumerate(faculty_entries, start=1):
-            # Only fetch profile pages for profs still missing research data.
-            if not entry.research_areas and not entry.research_interests:
-                faculty_entries[idx - 1] = enrich_from_profile(entry)
-            if idx % 25 == 0:
-                print(f"Processed {idx}/{total} entries...")
+            print(f"  [{idx}/{total}] {entry.name}")
+            faculty_entries[idx - 1] = enrich_with_llm(
+                entry, client, institution="University of Toronto"
+            )
 
     return {
         "institution": "University of Toronto",
@@ -189,12 +190,13 @@ def scrape(input_html: str | None = None, enrich_profiles: bool = True) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input-html", default=None)
-    parser.add_argument("--skip-profile-enrich", action="store_true")
+    parser.add_argument("--skip-llm-enrich", action="store_true",
+                        help="Skip Groq LLM tag extraction (no GROQ_API_KEY needed)")
     args = parser.parse_args()
 
     payload = scrape(
         input_html=args.input_html,
-        enrich_profiles=not args.skip_profile_enrich,
+        llm_enrich=not args.skip_llm_enrich,
     )
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")

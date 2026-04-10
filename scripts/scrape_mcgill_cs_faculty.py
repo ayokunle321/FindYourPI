@@ -35,7 +35,8 @@ from bs4 import BeautifulSoup, Tag
 from scraper_utils import (
     FacultyEntry,
     clean_text,
-    enrich_from_profile,
+    enrich_with_llm,
+    get_groq_client,
     load_directory_html,
 )
 
@@ -91,9 +92,8 @@ def _parse_card(card: Tag, section: str | None) -> FacultyEntry | None:
         if line and not AFFILIATION_RE.match(line)
     ]
 
-    # Find the card body for contact info — it's the sibling div with matching id.
-    anchor = card.find("a", href=re.compile(r"^#collapse-"))
-    body_id = anchor["href"].lstrip("#") if anchor else None
+    # card IS the <a href="#collapse-N"> anchor — read the id from it directly.
+    body_id = card.get("href", "").lstrip("#")
     body = card.find_next("div", id=body_id) if body_id else None
 
     email: str | None = None
@@ -168,7 +168,7 @@ def _iter_sections(soup: BeautifulSoup):
 def scrape(
     directory_url: str = DEFAULT_DIRECTORY_URL,
     input_html: str | None = None,
-    enrich_profiles: bool = True,
+    llm_enrich: bool = True,
 ) -> dict:
     soup = BeautifulSoup(
         load_directory_html(input_html, directory_url), "html.parser"
@@ -191,14 +191,14 @@ def scrape(
             unique_entries.append(entry)
     faculty_entries = unique_entries
 
-    if enrich_profiles:
+    if llm_enrich:
+        client = get_groq_client()
         total = len(faculty_entries)
         for idx, entry in enumerate(faculty_entries, start=1):
-            # Only fetch profiles for the rare entries still missing research data.
-            if not entry.research_areas and not entry.research_interests:
-                faculty_entries[idx - 1] = enrich_from_profile(entry)
-            if idx % 25 == 0:
-                print(f"Processed {idx}/{total} entries...")
+            print(f"  [{idx}/{total}] {entry.name}")
+            faculty_entries[idx - 1] = enrich_with_llm(
+                entry, client, institution="McGill University"
+            )
 
     return {
         "institution": "McGill University",
@@ -213,13 +213,14 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--directory-url", default=DEFAULT_DIRECTORY_URL)
     parser.add_argument("--input-html", default=None)
-    parser.add_argument("--skip-profile-enrich", action="store_true")
+    parser.add_argument("--skip-llm-enrich", action="store_true",
+                        help="Skip Groq LLM tag extraction (no GROQ_API_KEY needed)")
     args = parser.parse_args()
 
     payload = scrape(
         directory_url=args.directory_url,
         input_html=args.input_html,
-        enrich_profiles=not args.skip_profile_enrich,
+        llm_enrich=not args.skip_llm_enrich,
     )
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")

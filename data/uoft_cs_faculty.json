@@ -40,7 +40,7 @@
       "section": "Research Stream Faculty"
     },
     {
-      "name": "Al\u00e1n Aspuru-Guzik",
+      "name": "Alán Aspuru-Guzik",
       "title": "Professor",
       "email": "aspuru@cs.toronto.edu",
       "profile_url": "https://matter.toronto.edu/",
@@ -1464,7 +1464,14 @@
       "profile_url": "https://www.cs.toronto.edu/~bahar/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "logic-based ai",
+        "ontology design",
+        "neuro-symbolic ai",
+        "artificial intelligence",
+        "formal methods"
+      ]
     },
     {
       "name": "Mario Badr",
@@ -1473,7 +1480,14 @@
       "profile_url": "https://www.cs.toronto.edu/~mbadr/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "machine learning",
+        "computer vision",
+        "artificial intelligence",
+        "data science",
+        "human-computer interaction"
+      ]
     },
     {
       "name": "Gary Baumgartner",
@@ -1482,7 +1496,14 @@
       "profile_url": "https://www.cs.toronto.edu/~gfb/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "computational thinking",
+        "programming languages",
+        "compiler design",
+        "discrete mathematics",
+        "computer science education"
+      ]
     },
     {
       "name": "Jonathan Calver",
@@ -1492,7 +1513,7 @@
       "research_areas": [],
       "research_interests": [
         "here . See my CV here . See recent student projects here . Current Teaching CSC207 fall 2025",
-        "CSC148 winter 2026 Past Teaching CSC148 winter 2021-2025 CSC207 fall 2020-2024 CSC336 summer 2020 CSC165 winter 2020 CSC108 fall 2019 \u00a9 2025 Jonathan Calver"
+        "CSC148 winter 2026 Past Teaching CSC148 winter 2021-2025 CSC207 fall 2020-2024 CSC336 summer 2020 CSC165 winter 2020 CSC108 fall 2019 © 2025 Jonathan Calver"
       ],
       "section": "Teaching Stream Faculty"
     },
@@ -1503,7 +1524,14 @@
       "profile_url": "https://jencampbell.github.io/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "computer science education",
+        "python programming",
+        "introductory programming",
+        "learning to program",
+        "university teaching methods"
+      ]
     },
     {
       "name": "Steven Coyne",
@@ -1512,7 +1540,14 @@
       "profile_url": "https://www.stevecoyne.ca/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "ethics of technology",
+        "philosophy of law",
+        "moral and political philosophy",
+        "ai and data ethics",
+        "digital image rights"
+      ]
     },
     {
       "name": "Michelle Wahl Craig",
@@ -1521,7 +1556,14 @@
       "profile_url": "https://michellecraig.github.io/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "computing education research",
+        "computer science education",
+        "education research methods",
+        "teaching stream pedagogy",
+        "computer science learning"
+      ]
     },
     {
       "name": "Steve Engels",
@@ -1530,7 +1572,14 @@
       "profile_url": "https://www.cs.toronto.edu/~sengels/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "computer science",
+        "software engineering",
+        "artificial intelligence",
+        "data structures",
+        "algorithm design"
+      ]
     },
     {
       "name": "Alice Gao",
@@ -1539,7 +1588,14 @@
       "profile_url": "https://www.cs.toronto.edu/~axgao/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "time management in cs",
+        "games and ai",
+        "artificial intelligence",
+        "machine learning",
+        "computer science education"
+      ]
     },
     {
       "name": "Paul Gries",
@@ -1548,7 +1604,14 @@
       "profile_url": "https://www.cs.toronto.edu/~pgries/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "computer science education",
+        "programming fundamentals",
+        "python programming",
+        "teaching methods",
+        "software development"
+      ]
     },
     {
       "name": "Paul He",
@@ -1557,7 +1620,14 @@
       "profile_url": "https://paulhe.com/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "programming languages",
+        "computer science education",
+        "software engineering",
+        "formal methods",
+        "computer science pedagogy"
+      ]
     },
     {
       "name": "David Liu",
@@ -1566,16 +1636,30 @@
       "profile_url": "https://www.cs.toronto.edu/~david/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "computer science theory",
+        "algorithm design",
+        "computational complexity",
+        "formal verification",
+        "theoretical computer science"
+      ]
     },
     {
-      "name": "Fran\u00e7ois Pitt",
+      "name": "François Pitt",
       "title": null,
       "email": "fpitt@cs.toronto.edu",
       "profile_url": "https://www.cs.toronto.edu/~fpitt/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "artificial intelligence",
+        "computer science",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ]
     },
     {
       "name": "Karen Reid",
@@ -1584,7 +1668,14 @@
       "profile_url": "https://www.cs.toronto.edu/~reid/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "computer science education",
+        "software development tools",
+        "open source projects",
+        "systems programming",
+        "teaching methods"
+      ]
     },
     {
       "name": "Jacqueline Smith",
@@ -1593,7 +1684,14 @@
       "profile_url": "https://www.cs.toronto.edu/~jsmith/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "computer science education",
+        "algorithmic graph theory",
+        "computing science",
+        "education research",
+        "teaching methods"
+      ]
     },
     {
       "name": "Kuei (Jack) Sun",
@@ -1602,7 +1700,14 @@
       "profile_url": "https://www.cs.toronto.edu/~sunk/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "operating systems",
+        "computer security",
+        "programming languages",
+        "software tools",
+        "computer science"
+      ]
     },
     {
       "name": "Marina Tawfik",
@@ -1611,7 +1716,14 @@
       "profile_url": "https://www.cs.toronto.edu/~marinat/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Teaching Stream Faculty"
+      "section": "Teaching Stream Faculty",
+      "research_tags": [
+        "deep models for eeg",
+        "electroencephalogram analysis",
+        "neural signal processing",
+        "brain computer interfaces",
+        "artificial neural networks"
+      ]
     },
     {
       "name": "Tarek Abdelrahman",
@@ -1737,7 +1849,14 @@
       "profile_url": "https://www.cs.toronto.edu/~heap/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Professors Emeriti"
+      "section": "Professors Emeriti",
+      "research_tags": [
+        "computer science education",
+        "teaching methods",
+        "programming pedagogy",
+        "software development",
+        "education technology"
+      ]
     },
     {
       "name": "Rick Hehner",
@@ -1793,7 +1912,7 @@
       "research_interests": [
         "numerical methods",
         "analysis",
-        "computation \u2013 particularly numerical methods for ODEs",
+        "computation – particularly numerical methods for ODEs",
         "PDEs",
         "computational finance",
         "stochastic models",
@@ -1825,7 +1944,7 @@
       "section": "Professors Emeriti"
     },
     {
-      "name": "Ren\u00e9e Miller",
+      "name": "Renée Miller",
       "title": "Professor Emerita",
       "email": "miller@cs.toronto.edu",
       "profile_url": "https://www.cs.toronto.edu/~miller/",
@@ -2164,7 +2283,7 @@
       "section": "Cross-Appointed Faculty"
     },
     {
-      "name": "Micha\u0142 Koziarski",
+      "name": "Michał Koziarski",
       "title": null,
       "email": null,
       "profile_url": " https://www.chemistry.utoronto.ca/people/directories/all-faculty/micha%C5%82-koziarski",
@@ -2416,7 +2535,7 @@
       "section": "Cross-Appointed Faculty"
     },
     {
-      "name": "Hannes R\u04e7st",
+      "name": "Hannes Rӧst",
       "title": null,
       "email": null,
       "profile_url": "https://www.moleculargenetics.utoronto.ca/faculty/2017/7/19/hannes-rost",
@@ -2873,7 +2992,7 @@
       "section": "Adjunct Faculty"
     },
     {
-      "name": "Laura Leal-Taix\u00e9",
+      "name": "Laura Leal-Taixé",
       "title": null,
       "email": null,
       "profile_url": "https://research.nvidia.com/labs/dvl/author/laura-leal-taixe/",

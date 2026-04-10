@@ -1,5 +1,6 @@
 import path from "path";
 import { readFile } from "fs/promises";
+import { Suspense } from "react";
 import FacultySearch, { FacultyMember } from "@/components/FacultySearch";
 
 type FacultyPayload = {
@@ -12,7 +13,8 @@ const DATA_FILES = [
   "ubc_cs_faculty.json",
   "mcgill_cs_faculty.json",
   "york_eecs_faculty.json",
-  "western_cs_faculty.json"
+  "western_cs_faculty.json",
+  "sfu_cs_faculty.json",
 ];
 
 async function getFacultyData(): Promise<FacultyMember[]> {
@@ -147,7 +149,9 @@ export default async function Home() {
             Search faculty
           </h2>
         </div>
-        <FacultySearch faculty={faculty} />
+        <Suspense>
+          <FacultySearch faculty={faculty} />
+        </Suspense>
       </section>
 
       {/* Footer */}

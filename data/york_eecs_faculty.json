@@ -81,7 +81,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/alomari/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "cybersecurity and machine learning",
+        "it security and risk management",
+        "password memorability and recall",
+        "brain-computer interfaces and security",
+        "artificial intelligence in cybersecurity"
+      ]
     },
     {
       "name": "Alvine B. Belle",
@@ -148,7 +155,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/apotukuchi/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "theoretical computer science",
+        "combinatorial algorithms",
+        "coding theory applications",
+        "data science foundations",
+        "statistical physics methods"
+      ]
     },
     {
       "name": "Ali Sadeghi-Naini",
@@ -217,7 +231,7 @@
         "BioSA: Biologically Inspired Integrated Sensors and Actuators",
         "CMOS: CMOS Sensors, Circuits, and Systems for Life Science Applications",
         "PoCD: Point-of-Care Devices Based on FET, Electrochemical, and Capacitive Sensing",
-        "DePerio: Deep Learning\u2013Based Early Periodontal Disease Detection"
+        "DePerio: Deep Learning–Based Early Periodontal Disease Detection"
       ],
       "section": "Faculty"
     },
@@ -241,7 +255,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/enaskt2/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "machine learning",
+        "emotion aware ai",
+        "human robot interaction",
+        "graph neural networks",
+        "human computer interaction"
+      ]
     },
     {
       "name": "Franck van Breugel",
@@ -250,7 +271,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/franck/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "electrical engineering",
+        "computer science",
+        "inclusive excellence",
+        "engineering education",
+        "diversity and inclusion"
+      ]
     },
     {
       "name": "Gene Cheung",
@@ -310,10 +338,10 @@
       "profile_url": "https://lassonde.yorku.ca/users/guddin/",
       "research_areas": [],
       "research_interests": [
-        "Democratized Data Science (HCI \u2192 AI4DS, SE4DS). Can we democratize the adoption of AI/ML techniques across stakeholders during ML systems development?",
-        "Modernized Software Issue Management (HCI \u2192 AI4SE) . Can we modernize software bug and critical incident management systems using AI-assisted solutions?",
-        "Usable Cybersecurity Engineering (HCI \u2192 AI4CE). Can we support better integration of AI-assisted security solutions into (networked) software systems?",
-        "Guided API Adoption (HCI \u2192 AI4SE). Can we support software teams and developers during their selection and reuse of APIs using AI-assisted solutions?"
+        "Democratized Data Science (HCI → AI4DS, SE4DS). Can we democratize the adoption of AI/ML techniques across stakeholders during ML systems development?",
+        "Modernized Software Issue Management (HCI → AI4SE) . Can we modernize software bug and critical incident management systems using AI-assisted solutions?",
+        "Usable Cybersecurity Engineering (HCI → AI4CE). Can we support better integration of AI-assisted security solutions into (networked) software systems?",
+        "Guided API Adoption (HCI → AI4SE). Can we support software teams and developers during their selection and reuse of APIs using AI-assisted solutions?"
       ],
       "section": "Faculty"
     },
@@ -369,7 +397,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/hhhallal/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "distributed system analysis",
+        "virtual reality systems",
+        "cybersecurity",
+        "formal methods",
+        "embedded applications"
+      ]
     },
     {
       "name": "Hina Tabassum",
@@ -407,7 +442,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/hkarimi/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "power systems control",
+        "microgrid control systems",
+        "smart grid technology",
+        "control systems engineering",
+        "electrical power systems"
+      ]
     },
     {
       "name": "Hossein Kassiri",
@@ -444,7 +486,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/hwang/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "robotic exploration algorithms",
+        "computer science education",
+        "artificial intelligence",
+        "robotics mapping systems",
+        "software engineering"
+      ]
     },
     {
       "name": "Ines Arous",
@@ -577,7 +626,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/jxu/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "real-time systems",
+        "embedded systems",
+        "scheduling algorithms",
+        "multiprocessor scheduling",
+        "computer science"
+      ]
     },
     {
       "name": "Anirudh Kaushik",
@@ -600,7 +656,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/kkontogiannis/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "software analytics",
+        "cyber physical systems",
+        "model driven engineering",
+        "devops engineering",
+        "system analysis"
+      ]
     },
     {
       "name": "Konstantinos Derpanis",
@@ -638,7 +701,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/kzhuang/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computational modeling",
+        "systems engineering",
+        "environmental biology",
+        "leadership development",
+        "engineering education"
+      ]
     },
     {
       "name": "Larry Yueli Zhang",
@@ -660,7 +730,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/lesperan/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "artificial intelligence",
+        "computer vision",
+        "machine learning",
+        "robotics engineering",
+        "computer science"
+      ]
     },
     {
       "name": "Laleh Seyyed-Kalantari",
@@ -714,7 +791,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/magiero/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "system-on-chip design",
+        "analog ic design",
+        "computer architecture",
+        "semiconductor simulation",
+        "electronics engineering"
+      ]
     },
     {
       "name": "Marzieh Ahmadzadeh",
@@ -797,7 +881,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/minas/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "computer networks",
+        "network security",
+        "distributed systems",
+        "computer science education",
+        "software engineering"
+      ]
     },
     {
       "name": "Matthew J. Kyan",
@@ -806,7 +897,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/mkyan/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "media-rich data analysis",
+        "human-computer interaction",
+        "signal processing",
+        "computational intelligence",
+        "computer-mediated interaction"
+      ]
     },
     {
       "name": "Marin Litoiu",
@@ -815,7 +913,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/mlitoiu/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "software engineering",
+        "computer science",
+        "electrical engineering",
+        "artificial intelligence",
+        "computer systems"
+      ]
     },
     {
       "name": "Maleknaz Nayebi",
@@ -842,7 +947,7 @@
       "profile_url": "https://lassonde.yorku.ca/users/monan/",
       "research_areas": [],
       "research_interests": [
-        "Data Analytics & Social Media Analysis (users\u2019 behavior, information flow, echo-chambers, and polarization)",
+        "Data Analytics & Social Media Analysis (users’ behavior, information flow, echo-chambers, and polarization)",
         "Artificial Intelligence (biases, explainability, and fairness in AI, Generative AI risks such as deepfakes, or impact on fraud)",
         "e-Commerce (user experience, review analysis, and Recommender Systems)"
       ],
@@ -855,7 +960,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/mqin/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "robotics",
+        "human-robot interactions",
+        "robot tutoring systems",
+        "artificial intelligence",
+        "machine learning"
+      ]
     },
     {
       "name": "Navid Mohaghegh",
@@ -864,7 +976,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/navidmo/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "mechanical engineering",
+        "engineering design",
+        "systems optimization",
+        "energy systems",
+        "sustainable technologies"
+      ]
     },
     {
       "name": "Manos Papagelis",
@@ -921,7 +1040,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/pingw/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "artificial intelligence",
+        "communications networks",
+        "computing systems",
+        "wireless communications",
+        "network science"
+      ]
     },
     {
       "name": "Simone Pisana",
@@ -958,7 +1084,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/pvashisth/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "recommender systems",
+        "machine learning",
+        "computer science education",
+        "artificial intelligence",
+        "data science"
+      ]
     },
     {
       "name": "Afshin Rezaei-Zare",
@@ -982,7 +1115,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/richard-hornsey/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "engineering history",
+        "technical education",
+        "liquid metal ion",
+        "biologically inspired",
+        "engineering education"
+      ]
     },
     {
       "name": "Rohollah (Raha) Moosavi",
@@ -1006,7 +1146,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/rsalahandish/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "electrochemical biosensors",
+        "microfluidics diagnostics",
+        "wearable medical devices",
+        "point-of-care diagnostics",
+        "nanostructure biosensing"
+      ]
     },
     {
       "name": "Eric Ruppert",
@@ -1030,7 +1177,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/ruth/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "machine learning theory",
+        "semi supervised learning",
+        "transfer learning",
+        "lifelong learning",
+        "formal foundations"
+      ]
     },
     {
       "name": "Sonya Allin",
@@ -1039,7 +1193,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/sallin/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "health informatics",
+        "human computer interaction",
+        "machine learning",
+        "artificial intelligence",
+        "computer science"
+      ]
     },
     {
       "name": "Shweta Mahajan",
@@ -1048,7 +1209,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/shwemaha/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "generative modeling",
+        "multimodal learning",
+        "scene understanding",
+        "machine learning methods",
+        "computer vision"
+      ]
     },
     {
       "name": "Sima Soltanpour",
@@ -1103,7 +1271,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/smaqsood/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "usable security",
+        "human computer interaction",
+        "computer security systems",
+        "interactive technologies",
+        "security education games"
+      ]
     },
     {
       "name": "Amir Sodagar",
@@ -1112,7 +1287,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/sodagar/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "electrical engineering",
+        "computer science",
+        "signal processing",
+        "communication systems",
+        "embedded systems"
+      ]
     },
     {
       "name": "Sunila Akbar",
@@ -1121,7 +1303,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/sunila/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "machine learning",
+        "cognitive radar",
+        "wireless networks",
+        "spectral efficiency",
+        "energy efficiency"
+      ]
     },
     {
       "name": "John Tsotsos",
@@ -1144,7 +1333,14 @@
       "profile_url": "https://lassonde.yorku.ca/users/utn/",
       "research_areas": [],
       "research_interests": [],
-      "section": "Faculty"
+      "section": "Faculty",
+      "research_tags": [
+        "electrical engineering",
+        "computer science",
+        "artificial intelligence",
+        "signal processing",
+        "embedded systems"
+      ]
     },
     {
       "name": "Natalija Vlajic",

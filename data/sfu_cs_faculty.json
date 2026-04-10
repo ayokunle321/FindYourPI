@@ -1,0 +1,1320 @@
+{
+  "institution": "Simon Fraser University",
+  "department": "Computing Science",
+  "directory_url": "https://www.sfu.ca/fas/computing/people/faculty.html",
+  "scraped_at": "2026-04-10T00:59:50.106011+00:00",
+  "faculty": [
+    {
+      "name": "Yagiz Aksoy",
+      "title": "Assistant Professor",
+      "email": "yagiz@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/yagiz-aksoy.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "machine learning",
+        "computer vision",
+        "natural language processing",
+        "deep learning",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Alaa Alameldeen",
+      "title": "Associate Professor",
+      "email": "alaa@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/alaa-alameldeen.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "database systems",
+        "data management",
+        "information retrieval",
+        "data analytics",
+        "big data"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Saba Alimadadi",
+      "title": "Assistant Professor",
+      "email": "saba@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/saba-alimadadi.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "deep learning models",
+        "computer vision systems",
+        "natural language processing",
+        "reinforcement learning algorithms",
+        "artificial intelligence applications"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Matthew Amy",
+      "title": "Assistant Professor | Canada Research Chair",
+      "email": "matt_amy@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/matt-amy.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "natural language processing",
+        "computer vision",
+        "artificial intelligence",
+        "machine learning"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Ouldooz Baghban Karimi",
+      "title": "Senior Lecturer | Rajan Family Scholar",
+      "email": "ouldooz@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/ouldooz-baghban-karimi.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "natural language processing",
+        "information retrieval",
+        "data mining",
+        "human-centered design"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Gregory Baker",
+      "title": "University Lecturer",
+      "email": "ggbaker@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/greg-baker.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "computer vision",
+        "machine learning",
+        "human computer interaction",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Brad Bart",
+      "title": "Senior Lecturer",
+      "email": "bbart@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/brad-bart.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "human computer interaction",
+        "software engineering",
+        "artificial intelligence",
+        "data mining"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Steven Bergner",
+      "title": "Term Lecturer",
+      "email": "sbergner@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/steve-bergner.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "human computer interaction",
+        "software engineering",
+        "data mining",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Andrei Bulatov",
+      "title": "Professor",
+      "email": "abulatov@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/andrei-bulatov.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "constraint satisfaction",
+        "algorithmic complexity",
+        "computational complexity",
+        "constraint logic",
+        "finite model theory"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Robert D. Cameron",
+      "title": "Professor",
+      "email": "cameron@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/robert-d-cameron.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "natural language processing",
+        "human computer interaction",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Sheelagh Carpendale",
+      "title": "Professor | Canada Research Chair | NSERC E.W.R. Steacie Memorial Fellow/RSC Fellow/IEEE Fellow/ACM Fellow",
+      "email": "sheelagh@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/sheelagh-carpendale.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-centered visualization",
+        "information visualization",
+        "interaction design",
+        "geovisualization",
+        "information exploration"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Bobby Chan",
+      "title": "Senior Lecturer",
+      "email": "bobbyc@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/bobby-chan.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "natural language processing",
+        "information retrieval",
+        "data mining",
+        "software engineering"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Angel Chang",
+      "title": "Associate Professor | Canada CIFAR AI Chair",
+      "email": "angel_xuan_chang@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/angel-chang.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "deep learning",
+        "computer vision",
+        "natural language processing",
+        "artificial intelligence",
+        "human-computer interaction"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Sze Yiu Chau",
+      "title": "Associate Professor",
+      "email": "sychau@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/sze-yiu-chau.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "human computer interaction",
+        "information retrieval",
+        "data mining",
+        "computational linguistics"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Mo Chen",
+      "title": "Associate Professor | Canada CIFAR AI Chair",
+      "email": "mochen@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/mo-chen.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "deep learning",
+        "artificial intelligence",
+        "natural language processing",
+        "computer vision",
+        "reinforcement learning"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "WUYANG Chen",
+      "title": "Assistant Professor",
+      "email": "wuyang@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/wuyang-chen.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "deep learning",
+        "computer vision",
+        "natural language processing",
+        "reinforcement learning",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Victor Cheung",
+      "title": "Lecturer",
+      "email": "v_cheung@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/victor_cheung.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer networks",
+        "artificial intelligence",
+        "data mining",
+        "natural language processing",
+        "human computer interaction"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Parmit Chilana",
+      "title": "Associate Professor | Associate Director, Research and Industry Relations | Ebco/Eppich Chair",
+      "email": "pchilana@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/parmit-chilana.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "computer vision",
+        "machine learning",
+        "natural language processing",
+        "human-centered design"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Diana Cukierman",
+      "title": "University Lecturer | Faculty Teaching Fellow",
+      "email": "diana@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/diana-cukierman.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "natural language processing",
+        "computer vision",
+        "machine learning",
+        "data science"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Ryan D'Arcy",
+      "title": "Professor",
+      "email": "rdarcy@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/ryan-darcy.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "natural language processing",
+        "computer networks",
+        "artificial intelligence",
+        "data analytics"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Toby Donaldson",
+      "title": "Senior Lecturer",
+      "email": "tjd@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/toby-donaldson.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "software engineering",
+        "artificial intelligence",
+        "data analytics",
+        "computer networks"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "John Edgar",
+      "title": "Senior Lecturer | Undergrad Program Committee Chair",
+      "email": "johnwill@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/edgar-john.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human computer interaction",
+        "software engineering",
+        "artificial intelligence",
+        "data mining",
+        "natural language processing"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Martin Ester",
+      "title": "Distinguished Professor | Royal Society of Canada Fellow",
+      "email": "ester@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/martin-ester.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "data mining",
+        "machine learning",
+        "knowledge discovery",
+        "pattern recognition",
+        "bioinformatics"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Eugene Fiume",
+      "title": "Professor | Dean of Applied Sciences | RSC Fellow",
+      "email": "efiume@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/eugene-fiume.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer animation",
+        "human computer interaction",
+        "virtual reality",
+        "game development",
+        "computer graphics"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Brian Fraser",
+      "title": "Senior Lecturer",
+      "email": "bfraser@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/brian-fraser.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "software engineering",
+        "artificial intelligence",
+        "data analytics",
+        "computational modeling"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Yasutaka Furukawa",
+      "title": "Associate Professor",
+      "email": "furukawa@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/yasutaka-furukawa.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "human-computer interaction",
+        "natural language processing",
+        "human-robot interaction"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Uwe Glaesser",
+      "title": "Professor",
+      "email": "glaesser@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/uwe-glasser.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "human computer interaction",
+        "information retrieval",
+        "data mining",
+        "human centered design"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Qianping Gu",
+      "title": "Professor",
+      "email": "qgu@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/qianping-gu.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "computer vision",
+        "machine learning",
+        "deep learning",
+        "human computer interaction"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Ghassan Hamarneh",
+      "title": "Professor",
+      "email": "hamarneh@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/ghassan-hamarneh.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "image processing",
+        "medical imaging",
+        "pattern recognition"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Mohamed Hefeeda",
+      "title": "Professor | ACM Distinguished Member",
+      "email": "mhefeeda@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/mohamed-hefeeda.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "content delivery networks",
+        "cloud computing",
+        "video streaming",
+        "network architecture",
+        "distributed systems"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Valentine Kabanets",
+      "title": "Professor",
+      "email": "kabanets@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/valentine-kabanets.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "circuit complexity theory",
+        "approximation algorithms",
+        "computational complexity",
+        "cryptography protocols",
+        "algorithmic game theory"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Marzena Karpinska",
+      "title": "Assistant Professor",
+      "email": "marzena_karpinska@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/marzena-karpinska.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "natural language processing",
+        "computer vision",
+        "machine learning",
+        "human-centered design"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Harinder Singh Khangura",
+      "title": "Senior Lecturer",
+      "email": "khangura@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/khangura.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer networks",
+        "network security",
+        "data analytics",
+        "artificial intelligence",
+        "cyber forensics"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Lawrence Kim",
+      "title": "Assistant Professor | CS Diversity Committee Chair",
+      "email": "lawkim@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/lawrence-kim.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "algorithmic fairness",
+        "data privacy",
+        "accessibility research",
+        "inclusion technology"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Steven Ko",
+      "title": "Associate Professor",
+      "email": "steveyko@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/steven-ko.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "human computer interaction",
+        "information retrieval",
+        "data mining",
+        "computational linguistics"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Ke Li",
+      "title": "Assistant Professor | Visual Computing Research Chair",
+      "email": "keli@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/keli.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "3d reconstruction",
+        "image processing",
+        "augmented reality"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "LINYI LI",
+      "title": "Assistant Professor",
+      "email": "linyi_li@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/linyi-li.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "natural language processing",
+        "human computer interaction",
+        "data mining"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Maxwell Libbrecht",
+      "title": "Associate Professor | Michael Smith Health Research Scholar",
+      "email": "maxwl@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/maxwl.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computational neuroscience",
+        "brain machine interfaces",
+        "neural networks",
+        "deep learning",
+        "cognitive computing"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Angelica Lim",
+      "title": "Associate Professor Practitioner | Rajan Family Scholar | Canada CIFAR AI Chair",
+      "email": "angelica@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/angelica-lim.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "artificial intelligence",
+        "robotics",
+        "machine learning",
+        "neural networks",
+        "human-robot interaction"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Jiangchuan Liu",
+      "title": "Professor | Canadian Academy of Engineering/IEEE/NSERC E.W.R. Steacie Memorial Fellow/RSC Fellow",
+      "email": "jcliu@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/jcl-iu.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "network science",
+        "distributed systems",
+        "wireless networks",
+        "network security",
+        "cloud computing"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Felix Lo",
+      "title": "Limited Term Lecturer",
+      "email": "felix_lo@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/felix-lo.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "computer vision",
+        "human computer interaction",
+        "artificial intelligence",
+        "data mining"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Hang Ma",
+      "title": "Assistant Professor",
+      "email": "hangma@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/hangma.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "computer vision",
+        "deep learning",
+        "artificial intelligence",
+        "human computer interaction"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Ali Mahdavi-Amiri",
+      "title": "Assistant Professor of Professional Practice | Director, Professional Master's in Computer Science",
+      "email": "amahdavi@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/amahdavi.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "machine learning",
+        "computer vision",
+        "natural language processing",
+        "data mining",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Zhengjie Miao",
+      "title": "Assistant Professor",
+      "email": "zhengjie_miao@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/zhengjie_miao.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "natural language processing",
+        "human computer interaction",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Anders Miltner",
+      "title": "Assistant Professor",
+      "email": "miltner@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/miltner.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "natural language processing",
+        "computer vision",
+        "machine learning",
+        "human-centered design"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Steven Pearce",
+      "title": "Lecturer",
+      "email": "stevenp@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/stevenp.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "human computer interaction",
+        "software engineering",
+        "data mining",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Xue Bin Jason Peng",
+      "title": "Assistant Professor | Visual Computing Research Chair",
+      "email": "xbpeng@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/xbpeng.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "3d reconstruction",
+        "image processing",
+        "augmented reality"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Frederick Popowich",
+      "title": "Professor",
+      "email": "popowich@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/popowich.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "formal methods",
+        "software engineering",
+        "artificial intelligence",
+        "human computer interaction"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Anoop Sarkar",
+      "title": "Professor",
+      "email": "anoop@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/anoop.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "machine learning",
+        "text analysis",
+        "information retrieval",
+        "human computer interaction"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Manolis Savva",
+      "title": "Associate Professor | Grad Program Committee Chair | Canada Research Chair",
+      "email": "msavva@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/msavva.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "robotics",
+        "natural language processing",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Oliver Schulte",
+      "title": "Professor | School Director",
+      "email": "oschulte@cs.sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/oschulte.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "artificial intelligence",
+        "machine learning",
+        "data mining",
+        "computational biology",
+        "natural language processing"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Igor Shinkar",
+      "title": "Associate Professor",
+      "email": "ishinkar@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/ishinkar.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "probabilistic algorithms",
+        "randomized complexity theory",
+        "approximation algorithms",
+        "combinatorial optimization",
+        "algorithmic game theory"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Arrvindh Shriraman",
+      "title": "Associate Professor",
+      "email": "ashriram@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/ashriram.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "probabilistic programming",
+        "statistical machine learning",
+        "bayesian inference",
+        "computational finance",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "William Sumner",
+      "title": "Associate Professor | Associate Director, Academic and Administration",
+      "email": "wsumner@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/wsumner.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "artificial intelligence",
+        "data mining",
+        "software engineering",
+        "natural language processing"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Andrea Tagliasacchi",
+      "title": "Associate Professor | Visual Computing Research Chair",
+      "email": "andrea.tagliasacchi@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/taiya.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "3d reconstruction",
+        "image processing",
+        "machine learning",
+        "geometric modeling"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Mohammad Tayebi",
+      "title": "Assistant Professor of Professional Practice",
+      "email": "tayebi@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/mohammad_tayebi.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "biomedical imaging",
+        "robotics engineering",
+        "machine learning",
+        "computer vision",
+        "tissue engineering"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Evgenia Ternovska",
+      "title": "Associate Professor",
+      "email": "ter@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/ter.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "artificial intelligence",
+        "knowledge representation",
+        "formal methods",
+        "logic programming",
+        "multiagent systems"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Sharan Vaswani",
+      "title": "Assistant Professor",
+      "email": "sharan_vaswani@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/sharan_vaswani.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "deep learning",
+        "computer vision",
+        "human computer interaction",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Nicholas Vincent",
+      "title": "Assistant Professor",
+      "email": "nicholas_vincent@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/nicholas_vincent.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "human computer interaction",
+        "artificial intelligence",
+        "data mining",
+        "software engineering"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Keval Vora",
+      "title": "Associate Professor",
+      "email": "keval@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/keval.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "natural language processing",
+        "computer vision",
+        "machine learning",
+        "data mining"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Ke Wang",
+      "title": "Professor",
+      "email": "wangk@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/wangk.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "artificial intelligence",
+        "data mining",
+        "computational biology",
+        "human computer interaction"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Tao Wang",
+      "title": "Assistant Professor",
+      "email": "taowang@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/taowang.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "computer vision",
+        "machine learning",
+        "human computer interaction",
+        "data mining"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Tianzheng Wang",
+      "title": "Associate Professor | Dual Degree and Partnerships Programs Director",
+      "email": "tzwang@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/tzwang.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "artificial intelligence",
+        "data analytics",
+        "software engineering",
+        "computational biology"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Yuepeng Wang",
+      "title": "Assistant Professor",
+      "email": "yuepeng@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/yuepeng.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "computer vision",
+        "human computer interaction",
+        "machine learning",
+        "data mining"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Kay C Wiese",
+      "title": "Professor | Software Systems Chair and Program Director",
+      "email": "wiese@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/wiese.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "software engineering",
+        "formal methods",
+        "model checking",
+        "verification techniques",
+        "system reliability"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Jianliang Wu",
+      "title": "Assistant Professor",
+      "email": "wujl@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/wujl.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "natural language processing",
+        "human computer interaction",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Cynthia Xie",
+      "title": "Senior Lecturer",
+      "email": "cxie@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/cxie.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "human computer interaction",
+        "data mining",
+        "information retrieval",
+        "software engineering"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Xingdong Yang",
+      "title": "Associate Professor | Visual Computing Research Chair",
+      "email": "xingdong_yang@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/xingdong_yang.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "3d reconstruction",
+        "image processing",
+        "augmented reality"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "KangKang Yin",
+      "title": "Associate Professor",
+      "email": "kkyin@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/kkyin.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "deep learning models",
+        "computer vision systems",
+        "natural language processing",
+        "robotics engineering",
+        "artificial intelligence"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Richard Zhang",
+      "title": "Distinguished Professor | IEEE Fellow | SIGGRAPH Academy Member",
+      "email": "haoz@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/haoz.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "image processing",
+        "deep learning",
+        "computer graphics"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Siqi Zhou",
+      "title": "Assistant Professor",
+      "email": "siqi@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/siqizhou.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "human computer interaction",
+        "data mining",
+        "information retrieval",
+        "computational linguistics"
+      ],
+      "section": "School of Computing Science"
+    },
+    {
+      "name": "Zhenman Fang",
+      "title": "Associate Member",
+      "email": "zhenman@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/adjunct-professors/fang--zhenman.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "human computer interaction",
+        "data mining",
+        "information retrieval",
+        "artificial intelligence"
+      ],
+      "section": "Adjunct & Associate Faculty"
+    },
+    {
+      "name": "Tenzin Doleck",
+      "title": "Associate Member",
+      "email": "tenzin_doleck@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/adjunct-professors/doleck--tenzin.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "natural language processing",
+        "artificial intelligence",
+        "data mining",
+        "information retrieval"
+      ],
+      "section": "Adjunct & Associate Faculty"
+    },
+    {
+      "name": "Saeid Asgari",
+      "title": "Adjunct Research Professor",
+      "email": "asgt.saeid@gmail.com",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/adjunct-professors/saeid.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "machine learning",
+        "computer vision",
+        "natural language processing",
+        "deep learning",
+        "artificial intelligence"
+      ],
+      "section": "Adjunct & Associate Faculty"
+    },
+    {
+      "name": "Daniel Cohen-Or",
+      "title": "Adjunct Professor",
+      "email": "sfu-brand@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/adjunct-professors/daniel-cohen-or.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer graphics",
+        "3d modeling",
+        "geometry processing",
+        "shape analysis",
+        "virtual reality"
+      ],
+      "section": "Adjunct & Associate Faculty"
+    },
+    {
+      "name": "Graham Finlayson",
+      "title": "Adjunct Professor",
+      "email": "G.Finlayson@uea.ac.uk",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/adjunct-professors/graham-finlayson.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "image processing",
+        "pattern recognition",
+        "artificial intelligence"
+      ],
+      "section": "Adjunct & Associate Faculty"
+    },
+    {
+      "name": "Shervin Shirmohammadi",
+      "title": "Adjunct Professor",
+      "email": "shervin@eecs.uottawa.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/adjunct-professors/shervin-shirmohammadi.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer networks",
+        "wireless communication",
+        "network security",
+        "cyber physical systems",
+        "internet of things"
+      ],
+      "section": "Adjunct & Associate Faculty"
+    },
+    {
+      "name": "Gregory Mori",
+      "title": "Adjunct Professor",
+      "email": "mori@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/adjunct-professors/mori.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer vision",
+        "machine learning",
+        "deep learning",
+        "object recognition",
+        "image processing"
+      ],
+      "section": "Adjunct & Associate Faculty"
+    },
+    {
+      "name": "Kwang Moo Yi",
+      "title": "Adjunct Professor",
+      "email": "kmyi@cs.ubc.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/adjunct-professors/kwang-moo-yi.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "natural language processing",
+        "computer vision",
+        "machine learning",
+        "artificial intelligence"
+      ],
+      "section": "Adjunct & Associate Faculty"
+    },
+    {
+      "name": "Pulei Xiong",
+      "title": "Adjunct Professor",
+      "email": "pulei.xiong@nrc-cnrc.gc.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/adjunct-professors/pulei-xiong.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "human-computer interaction",
+        "natural language processing",
+        "computer networks",
+        "data mining",
+        "software engineering"
+      ],
+      "section": "Adjunct & Associate Faculty"
+    },
+    {
+      "name": "Jiannan Wang",
+      "title": "Adjunct Professor",
+      "email": "jnwang@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/adjunct-professors/jnwang.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "computer vision",
+        "machine learning",
+        "human computer interaction",
+        "data mining"
+      ],
+      "section": "Adjunct & Associate Faculty"
+    },
+    {
+      "name": "Peter Chun",
+      "title": "Adjunct Professor",
+      "email": "peter_chun@sfu.ca",
+      "profile_url": "https://www.sfu.ca/fas/computing/people/faculty/adjunct-professors/peter-chun.html",
+      "research_areas": [],
+      "research_interests": [],
+      "research_tags": [
+        "computer networks",
+        "artificial intelligence",
+        "data mining",
+        "human computer interaction",
+        "software engineering"
+      ],
+      "section": "Adjunct & Associate Faculty"
+    }
+  ]
+}

@@ -19,6 +19,8 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
+from scraper_utils import enrich_with_llm, get_groq_client
+
 DIRECTORY_URL = "https://www.csd.uwo.ca/people/faculty/index.html"
 BASE_URL = "https://www.csd.uwo.ca/people/faculty/"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "western_cs_faculty.json"
@@ -133,25 +135,52 @@ def parse_faculty(soup: BeautifulSoup) -> list:
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--skip-llm-enrich", action="store_true",
+                        help="Skip Groq LLM tag extraction (no GROQ_API_KEY needed)")
+    args = parser.parse_args()
+
     print(f"Fetching {DIRECTORY_URL} ...")
     soup = fetch_html(DIRECTORY_URL)
-    faculty = parse_faculty(soup)
+    faculty_dicts = parse_faculty(soup)
+    print(f"Parsed {len(faculty_dicts)} faculty members.")
 
-    print(f"Parsed {len(faculty)} faculty members.")
-    for f in faculty:
-        print(f"  {f['name']:<35} {len(f['research_areas'])} tags   {f['email'] or '(no email)'}")
+    if not args.skip_llm_enrich:
+        from scraper_utils import FacultyEntry
+        client = get_groq_client()
+        enriched = []
+        for idx, f in enumerate(faculty_dicts, start=1):
+            entry = FacultyEntry(
+                name=f["name"],
+                title=f.get("title"),
+                email=f.get("email"),
+                profile_url=f.get("profile_url"),
+                research_areas=f.get("research_areas", []),
+                research_interests=f.get("research_interests", []),
+                section=f.get("section"),
+            )
+            print(f"  [{idx}/{len(faculty_dicts)}] {entry.name}")
+            entry = enrich_with_llm(entry, client, institution="Western University")
+            d = f.copy()
+            d["research_tags"] = entry.research_tags
+            enriched.append(d)
+        faculty_dicts = enriched
+
+    for f in faculty_dicts:
+        print(f"  {f['name']:<35} {len(f.get('research_tags') or f.get('research_areas', []))} tags   {f['email'] or '(no email)'}")
 
     payload = {
         "institution": "Western University",
         "department": "Computer Science",
         "directory_url": DIRECTORY_URL,
         "scraped_at": datetime.now(timezone.utc).isoformat(),
-        "faculty": faculty,
+        "faculty": faculty_dicts,
     }
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
-    print(f"\nWrote {len(faculty)} entries to {OUTPUT_FILE}")
+    print(f"\nWrote {len(faculty_dicts)} entries to {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":

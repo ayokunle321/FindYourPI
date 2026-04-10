@@ -36,7 +36,8 @@ from bs4 import BeautifulSoup, Tag
 from scraper_utils import (
     FacultyEntry,
     clean_text,
-    fetch_html,
+    enrich_with_llm,
+    get_groq_client,
     load_directory_html,
 )
 
@@ -96,73 +97,22 @@ def _parse_directory(soup: BeautifulSoup) -> list[FacultyEntry]:
     return entries
 
 
-def _enrich_from_profile(entry: FacultyEntry, timeout: int = 20) -> FacultyEntry:
-    """Fetch a York profile page and extract Research Interests bullet points.
 
-    Profile page structure:
-      <h2>Research Interests</h2>
-      <ul>
-        <li>Data mining and machine learning</li>
-        ...
-      </ul>
-    """
-    if not entry.profile_url:
-        return entry
-
-    try:
-        html = fetch_html(entry.profile_url, timeout=timeout)
-    except Exception:
-        return entry
-
-    soup = BeautifulSoup(html, "html.parser")
-
-    # Find the Research Interests heading
-    for heading in soup.find_all(["h2", "h3", "h4"]):
-        heading_text = clean_text(heading.get_text()).lower()
-        if "research interest" not in heading_text and "research area" not in heading_text:
-            continue
-
-        # Grab the next <ul> or <ol> after the heading
-        ul = heading.find_next_sibling(["ul", "ol"])
-        if not ul:
-            # Sometimes the list is wrapped in a div after the heading
-            next_el = heading.find_next_sibling()
-            if next_el:
-                ul = next_el.find(["ul", "ol"])
-
-        if ul:
-            interests = [
-                clean_text(li.get_text(" ", strip=True))
-                for li in ul.find_all("li")
-                if clean_text(li.get_text(" ", strip=True))
-            ]
-            if interests:
-                entry.research_interests = interests
-                break
-
-    # Also grab email if missing
-    if not entry.email:
-        page_text = soup.get_text()
-        m = EMAIL_RE.search(page_text)
-        if m:
-            entry.email = m.group(0)
-
-    return entry
-
-
-def scrape(input_html: str | None = None, enrich_profiles: bool = True) -> dict:
+def scrape(input_html: str | None = None, llm_enrich: bool = True) -> dict:
     soup = BeautifulSoup(
         load_directory_html(input_html, DIRECTORY_URL), "html.parser"
     )
 
     faculty_entries = _parse_directory(soup)
 
-    if enrich_profiles:
+    if llm_enrich:
+        client = get_groq_client()
         total = len(faculty_entries)
         for idx, entry in enumerate(faculty_entries, start=1):
-            faculty_entries[idx - 1] = _enrich_from_profile(entry)
-            if idx % 10 == 0:
-                print(f"Enriched {idx}/{total} profiles...")
+            print(f"  [{idx}/{total}] {entry.name}")
+            faculty_entries[idx - 1] = enrich_with_llm(
+                entry, client, institution="York University"
+            )
 
     return {
         "institution": "York University",
@@ -176,12 +126,13 @@ def scrape(input_html: str | None = None, enrich_profiles: bool = True) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input-html", default=None)
-    parser.add_argument("--skip-profile-enrich", action="store_true")
+    parser.add_argument("--skip-llm-enrich", action="store_true",
+                        help="Skip Groq LLM tag extraction (no GROQ_API_KEY needed)")
     args = parser.parse_args()
 
     payload = scrape(
         input_html=args.input_html,
-        enrich_profiles=not args.skip_profile_enrich,
+        llm_enrich=not args.skip_llm_enrich,
     )
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")

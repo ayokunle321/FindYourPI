@@ -2,861 +2,1526 @@
   "institution": "McGill University",
   "department": "Computer Science",
   "directory_url": "https://www.cs.mcgill.ca/people/faculty/",
-  "scraped_at": "2026-03-11T16:42:04.653408+00:00",
+  "scraped_at": "2026-04-10T00:53:57.312718+00:00",
   "faculty": [
     {
       "name": "Mathieu Blanchette",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "blanchem@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~blanchem/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "computational genomics",
+        "ancestral genomics",
+        "transposable elements",
+        "3d genomics modeling",
+        "epigenetic regulation"
+      ],
       "section": "Director of the School"
     },
     {
       "name": "David Adelani",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "david.adelani@mcgill.ca",
+      "profile_url": "https://dadelani.github.io/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "multilingual nlp",
+        "low-resource languages",
+        "speech processing",
+        "machine translation",
+        "multilingual vlm adaptation"
+      ],
       "section": "Professors"
     },
     {
       "name": "Oana Balmau",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "oana.balmau@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~balmau",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "biomechanical engineering",
+        "orthopedic biomechanics",
+        "musculoskeletal modeling",
+        "sports injury prevention",
+        "biomedical simulation"
+      ],
       "section": "Professors"
     },
     {
       "name": "Xiao-Wen Chang",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "chang@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~chang/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "numerical linear algebra",
+        "graph learning techniques",
+        "wireless communications",
+        "lattice reduction methods",
+        "parameter estimation problems"
+      ],
       "section": "Professors"
     },
     {
       "name": "Jackie Chi Kit Cheung",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "jcheung@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~jcheung",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "computational semantics",
+        "commonsense reasoning",
+        "automatic summarization",
+        "nlp evaluation"
+      ],
       "section": "Professors"
     },
     {
       "name": "Luc Devroye",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "lucdevroye@gmail.com",
+      "profile_url": "http://luc.devroye.org/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "probabilistic algorithm analysis",
+        "computational complexity theory",
+        "algorithmic information theory",
+        "randomized algorithms",
+        "computational geometry"
+      ],
       "section": "Professors"
     },
     {
       "name": "Christophe Dubach",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "christophe.dubach@mcgill.ca",
+      "profile_url": "https://www.cs.mcgill.ca/~cdubach/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "data-parallel language design",
+        "high-level code generation",
+        "compiler optimization techniques",
+        "architecture design space",
+        "machine learning applications"
+      ],
       "section": "Professors"
     },
     {
       "name": "Gregory Dudek",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "dudek@cs.mcgill.ca",
+      "profile_url": "http://www.cim.mcgill.ca/~dudek/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "autonomous navigation",
+        "robot learning",
+        "5g network optimization",
+        "human robot interaction",
+        "multi robot systems"
+      ],
       "section": "Professors"
     },
     {
       "name": "Golnoosh Farnadi",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "golnoosh.farnadi@mcgill.ca",
+      "profile_url": "https://gfarnadi.github.io/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "algorithmic fairness",
+        "privacy-preserving machine learning",
+        "responsible ai",
+        "deep learning",
+        "generative ai"
+      ],
       "section": "Professors"
     },
     {
       "name": "Jin Guo",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "jin.guo@mcgill.ca",
+      "profile_url": "http://cs.mcgill.ca/~jguo/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "software engineering",
+        "human-computer interaction",
+        "applied machine learning",
+        "software traceability",
+        "open source software"
+      ],
       "section": "Professors"
     },
     {
       "name": "Hamed Hatami",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "hatami@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~hatami/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "analytic methods",
+        "complexity theory",
+        "boolean functions",
+        "additive combinatorics",
+        "learning theory"
+      ],
       "section": "Professors"
     },
     {
       "name": "Bettina Kemme",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "kemme@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~kemme/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "large-scale data management",
+        "distributed systems",
+        "in-database analytics",
+        "performance monitoring",
+        "micro-architecture design"
+      ],
       "section": "Professors"
     },
     {
       "name": "Paul Kry",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "kry@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~kry/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "physically based animation",
+        "computer graphics research",
+        "human motor control",
+        "biologically inspired robotics",
+        "physically based modeling"
+      ],
       "section": "Professors"
     },
     {
       "name": "Michael Langer",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "langer@cs.mcgill.ca",
+      "profile_url": "http://www.cim.mcgill.ca/~langer/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "computational human vision",
+        "computer vision models",
+        "3d scene estimation",
+        "visual cue analysis",
+        "computer vision cues"
+      ],
       "section": "Professors"
     },
     {
       "name": "Yue Li",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "yueli@cs.mcgill.ca",
+      "profile_url": "https://cs.mcgill.ca/~yueli/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "computational biology",
+        "machine learning",
+        "population genetics",
+        "single-cell genomics",
+        "electronic health records"
+      ],
       "section": "Professors"
     },
     {
       "name": "Hsiu-Chin Lin",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "hsiu-chin.lin@cs.mcgill.ca",
+      "profile_url": "https://sites.google.com/site/hsiuchinlin/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "robotics and machine learning",
+        "motion planning",
+        "robot arm control",
+        "safety guarantees",
+        "machine learning methods"
+      ],
       "section": "Professors"
     },
     {
       "name": "Xue Liu",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "xueliu@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~xueliu/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "computational neuroscience",
+        "brain machine interfaces",
+        "neural decoding",
+        "spinal cord injury",
+        "neuroprosthetics"
+      ],
       "section": "Professors"
     },
     {
       "name": "Muthucumaru Maheswaran",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "maheswar@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~maheswar/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "edge computing",
+        "machine learning",
+        "programming languages",
+        "distributed systems",
+        "network security"
+      ],
       "section": "Professors"
     },
     {
       "name": "David Meger",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "dmeger@cim.mcgill.ca",
+      "profile_url": "http://www.cim.mcgill.ca/~dmeger/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "robotics and autonomous systems",
+        "computer vision and perception",
+        "machine learning and adaptation",
+        "robotic sensing and mapping",
+        "legged robot locomotion"
+      ],
       "section": "Professors"
     },
     {
       "name": "Borke Obada",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "borke.obada@mcgill.ca",
+      "profile_url": "https://www.borkeobada.com/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "usable security",
+        "user research",
+        "hci design",
+        "privacy networks",
+        "ui design"
+      ],
       "section": "Professors"
     },
     {
       "name": "Elizabeth Patitsas",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "elizabeth.patitsas@mcgill.ca",
+      "profile_url": "http://cs.mcgill.ca/~patitsas",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "gender issues in cs",
+        "policy in cs education",
+        "social factors in cs",
+        "disability studies in cs",
+        "history of cs"
+      ],
       "section": "Professors"
     },
     {
       "name": "Brigitte Pientka",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "bp@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~bpientka/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "logical foundations",
+        "programming languages",
+        "verification systems",
+        "type theory",
+        "formal semantics"
+      ],
       "section": "Professors"
     },
     {
       "name": "Joelle Pineau",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "jpineau@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~jpineau/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "planning and learning",
+        "robotics applications",
+        "healthcare informatics",
+        "conversational agents",
+        "artificial intelligence"
+      ],
       "section": "Professors"
     },
     {
       "name": "Doina Precup",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "dprecup@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~dprecup/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "reinforcement learning",
+        "artificial intelligence",
+        "machine learning",
+        "temporal abstraction",
+        "uncertainty reasoning"
+      ],
       "section": "Professors"
     },
     {
       "name": "Reihaneh Rabbany",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "rrabba@cs.mcgill.ca",
+      "profile_url": "http://www.reirab.com/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "complex data analysis",
+        "graph mining techniques",
+        "unsupervised learning methods",
+        "anomaly detection algorithms",
+        "weak supervision learning"
+      ],
       "section": "Professors"
     },
     {
       "name": "Siamak Ravanbakhsh",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "siamak@cs.mcgill.ca",
+      "profile_url": "https://www.cs.mcgill.ca/~siamak/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "statistical machine learning",
+        "bayesian inference",
+        "nonparametric methods",
+        "probabilistic modeling",
+        "computational statistics"
+      ],
       "section": "Professors"
     },
     {
       "name": "Siva Reddy",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "siva@cs.mcgill.ca",
+      "profile_url": "https://sivareddy.in/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "natural language processing",
+        "linguistic theory",
+        "computational semantics",
+        "cognitive science",
+        "human-computer interaction"
+      ],
       "section": "Professors"
     },
     {
       "name": "Blake Richards",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "blake.richards@mcgill.ca",
+      "profile_url": "http://linclab.org",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "neural network learning",
+        "general purpose learning",
+        "artificial intelligence systems",
+        "neural circuit memory",
+        "brain optimization behaviour"
+      ],
       "section": "Professors"
     },
     {
       "name": "Robert Robere",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "robere@cs.mcgill.ca",
+      "profile_url": "https://www.cs.mcgill.ca/~robere/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "computational complexity theory",
+        "proof complexity",
+        "tfnp and proof complexity",
+        "black-box pp",
+        "propositional proof complexity"
+      ],
       "section": "Professors"
     },
     {
       "name": "Martin Robillard",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "martin@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~martin/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "software documentation design",
+        "test suite quality",
+        "information privacy",
+        "software traceability",
+        "recommendation systems"
+      ],
       "section": "Professors"
     },
     {
       "name": "David Rolnick",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "drolnick@cs.mcgill.ca",
+      "profile_url": "http://www.davidrolnick.com/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "machine learning",
+        "climate change",
+        "biodiversity monitoring",
+        "land use classification",
+        "materials discovery"
+      ],
       "section": "Professors"
     },
     {
       "name": "Derek Ruths",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "druths@cs.mcgill.ca",
+      "profile_url": "http://www.derekruths.com",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "ai for social good",
+        "data science applications",
+        "societal impact analysis",
+        "ai innovation challenges",
+        "data driven decision"
+      ],
       "section": "Professors"
     },
     {
       "name": "Kaleem Siddiqi",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "siddiqi@cim.mcgill.ca",
+      "profile_url": "http://www.cim.mcgill.ca/~siddiqi/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "computational neuroscience",
+        "brain machine interfaces",
+        "neural decoding",
+        "cognitive computing",
+        "neural engineering"
+      ],
       "section": "Professors"
     },
     {
       "name": "Clark Verbrugge",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "clump@cs.mcgill.ca",
+      "profile_url": "http://www.sable.mcgill.ca/~clump/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "procedural content generation",
+        "compiler optimization",
+        "game artificial intelligence",
+        "memory consistency models",
+        "web assembly optimization"
+      ],
       "section": "Professors"
     },
     {
       "name": "Adrian Vetta",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "vetta@cs.mcgill.ca",
+      "profile_url": "http://www.math.mcgill.ca/~vetta/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "combinatorial optimization",
+        "algorithm design",
+        "network flows",
+        "discrete mathematics",
+        "operations research"
+      ],
       "section": "Professors"
     },
     {
       "name": "Jerome Waldispuhl",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "jeromew@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~jeromew/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "computational biology",
+        "human-computer interaction",
+        "citizen science",
+        "rna structures",
+        "machine learning"
+      ],
       "section": "Professors"
     },
     {
       "name": "Giulia Alberini",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "giulia.alberini@mail.mcgill.ca",
+      "profile_url": "http://cs.mcgill.ca",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "probabilistic systems",
+        "reinforcement learning",
+        "computer vision",
+        "model compilers",
+        "network dynamics"
+      ],
       "section": "Faculty Lecturers"
     },
     {
       "name": "David Becerra",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "david.becerra@mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~dbecer/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "computational biology",
+        "bioinformatics research",
+        "machine learning",
+        "bio-inspired computing",
+        "algorithms optimization"
+      ],
       "section": "Faculty Lecturers"
     },
     {
       "name": "Mathieu B\u00e9rub\u00e9-Valli\u00e8res",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "mathieu.berube-vallieres@mcgill.ca",
+      "profile_url": "https://mathieubv.com/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "quantum information theory",
+        "low-level programming",
+        "education sciences",
+        "quantum magic rectangle games",
+        "local reductions"
+      ],
       "section": "Faculty Lecturers"
     },
     {
       "name": "Mona ElSaadawy",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "mona.elsaadawy@mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "probabilistic systems",
+        "reinforcement learning",
+        "computer vision",
+        "network dynamics",
+        "sensor based robotics"
+      ],
       "section": "Faculty Lecturers"
     },
     {
       "name": "Jacob Errington",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "jerrin@cs.mcgill.ca",
+      "profile_url": "https://jerrington.me/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "functional programming languages",
+        "dependent type theory",
+        "compilers and virtual machines",
+        "higher-order programming",
+        "type theory"
+      ],
       "section": "Faculty Lecturers"
     },
     {
       "name": "Pascale Gourdeau",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "pascale.gourdeau@mcgill.ca",
+      "profile_url": "https://cs.mcgill.ca/people/faculty/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "computational biology",
+        "bioinformatics",
+        "machine learning",
+        "computational complexity",
+        "artificial intelligence"
+      ],
       "section": "Faculty Lecturers"
     },
     {
       "name": "Max Kopinsky",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "max.kopinsky@mcgill.ca",
+      "profile_url": "https://www.maxkopinsky.com/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "functional programming",
+        "formal methods",
+        "computer architecture",
+        "mathematics education",
+        "algebraic structures"
+      ],
       "section": "Faculty Lecturers"
     },
     {
       "name": "Faten M'hiri",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "faten.mhiri@mcgill.ca",
+      "profile_url": "https://www.researchgate.net/profile/Faten-Mhiri",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "islamic studies",
+        "arabic linguistics",
+        "north african history",
+        "middle eastern politics",
+        "sociolinguistics"
+      ],
       "section": "Faculty Lecturers"
     },
     {
       "name": "Joseph Vybihal",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "jvybihal@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~jvybihal/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "speech processing",
+        "natural language",
+        "human computer",
+        "cognitive science",
+        "psycholinguistics"
+      ],
       "section": "Faculty Lecturers"
     },
     {
       "name": "Louigi Addario-Berry",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "louigi@math.mcgill.ca",
+      "profile_url": "http://www.math.mcgill.ca/louigi/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "random graphs",
+        "probability theory",
+        "combinatorial optimization",
+        "algorithmic statistics",
+        "discrete mathematics"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Sylvain Baillet",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "sylvain.baillet@mcgill.ca",
+      "profile_url": "https://www.mcgill.ca/bic/research/neurospeed-neural-dynamics-brain-systems-baillet",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "brain imaging techniques",
+        "neural dynamics modeling",
+        "functional magnetic resonance",
+        "cognitive neuroscience research",
+        "electrophysiology methods"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Pouya Bashivan",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "pouya.bashivan@mcgill.ca",
+      "profile_url": "http://www.bashivanlab.org/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "visual perception models",
+        "neural network modeling",
+        "memory augmented networks",
+        "computational neuroscience",
+        "brain machine interfaces"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Danilo Bzdok",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "danilo.bzdok@mcgill.ca",
+      "profile_url": "https://www.mcgill.ca/bbme/danilo-bzdok",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "brain connectivity mapping",
+        "neuroimaging analysis",
+        "cognitive neuroscience",
+        "neuroinformatics tools",
+        "functional neuroanatomy"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Louis Collins",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "louis.collins@mcgill.ca",
+      "profile_url": "https://www.mcgill.ca/neuro/louis-collins-phd",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "brain imaging analysis",
+        "neuroanatomy modeling",
+        "image registration",
+        "diffusion tensor imaging",
+        "neuroinformatics"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Jun Ding",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "jun.ding@mcgill.ca",
+      "profile_url": "https://junding.lab.mcgill.ca/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "materials science",
+        "nanotechnology",
+        "solid state physics",
+        "condensed matter",
+        "quantum computing"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Benjamin Fung",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "ben.fung@mcgill.ca",
+      "profile_url": "http://dmas.lab.mcgill.ca/fung",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "data mining",
+        "information retrieval",
+        "database systems",
+        "artificial intelligence",
+        "computational biology"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Simon Gravel",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "simon.gravel@mcgill.ca",
+      "profile_url": "http://simongravel.lab.mcgill.ca/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "geophysics",
+        "seismology",
+        "earthquake science",
+        "geological hazards",
+        "tectonics"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Derek Nowrouzezahrai",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "derek@cim.mcgill.ca",
+      "profile_url": "http://www.cim.mcgill.ca/~derek/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "physically-based light transport",
+        "machine learning architectures",
+        "monte carlo methods",
+        "image synthesis techniques",
+        "real-time rendering"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Timothy O\u2019Donnell",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "timothy.odonnell@mcgill.ca",
+      "profile_url": "http://mcqll.org/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "probabilistic programming languages",
+        "structured probabilistic models",
+        "phonetics and phonology",
+        "linguistic data analysis",
+        "speech recognition technology"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Dirk Schlimm",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "dirk.schlimm@mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~dirk/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "history of mathematics",
+        "philosophy of mathematics",
+        "cognitive science",
+        "axiomatics and notation",
+        "mathematical epistemology"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Thomas Shultz",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "thomas.shultz@mcgill.ca",
+      "profile_url": "http://www.tomshultz.net/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "cognitive development",
+        "artificial intelligence",
+        "cognitive science",
+        "neural networks",
+        "agent-based modeling"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Morgan Sonderegger",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "morgan.sonderegger@mcgill.ca",
+      "profile_url": "http://people.linguistics.mcgill.ca/~morgan",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "speech variability",
+        "phonetic analysis",
+        "quantitative linguistics",
+        "speech dynamics",
+        "corpus phonetics"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Yi Yang",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "yi.yang6@mcgill.ca",
+      "profile_url": "https://www.math.mcgill.ca/yyang/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "statistical machine learning",
+        "high-dimensional inference",
+        "uncertainty quantification",
+        "computational statistics",
+        "scalable algorithms"
+      ],
       "section": "Associate Members"
     },
     {
       "name": "Sheldon Andrews",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "sheldon.andrews@etsmtl.net",
+      "profile_url": "http://profs.etsmtl.ca/sandrews/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "real-time physics simulation",
+        "3d character animation",
+        "computational contact mechanics",
+        "motion capture technology",
+        "virtual environment modeling"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Dzmitry Bahdanau",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "dimabgv@gmail.com",
+      "profile_url": "https://mila.quebec/en/person/dzmitry-bahdanau/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "sequence to sequence models",
+        "deep learning",
+        "natural language processing",
+        "neural machine translation",
+        "recurrent neural networks"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Marc G. Bellemare",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "marc.g.bellemare@gmail.com",
+      "profile_url": "http://www.marcgbellemare.info/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "deep reinforcement learning",
+        "distributional reinforcement learning",
+        "artificial intelligence",
+        "reinforcement learning algorithms",
+        "autonomous navigation systems"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Xi Chen",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "xi.chen11@mcgill.ca",
+      "profile_url": "https://sites.google.com/site/xichenmcgill",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "artificial intelligence",
+        "federated learning",
+        "reinforcement learning",
+        "knowledge distillation",
+        "autonomous driving"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Claude Crepeau",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "crepeau@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~crepeau/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "quantum cryptography",
+        "quantum teleportation",
+        "quantum computing",
+        "cryptography protocols",
+        "quantum codes"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Fernando Diaz",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "diazf@acm.org",
+      "profile_url": "http://fernando.diaz.nyc/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "signal processing",
+        "communications engineering",
+        "electromagnetics",
+        "microwave engineering",
+        "antenna design"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Gintare Karolina Dziugaite",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "karolina.dziugaite@gmail.com",
+      "profile_url": "https://gkdz.org/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "deep learning",
+        "generalization bounds",
+        "network compression",
+        "statistical learning theory",
+        "explainability in ai"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Danny Grant",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "dgrant@innovobot.com",
+      "profile_url": "http://www.innovobot.com",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "robotics engineering",
+        "artificial intelligence",
+        "machine learning",
+        "natural language processing",
+        "computer vision"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Samira Ebrahimi Kahou",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "samira.ebrahimi.kahou@gmail.com",
+      "profile_url": "https://saebrahimi.github.io/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "deep learning generalization",
+        "reinforcement learning",
+        "multi modal learning",
+        "clinical decision support",
+        "climate modeling"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Tei-Wei Kuo",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "teiwei.kuo@cityu.edu.hk",
+      "profile_url": "http://www.cityu.edu.hk/stfprofile/teiwei.kuo.htm",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "embedded systems",
+        "real-time systems",
+        "operating systems",
+        "network protocols",
+        "distributed computing"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Annie Louis",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "alouis@inf.ed.ac.uk",
+      "profile_url": "http://homepages.inf.ed.ac.uk/alouis/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "neurolinguistics",
+        "cognitive psychology",
+        "language acquisition",
+        "speech processing",
+        "phonetics"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Ioannis Rekleitis",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "yiannis@cim.mcgill.ca",
+      "profile_url": "http://www.cim.mcgill.ca/~yiannis/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "robotics engineering",
+        "autonomous systems",
+        "motion planning",
+        "human-robot interaction",
+        "mobile manipulation"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Adriana Romero Soriano",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "no_reply@cs.mcgill.ca",
+      "profile_url": "https://mila.quebec/en/person/adriana-romero/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "neurolinguistics",
+        "cognitive science",
+        "language acquisition",
+        "psycholinguistics",
+        "cognitive development"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Xujie Si",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "xsi@cs.mcgill.ca",
+      "profile_url": "https://www.cs.mcgill.ca/~xsi/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "deep learning techniques",
+        "program synthesis and verification",
+        "neuro-symbolic systems design",
+        "software security and testing",
+        "artificial intelligence applications"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Attila Szantner",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "attila.szantner@mcgill.ca",
+      "profile_url": "https://www.linkedin.com/in/szantner/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "citizen science",
+        "massively multiplayer online science",
+        "gamedev",
+        "public engagement",
+        "citizen participation"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Danny Tarlow",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "dannytarlow@gmail.com",
+      "profile_url": "http://daniel.tarlow.org/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "speech recognition",
+        "natural language processing",
+        "human computer interaction",
+        "multimodal interfaces",
+        "dialog systems"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "Adam Trischler",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "adam.trischler@microsoft.com",
+      "profile_url": "https://www.microsoft.com/en-us/research/people/adtrisch/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "computer science",
+        "artificial intelligence",
+        "machine learning",
+        "data analysis",
+        "software engineering"
+      ],
       "section": "Adjunct Professors"
     },
     {
       "name": "David Avis",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "avis@cs.mcgill.ca",
+      "profile_url": "http://cgm.cs.mcgill.ca/~avis/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "polyhedral computation",
+        "discrete optimization",
+        "computational geometry",
+        "algorithmic foundations",
+        "convex hull enumeration"
+      ],
       "section": "Emeritus Professors"
     },
     {
       "name": "Renato De Mori",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "rdemori@cs.mcgill.ca",
+      "profile_url": "http://cs.mcgill.ca/~rdemori/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "spoken language understanding",
+        "speech recognition technology",
+        "deep neural networks",
+        "quaternion neural networks",
+        "natural language processing"
+      ],
       "section": "Emeritus Professors"
     },
     {
       "name": "Tim Merrett",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "tim@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~tim/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "database systems",
+        "relational algebra",
+        "data modeling",
+        "information management",
+        "query languages"
+      ],
       "section": "Emeritus Professors"
     },
     {
       "name": "Monty Newborn",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "newborn@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~newborn/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "artificial intelligence",
+        "automated theorem proving",
+        "computer chess",
+        "parallel search algorithms",
+        "search problems in ai"
+      ],
       "section": "Emeritus Professors"
     },
     {
       "name": "Chris Paige",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "chris@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~chris/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "scientific computing",
+        "numerical linear algebra",
+        "large sparse matrices",
+        "krylov subspace methods",
+        "parameter estimation"
+      ],
       "section": "Emeritus Professors"
     },
     {
       "name": "Prakash Panangaden",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "prakash.panangaden@mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~prakash/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "probabilistic processes",
+        "reinforcement learning",
+        "quantitative logics",
+        "quantum information",
+        "labelled markov processes"
+      ],
       "section": "Emeritus Professors"
     },
     {
       "name": "Gerald Ratzer",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "ratzer@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~ratzer/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "real time applications",
+        "computer assisted learning",
+        "climate change modeling",
+        "scripted based languages",
+        "software engineering"
+      ],
       "section": "Emeritus Professors"
     },
     {
       "name": "Denis Therien",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "denis@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~denis/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "complexity theory",
+        "algebraic characterizations",
+        "probabilistic methods",
+        "combinatorics",
+        "logical tools"
+      ],
       "section": "Emeritus Professors"
     },
     {
       "name": "Nathan Friedman",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "nathan@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~nathan/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "cognitive neuroscience",
+        "neuroplasticity",
+        "brain development",
+        "neuroimaging techniques",
+        "synaptic function"
+      ],
       "section": "Associate Professors Post-Retirement"
     },
     {
       "name": "Carl Tropper",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "carl@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~carl/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "parallel simulation",
+        "load balancing algorithms",
+        "artificial intelligence",
+        "computational neuroscience",
+        "discrete event simulation"
+      ],
       "section": "Associate Professors Post-Retirement"
     },
     {
       "name": "Yang Cai",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "cai@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~cai/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "theory of computation",
+        "mechanism design economics",
+        "online algorithms learning",
+        "game theory auctions",
+        "algorithmic economics theory"
+      ],
       "section": "Former Professors"
     },
     {
       "name": "Michael Hallett",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "michael.hallett@concordia.ca",
+      "profile_url": "https://mikehallett.science",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "transcriptomics modeling",
+        "candida albicans research",
+        "antifungal compound responses",
+        "biochemistry and cancer",
+        "intraphagosomal filamentation"
+      ],
       "section": "Former Professors"
     },
     {
       "name": "Patrick Hayden",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "phayden@stanford.edu",
+      "profile_url": "https://web.stanford.edu/~phayden/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "quantum information theory",
+        "quantum computing",
+        "quantum error correction",
+        "holographic duality",
+        "quantum separability"
+      ],
       "section": "Former Professors"
     },
     {
       "name": "Wenbo He",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "wenbohe@cs.mcgill.ca",
+      "profile_url": "http://www.cs.mcgill.ca/~wenbohe/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "wireless sensor networks",
+        "mobile computing",
+        "cyber security",
+        "cloud computing",
+        "cyber physical systems"
+      ],
       "section": "Former Professors"
     },
     {
       "name": "Bruce Reed",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "breed@cs.mcgill.ca",
+      "profile_url": "http://cgm.cs.mcgill.ca/~breed/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "mathematical optimization",
+        "operations research",
+        "game theory",
+        "algorithm design",
+        "computational complexity"
+      ],
       "section": "Former Professors"
     },
     {
       "name": "Hans Vangheluwe",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "hv@cs.mcgill.ca",
+      "profile_url": "http://msdl.cs.mcgill.ca/people/hv",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "formal methods",
+        "model checking",
+        "software engineering",
+        "formal verification",
+        "embedded systems"
+      ],
       "section": "Former Professors"
     },
     {
       "name": "Sue Whitesides",
       "title": null,
-      "email": null,
-      "profile_url": null,
+      "email": "sue@uvic.ca",
+      "profile_url": "https://www.cs.mcgill.ca/~sue/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "algorithmic motion planning",
+        "discrete mathematics",
+        "graph layout",
+        "discrete geometry",
+        "computational geometry"
+      ],
       "section": "Former Professors"
     },
     {
       "name": "Laurie Hendren",
       "title": null,
       "email": null,
-      "profile_url": null,
+      "profile_url": "http://www.sable.mcgill.ca/~hendren/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "compiler design",
+        "aspect-oriented programming",
+        "pointer analysis",
+        "program analysis frameworks",
+        "dynamic programming languages"
+      ],
       "section": "In Memoriam"
     },
     {
       "name": "Godfried Toussaint",
       "title": null,
       "email": null,
-      "profile_url": null,
+      "profile_url": "http://www-cgrl.cs.mcgill.ca/~godfried/",
       "research_areas": [],
       "research_interests": [],
+      "research_tags": [
+        "computational music theory",
+        "computational geometry",
+        "instance-based machine learning",
+        "comparative musicology rhythm",
+        "computer graphics visualization"
+      ],
       "section": "In Memoriam"
     }
   ]
